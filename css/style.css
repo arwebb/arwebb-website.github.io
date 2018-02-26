@@ -187,6 +187,21 @@ p {
   padding: 3rem 0 2rem 0;
 }
 
+.no-pdf{
+  color: #666;
+}
+
+.no-pdf a{
+  color: #666;
+  transition: 1s;
+}
+
+.no-pdf a:hover{
+  color: #394751;
+  text-decoration: none;
+  transition: 1s;
+}
+
 /* Resume end */
 
 /* Footer start */
