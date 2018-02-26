@@ -178,7 +178,6 @@ p {
 
 .resume {
   display: block;
-  height: 200%;
 }
 
 .resume-title{
@@ -189,6 +188,8 @@ p {
 
 .no-pdf{
   color: #666;
+  font-style: italic;
+  padding-top: 2rem;
 }
 
 .no-pdf a{
@@ -207,7 +208,7 @@ p {
 /* Footer start */
 
 .copyright {
-  margin: 10vh 3vh 3vh 3vh;
+  margin: 20vh 3vh 3vh 3vh;
   font-size: .8em;
 }
 
