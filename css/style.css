@@ -29,12 +29,12 @@ h5 {
   text-transform: uppercase;
 }
 
-p{
+p {
   color: #444;
 }
 
-.content-row{
-  margin: 5vh 0 0 5vh;
+.content-row {
+  margin: 5vh 0 5vh 0;
 }
 
 /* Universal styles end */
@@ -57,19 +57,19 @@ p{
   display: inline-block;
 }
 
-.icon{
+.icon {
   margin: 0 2vh 0 2vh;
   color: #888;
   font-size: 1.8em;
   transition: 1s;
 }
 
-.icon:hover{
+.icon:hover {
   color: #394751;
   transition: 1s;
 }
 
-.header-row a{
+.header-row a {
   text-decoration: none;
   display: inline-block;
 }
@@ -82,7 +82,7 @@ p{
   margin-top: 1vh;
 }
 
-.sidetext{
+.sidetext {
   font-size: 1.2em;
   font-style: italic;
   color: #777;
@@ -92,7 +92,7 @@ p{
 
 /* One-liner start */
 
-.one-liner{
+.one-liner {
   text-transform: uppercase;
   color: #666;
   font-size: 1.2em;
@@ -102,52 +102,52 @@ p{
 /* One-liner end */
 
 /* Featured content start */
-.modal-title{
+.modal-title {
   color: #307E71;
 }
 
 
-.modal-caption{
+.modal-caption {
   color: #888;
   margin: 2vh 2vh 0 0;
   font-size: 1.1em;
 }
 
-.modal-image{
+.modal-image {
   transition: 1s;
   padding-right: 2vh;
 }
 
-.modal-image:hover{
+.modal-image:hover {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   transition: 1s;
 }
 
-.modal-btn{
+.modal-btn {
   border-style: none;
   background-color: white;
 }
 
-.cbk a{
+.cbk a {
   font-weight: bold;
   color: #444;
   transition: 1s;
 }
 
-.cbk a:hover{
+.cbk a:hover {
   color: #567;
   transition: 1s;
   text-decoration: none;
 }
 
-.modal-dismiss{
+.modal-dismiss {
   background-color: #3a9;
   color: white;
   transition: 1s;
 }
 
-.modal-dismiss:hover{
+.modal-dismiss:hover {
   background-color: #307E71;
   transition: 1s;
 }
@@ -166,13 +166,28 @@ p{
   transition: 1s;
 }
 
-.more-info-btn:hover{
+.more-info-btn:hover {
   transition: 1s;
   background-color: #394751;
   color: white;
 }
 
 /* Buttons end */
+
+/* Resume start */
+
+.resume {
+  display: block;
+  height: 200%;
+}
+
+.resume-title{
+  color: #999;
+  text-transform: uppercase;
+  padding: 3rem 0 2rem 0;
+}
+
+/* Resume end */
 
 /* Footer start */
 
@@ -181,7 +196,7 @@ p{
   font-size: .8em;
 }
 
-.copyright p{
+.copyright p {
   color: #777;
 }
 
