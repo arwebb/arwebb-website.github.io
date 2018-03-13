@@ -46,15 +46,17 @@ p {
 
 .name {
   padding-top: 6vh;
-  font-size: 4.8rem;
-  font-family: 'Martel Sans', sans-serif;
+  font-size: 5.4rem;
+  font-family: 'Cormorant Garamond', serif;
   color: #465762;
 }
 
 .subhead {
-  color: #888;
+  color: #666;
   font-size: 1.7em;
+  font-family: 'Cormorant Garamond', serif;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .icon {
@@ -104,11 +106,12 @@ p {
 /* Featured content start */
 .modal-title {
   color: #307E71;
+  text-transform: uppercase;
 }
 
 
 .modal-caption {
-  color: #888;
+  color: #666;
   margin: 2vh 2vh 0 0;
   font-size: 1.1em;
 }
@@ -162,6 +165,7 @@ p {
 
 .more-info-btn {
   background-color: #567;
+  width: 13rem;
   color: white;
   transition: 1s;
 }
@@ -181,7 +185,7 @@ p {
 }
 
 .resume-title{
-  color: #999;
+  color: #666;
   text-transform: uppercase;
   padding: 3rem 0 2rem 0;
 }
