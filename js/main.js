@@ -60,7 +60,7 @@ function enter(e) {
       $("#contact-buttons").fadeOut(200);
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
-      setTimeout(function(){$("#response").text("The darkened tablet activates as you move closer. It seems to contain a compact history of this room's creator, in multiple formats. You think you could access the files by heading EAST.").fadeIn(400);}, 250);
+      setTimeout(function(){$("#response").text("The darkened tablet activates as you move closer. It seems to contain a compact digital history of this room's creator. You think you could access the file by heading EAST.").fadeIn(400);}, 250);
     }
     /* BUTTONS */
     else if (valueEntered === "SERIES OF BUTTONS" || valueEntered === "BUTTONS" || valueEntered === "LOOK SERIES OF BUTTONS" || valueEntered === "LOOK AT SERIES OF BUTTONS" || valueEntered === "LOOK BUTTONS" || valueEntered === "LOOK AT BUTTONS" || valueEntered === "LOOK WEST"){
