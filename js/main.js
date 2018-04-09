@@ -21,7 +21,7 @@ function enter(e) {
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("You feel a gentle breeze on your face as you turn SOUTH towards the exit...").fadeIn(400);}, 250);
-      setTimeout(function(){window.location.replace("simple.html")}, 3900);
+      setTimeout(function(){window.location.href = "simple.html";}, 3700);
     }
     /* LIBRARY */
     else if (valueEntered === "NORTH" || valueEntered === "GO NORTH"){
@@ -29,7 +29,7 @@ function enter(e) {
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("As you move NORTH towards the library, the walls melt away and you feel yourself transported...").fadeIn(400);}, 250);
-      setTimeout(function(){window.open("http://github.com/arwebb");}, 3900);
+      setTimeout(function(){window.open("http://github.com/arwebb");}, 3700);
     }
     /* TABLET */
     else if (valueEntered === "EAST" || valueEntered === "GO EAST" || valueEntered === "RESUME"){
