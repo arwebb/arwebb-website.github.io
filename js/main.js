@@ -29,7 +29,7 @@ function enter(e) {
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("As you move NORTH towards the library, the walls melt away and you feel yourself transported...").fadeIn(400);}, 250);
-      setTimeout(function(){window.open("http://github.com/arwebb");}, 3700);
+      setTimeout(function(){window.location.href="http://github.com/arwebb";}, 3700);
     }
     /* TABLET */
     else if (valueEntered === "EAST" || valueEntered === "GO EAST" || valueEntered === "RESUME"){
