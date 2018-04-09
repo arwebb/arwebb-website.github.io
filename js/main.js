@@ -3,10 +3,10 @@ $(document).ready(function () {
   $("#welcome").hide().fadeIn(800);
   $("#banner").hide().delay(2000).fadeIn(800);
   $("#name").hide().delay(3000).fadeIn(800);
-  $("#map").hide().delay(6000).fadeIn(800);
-  $("#proceed").hide().delay(9300).fadeIn(800);
-  $("#inputLine").hide().delay(9500).fadeIn(800);
-  $("#help").hide().delay(9500).fadeIn(800);
+  $("#map").hide().delay(5000).fadeIn(800);
+  $("#proceed").hide().delay(8300).fadeIn(800);
+  $("#inputLine").hide().delay(8500).fadeIn(800);
+  $("#help").hide().delay(8500).fadeIn(800);
 });
 
 /* Input box and response options */
