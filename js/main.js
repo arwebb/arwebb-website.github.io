@@ -6,6 +6,7 @@ $(document).ready(function () {
   $("#map").hide().delay(6000).fadeIn(800);
   $("#proceed").hide().delay(9300).fadeIn(800);
   $("#inputLine").hide().delay(9500).fadeIn(800);
+  $("#help").hide().delay(9500).fadeIn(800);
 });
 
 /* Input box and response options */
@@ -19,8 +20,8 @@ function enter(e) {
       $("#contact-buttons").fadeOut(200);
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
-      setTimeout(function(){$("#response").text("You turn SOUTH to the exit and move into blinding sunlight...").fadeIn(400);}, 250);
-      setTimeout(function(){window.location.replace("simple.html")}, 4700);
+      setTimeout(function(){$("#response").text("You feel a gentle breeze on your face as you turn SOUTH towards the exit...").fadeIn(400);}, 250);
+      setTimeout(function(){window.location.replace("simple.html")}, 3900);
     }
     /* LIBRARY */
     else if (valueEntered === "NORTH" || valueEntered === "GO NORTH"){
@@ -28,7 +29,7 @@ function enter(e) {
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("As you move NORTH towards the library, the walls melt away and you feel yourself transported...").fadeIn(400);}, 250);
-      setTimeout(function(){window.location.replace("http://github.com/arwebb");}, 4700);
+      setTimeout(function(){window.open("http://github.com/arwebb");}, 3900);
     }
     /* TABLET */
     else if (valueEntered === "EAST" || valueEntered === "GO EAST" || valueEntered === "RESUME"){
@@ -67,7 +68,7 @@ function enter(e) {
       $("#contact-buttons").fadeOut(200);
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
-      setTimeout(function(){$("#response").text("The buttons are glowing like the walls around them and emitting a low hum. On close investigation, they seem to contain digital addresses. Perhaps if you went WEST you could use them to contact this room's creator?").fadeIn(400);}, 250);
+      setTimeout(function(){$("#response").text("The buttons are glowing like the walls around them and emitting a low hum. On close investigation, they seem to contain digital addresses. Perhaps if you went WEST you could use them to contact someone?").fadeIn(400);}, 250);
     }
     /* LIBRARY */
     else if (valueEntered === "DIGITAL LIBRARY" || valueEntered === "LIBRARY" || valueEntered === "LOOK DIGITAL LIBRARY" || valueEntered === "LOOK AT DIGITAL LIBRARY" || valueEntered === "LOOK LIBRARY" || valueEntered === "LOOK AT LIBRARY" || valueEntered === "LOOK NORTH"){
@@ -81,7 +82,7 @@ function enter(e) {
       $("#contact-buttons").fadeOut(200);
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
-      setTimeout(function(){$("#response").text("The exit seems to lead out to a more straightforward information bank about this room's creator.").fadeIn(400);}, 250);
+      setTimeout(function(){$("#response").text("The exit leads out to a simple, open room. It feels somehow less... interactive than this one.").fadeIn(400);}, 250);
     }
     /* INVESTIGATION END */
     
@@ -92,7 +93,7 @@ function enter(e) {
     }
     else if (valueEntered === "HELP"){
       $("#response").fadeOut(200);
-      setTimeout(function(){$("#response").text("This is a personal website that imitates a text-based game. From here, you can LOOK at any object in the room, type a direction to navigate, EXIT to go to my non-interactable website, or close this tab and never think about it again.").fadeIn(400);}, 250);
+      setTimeout(function(){$("#response").text("This is a personal website that imitates a text-based game. From here, you can type LOOK to investigate any object in the room, type a direction to navigate, type EXIT to go to my non-interactable website, or close this tab and never think about it again.").fadeIn(400);}, 250);
     }
     else if (valueEntered === "GET YE FLASK" || valueEntered === "GET FLASK"){
       $("#response").fadeOut(200);

@@ -20,6 +20,10 @@
   color: #3B8519;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Banner styling */
 #name{
   font-size: 127%;
@@ -54,6 +58,13 @@ button:focus {
 /* Proceed styling */
 #proceed a{
   color: black;
+  text-decoration: underline;
+}
+
+/* Help styling */
+#help{
+  color: #737373;
+  font-size: 90%;
   font-style: italic;
 }
 

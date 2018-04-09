@@ -20,21 +20,23 @@
       <script src="js/main.js"></script>
   </head>
   <body>
-    <!-- Stage -->
+    <!-- Main stage -->
     <div class="container">
       
-      <!-- Main screen text -->
+      <!-- Main stage text -->
       <p id="welcome" class="hidden">You find yourself in a stark white room, walls emitting a faint glow.</p>
       <p id="banner" class="hidden">Above you, a <span class="highlight">banner</span> reads:</p>
       <p id="name">WELCOME TO THE PERSONAL WEBSITE OF ANNIE ROSE WEBB!</p>
-      <p id="map" class="hidden">You also notice a small <span class="highlight">tablet</span> to the <span class="highlight">EAST</span>, a series of <span class="highlight">buttons</span> to the <span class="highlight">WEST</span>, a digital <span class="highlight">library</span> to the <span class="highlight">NORTH,</span> and an <span class="highlight">exit</span> to the <span class="highlight">SOUTH</span>.</p>
-      <p id="proceed" class="hidden"><a href="JavaScript: void(0)" onClick="helpText()" aria-label="You can look at any item, go any direction, or type help for more information. How do you proceed?">How do you proceed?</a></p>
+      <p id="map" class="hidden">You also notice a small <span class="highlight">tablet</span> to the <span class="highlight">EAST</span>, a series of <span class="highlight">buttons</span> to the <span class="highlight">WEST</span>, a digital <span class="highlight">library</span> to the <span class="highlight">NORTH,</span> and an <a href="simple.html"><span class="highlight">exit</span></a> to the <span class="highlight">SOUTH</span>.</p>
+      <p id="proceed" class="hidden">How do you proceed?</p>
       
       <!-- Input box -->
       <div id="inputLine" class="hidden">
         <!-- Aria label for accessibility: reads out text more smoothly than main stage text due to span tag interruptions -->
         <p id="inputIcon">&gt; </p><input id="inputBox" type="text" class="entry hidden" aria-label="You find yourself in a stark white room, walls emitting a faint glow. Above you, a banner reads: WELCOME TO THE PERSONAL WEBSITE OF ANNIE ROSE WEBB! You also notice a small tablet to the EAST, a series of buttons to the WEST, a digital library to the NORTH, and an exit to the SOUTH. You can LOOK at any item, GO any direction, or type HELP for more information. How do you proceed?" onkeydown="enter(this)" autofocus>
       </div>
+      <!-- Subtitle help text -->
+      <p id="help" class="hidden" aria-hidden="true">Try LOOKing at any item, GOing any direction, or typing HELP for more options.</p>
       
       <!-- Input box response (response fades in on user input) -->
       <p id="response" aria-live="polite"></p>
