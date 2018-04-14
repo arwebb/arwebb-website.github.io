@@ -21,7 +21,7 @@ function enter(e) {
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("You feel a gentle breeze on your face as you turn SOUTH towards the exit...").fadeIn(400);}, 250);
-      setTimeout(function(){window.location.href = "simple.html";}, 3700);
+      setTimeout(function(){window.location.href = "simple.html";}, 3000);
     }
     /* LIBRARY */
     else if (valueEntered === "NORTH" || valueEntered === "GO NORTH"){
@@ -29,13 +29,13 @@ function enter(e) {
       $("#resume").fadeOut(200);
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("As you move NORTH towards the library, the walls melt away and you feel yourself transported...").fadeIn(400);}, 250);
-      setTimeout(function(){window.location.href="http://github.com/arwebb";}, 3700);
+      setTimeout(function(){window.open("http://github.com/arwebb");}, 3000);
     }
     /* TABLET */
     else if (valueEntered === "EAST" || valueEntered === "GO EAST" || valueEntered === "RESUME"){
       $("#contact-buttons").fadeOut(200);
       $("#response").fadeOut(200);
-      setTimeout(function(){$("#response").text("As you move EAST towards the tablet, the text on the screen becomes clear...").fadeIn(400);}, 250);
+      setTimeout(function(){$("#response").text("As you move EAST towards the tablet, the text on the screen becomes clear. It is lightweight and compact enough to TAKE.").fadeIn(400);}, 250);
       $("#resume").delay(1600).fadeIn(400);
 
     }
@@ -95,13 +95,18 @@ function enter(e) {
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("This is a personal website that imitates a text-based game. From here, you can type LOOK to investigate any object in the room, type a direction to navigate, type EXIT to go to my non-interactable website, or close this tab and never think about it again.").fadeIn(400);}, 250);
     }
-    else if (valueEntered === "GET YE FLASK" || valueEntered === "GET FLASK"){
+    else if (valueEntered === "GET YE FLASK" || valueEntered === "GET FLASK" || valueEntered === "TAKE FLASK"){
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("Ye cannot get ye flask.").fadeIn(400);}, 250);
     }
-    else if (valueEntered === "TAKE BANNER" || valueEntered === "TAKE TABLET"){
+    else if (valueEntered === "TAKE BANNER"){
       $("#response").fadeOut(200);
       setTimeout(function(){$("#response").text("I can't imagine why you'd want that.").fadeIn(400);}, 250);
+    }
+    else if (valueEntered === "TAKE TABLET"){
+      $("#response").fadeOut(200);
+      setTimeout(function(){$("#response").text("Taken.").fadeIn(400);}, 250);
+      setTimeout(function(){window.open("documents/resume-printable.pdf")}, 800);
     }
     else {
       $("#response").fadeOut(200);
