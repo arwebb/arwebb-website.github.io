@@ -1,0 +1,202 @@
+[{
+  "id": "full-tembo-elementary-school",
+  "name": "Full Tembo Elementary School",
+  "slug": "full-tembo-elementary-school",
+  "type": "campus",
+  "district_id": "full-tembo-school-district",
+  "address": {
+    "street": "127 W Oxford St",
+    "city": "Philadelphia",
+    "state_code": "PA",
+    "zip_code": "19122",
+    "latitude": 39.974875,
+    "longitude": -75.136022
+  },
+  "email_address": "sample@temboelementary.edu",
+  "phone_number": "215-555-1234",
+  "principal_name": "Edward Bacon",
+  "school_type": "Elementary",
+  "website": "https://temboelementary.edu",
+  "translations": {
+    "en": {
+      "grades": [{
+        "name": "Kindergarten",
+        "short_name": "K"  
+      },{
+        "name": "Grade 1",
+        "short_name": "1"
+      },{
+        "name": "Grade 2",
+        "short_name": "2"
+      },{
+        "name": "Grade 3",
+        "short_name": "3"
+      },{
+        "name": "Grade 4",
+        "short_name": "4"
+      },{
+        "name": "Grade 5",
+        "short_name": "5"
+      }]
+    }
+  }
+},{
+  "id": "full-tembo-high-school",
+  "name": "Full Tembo High School",
+  "slug": "full-tembo-high-school",
+  "type": "campus",
+  "district_id": "full-tembo-school-district",
+  "address": {
+    "street": "550 N Broad St",
+    "city": "Philadelphia",
+    "state_code": "PA",
+    "zip_code": "19130",
+    "latitude": 39.963490,
+    "longitude": -75.162154
+  },
+  "email_address": "sample@tembohigh.edu",
+  "phone_number": "215-555-6543",
+  "principal_name": "Sly Stallone",
+  "school_type": "High",
+  "website": "https://tembohigh.edu",
+  "translations": {
+    "en": {
+      "grades": [{
+        "name": "Grade 9",
+        "short_name": "9"  
+      },{
+        "name": "Grade 10",
+        "short_name": "10"
+      },{
+        "name": "Grade 11",
+        "short_name": "11"
+      },{
+        "name": "Grade 12",
+        "short_name": "12"
+      }]
+    }
+  }
+},{
+  "id": "empty-tembo-elementary-school",
+  "name": "Empty Tembo Elementary School",
+  "slug": "empty-tembo-elementary-school",
+  "type": "campus",
+  "district_id": "empty-tembo-school-district",
+  "school_type": "Elementary",
+  "translations": {
+    "en": {
+      "grades": [{
+        "name": "Kindergarten",
+        "short_name": "K"  
+      },{
+        "name": "Grade 1",
+        "short_name": "1"
+      },{
+        "name": "Grade 2",
+        "short_name": "2"
+      },{
+        "name": "Grade 3",
+        "short_name": "3"
+      },{
+        "name": "Grade 4",
+        "short_name": "4"
+      },{
+        "name": "Grade 5",
+        "short_name": "5"
+      }]
+    }
+  }
+},{
+  "id": "empty-tembo-high-school",
+  "name": "Empty Tembo High School",
+  "slug": "empty-tembo-high-school",
+  "type": "campus",
+  "district_id": "empty-tembo-school-district",
+  "school_type": "High",
+  "translations": {
+    "en": {
+      "grades": [{
+        "name": "Grade 9",
+        "short_name": "9"  
+      },{
+        "name": "Grade 10",
+        "short_name": "10"
+      },{
+        "name": "Grade 11",
+        "short_name": "11"
+      },{
+        "name": "Grade 12",
+        "short_name": "12"
+      }]
+    }
+  }
+},{
+  "id": "k2-tembo-school",
+  "name": "K2 Tembo School",
+  "slug": "k2-tembo-school",
+  "type": "campus",
+  "district_id": "full-tembo-school-district",
+  "address": {
+    "street": "3301 Old York Rd",
+    "city": "Philadelphia",
+    "state_code": "PA",
+    "zip_code": "19140",
+    "latitude": 40.003398,
+    "longitude": -75.148336
+  },
+  "email_address": "sample@k2tembo.edu",
+  "phone_number": "215-555-1234",
+  "principal_name": "Maggie Gyllenhaal",
+  "school_type": "Elementary",
+  "website": "https://k2tembo.edu",
+  "translations": {
+    "en": {
+      "grades": [{
+        "name": "Kindergarten",
+        "short_name": "K"  
+      },{
+        "name": "Grade 1",
+        "short_name": "1"
+      },{
+        "name": "Grade 2",
+        "short_name": "2"
+      }]
+    }
+  }
+},{
+  "id": "full-tembo-school-district",
+  "name": "Full Tembo School District",
+  "slug": "full-tembo-school-district",
+  "type": "district",
+  "region_id": "tembo-region",
+  "address": {
+    "street": "440 N Broad St",
+    "city": "Philadelphia",
+    "state_code": "PA",
+    "zip_code": "19130",
+    "latitude": 39.960725,
+    "longitude": -75.162929
+  },
+  "email_address": "sample@tembosd.edu",
+  "phone_number": "215-555-5544",
+  "superintendent_name": "Tina Fey",
+  "website": "https://tembosd.edu"
+},{
+  "id": "empty-tembo-school-district",
+  "name": "Empty Tembo School District",
+  "slug": "empty-tembo-school-district",
+  "type": "district",
+  "region_id": "tembo-region"
+},{
+  "id": "tembo-region",
+  "name": "Tembo Region",
+  "slug": "tembo-region",
+  "type": "region",
+  "state_id": "pennsylvania"
+},{
+  "id": "pennsylvania",
+  "name": "Pennsylvania",
+  "slug": "pennsylvania",
+  "type": "state",
+  "short_name": "PA"
+}]
