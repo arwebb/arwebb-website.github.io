@@ -1,0 +1,107 @@
+{
+  "mapping": {
+    "entity_id": {
+      "column": "entity_id"
+    },
+    "domain_id": {
+      "column": "domain_id"
+    },
+    "metric_id": {
+      "column": "metric_id"
+    },
+    "disaggregation_id": {
+      "column": "disaggregation"
+    },
+    "disaggregation2_id": {
+      "column": "disaggregation2"
+    },
+    "year": {
+      "column": "year"
+    },
+    "value": {
+      "column": "value"
+    },
+    "n_size": {
+      "column": "n"
+    },
+    "scored": {
+      "column": "scored"
+    },
+    "exception_code": {
+        "column": "exception_code"
+      },
+      "translations": {
+        "mapping": {
+          "en": {
+            "mapping": {
+              "exception_description": {
+                "column": "exception_description"
+              },
+              "display_text": {
+                "column": "display_text"
+              }
+            }
+          }
+        }
+      }
+    },
+  "schema": {
+		"$schema": "http://json-schema.org/schema#",
+		"type": "object",
+		"properties": {
+  		"entity_id": {
+    		"type": "integer"
+  		},
+  		"domain_id": {
+    		"type": "string"
+  		},
+  		"subdomain": {
+    		"type": "string"
+  		},
+      "metric_id": {
+    		"type": "string"
+  		},
+      "disaggregation_id": {
+    		"type": "string"
+  		},
+      "disaggregation2_id": {
+    		"type": "string"
+  		},
+      "value": {
+    		"type": "number"
+  		},
+  		"n_size": {
+    		"type": "integer"
+  		},
+  		"scored": {
+    		"type": "boolean"
+  		},
+  		"year": {
+    		"type": "string"
+  		},
+  		"exception_code": {
+    		"type": "string"
+  		},
+  		"translations": {
+    		"type": "object",
+    		"properties": {
+      		"en": {
+        		"type": "object",
+        		"properties": {
+          		"exception_description": {
+            		"type": "string"
+          		},
+          		"display_text": {
+            		"type": "string"
+          		}
+        		}
+      		}
+    		}
+  		}
+    },
+    "required": [
+      "entity_id",
+      "year"      
+    ]
+  }
+}
