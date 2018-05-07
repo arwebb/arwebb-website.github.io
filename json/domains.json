@@ -1,0 +1,166 @@
+[{
+  "id": "overall_performance",
+  "translations": {
+    "en": {
+      "name": "Overall Performance"
+    }
+  }
+},{
+  "id": "distinctions",
+  "translations": {
+    "en": {
+      "name": "Distinctions"
+    }
+  }
+},{
+  "id": "student_achievement",
+  "translations": {
+    "en": {
+      "name": "Student Achievement"
+    }
+  }
+},{
+  "id": "staar_performance",
+  "parent_id": "student_achievement",
+  "translations": {
+    "en": {
+      "name": "STAAR Performance"
+    }
+  }
+},{
+  "id": "ccm_readiness",
+  "parent_id": "student_achievement",
+  "translations": {
+    "en": {
+      "name": "College, Career, and Military Readiness"
+    }
+  }
+},{
+  "id": "graduation_rate",
+  "parent_id": "student_achievement",
+  "translations": {
+    "en": {
+      "name": "Graduation Rate"
+    }
+  }
+},{
+  "id": "school_progress",
+  "translations": {
+    "en": {
+      "name": "School Progress"
+    }
+  }
+},{
+  "id": "student_growth",
+  "parent_id": "school_progress",
+  "translations": {
+    "en": {
+      "name": "Student Growth"
+    }
+  }
+},{
+  "id": "relative_performance",
+  "parent_id": "school_progress",
+  "translations": {
+    "en": {
+      "name": "Relative Performance"
+    }
+  }
+},{
+  "id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "Closing the Gaps"
+    }
+  }
+},{
+  "id": "ctg_achievement",
+  "parent_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "Academic Achievement"
+    }
+  }
+},{
+  "id": "ctg_growth",
+  "parent_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "Growth"
+    }
+  }
+},{
+  "id": "ctg_elp",
+  "parent_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "English Language Proficiency"
+    }
+  }
+},{
+  "id": "ctg_sqss",
+  "parent_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "School Quality or Student Success"
+    }
+  }
+},{
+  "id": "revenue",
+  "translations": {
+    "en": {
+      "name": "Revenue"
+    }
+  }
+},{
+  "id": "expenditures",
+  "translations": {
+    "en": {
+      "name": "Expenditures"
+    }
+  }
+},{
+  "id": "financial_management",
+  "translations": {
+    "en": {
+      "name": "Financial Management"
+    }
+  }
+},{
+  "id": "first_rating",
+  "parent_id": "financial_management",
+  "translations": {
+    "en": {
+      "name": "First Rating"
+    }
+  }
+},{
+  "id": "debt",
+  "parent_id": "financial_management",
+  "translations": {
+    "en": {
+      "name": "Debt"
+    }
+  }
+},{
+  "id": "enrollment",
+  "translations": {
+    "en": {
+      "name": "Enrollment"
+    }
+  }
+},{
+  "id": "staff",
+  "translations": {
+    "en": {
+      "name": "Overall Performance"
+    }
+  }
+},{
+  "id": "designations",
+  "translations": {
+    "en": {
+      "name": "Designations"
+    }
+  }
+}]
