@@ -1,0 +1,76 @@
+[{
+  "id": "reading",
+  "name": "Reading"
+},
+{
+  "id": "mathematics",
+  "name": "Mathematics"
+},
+{
+  "id": "science",
+  "name": "Science"
+},
+{
+  "id": "social_studies",
+  "name": "Social Studies"
+},
+{
+  "id": "writing",
+  "name": "Writing"
+},
+{
+  "id": "graduation",
+  "name": "Graduation"
+},
+{
+  "id": "telpas_progress_rate",
+  "name": "TELPAS Progress Rate"
+},
+{
+  "id": "student_achievement_domain_score",
+  "name": "Student Achievement Domain Score"
+},
+{
+  "id": "ccm_ready_rate",
+  "name": "College, Career, and Military Readiness Rate"
+},
+{
+  "id": "african_american",
+  "name": "African-American"
+},
+{
+  "id": "asian",
+  "name": "Hispanic"
+},
+{
+  "id": "native_american",
+  "name": "Native American"
+},
+{
+  "id": "pacific_islander",
+  "name": "Pacific Islander"
+},
+{
+  "id": "two_or_more_races",
+  "name": "Two or More Races"
+},
+{
+  "id": "white",
+  "name": "White"
+},
+{
+  "id": "econ_dis",
+  "name": "Economically Disadvantaged"
+},
+{
+  "id": "english_leader_cf",
+  "name": "English Language Learner"
+},
+{
+  "id": "special_education",
+  "name": "Special Education"
+},
+{
+  "id": "special_education_former",
+  "name": "Special Education (Former)"
+}]
