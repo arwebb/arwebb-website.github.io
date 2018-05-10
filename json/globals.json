@@ -1,0 +1,552 @@
+[{
+  "id": "core-demo-1-implementation",
+  "name": "Core Demo 1",
+  "address_search_failure_image": "https://storage.googleapis.com/tembo-reference/images/AddressSearchFailureImage.png",
+  "back_link_url": "/",
+  "header_image": "https://storage.googleapis.com/core-demo-assets/Tembo_Logo_Long_White.png",
+  "header_image_dark": "https://storage.googleapis.com/core-demo-assets/Tembo_Logo_Long.png",
+  "header_url": "http://www.temboinc.com",
+  "find_link_url": "/",
+  "compare_link_url": "/compare",
+  "organization_name": "Tembo Schools",
+  "organization_contact": {
+    "organization_address": {
+      "street": "1639 N Hancock St",
+      "city": "Philadelphia",
+      "postal_code": 19122,
+      "state": "PA",
+      "latitude": 39.9755421,
+      "longitude": -75.1389854
+    },
+    "prefix": "Office:",
+    "phone_value": "215-427-3608",
+    "organization_email": "hello@temboinc.com",
+    "organization_facebook_address": "https://www.facebook.com/pages/Tembo-Inc/1405814189652179",
+    "organization_twitter_address": "https://twitter.com/Tembo_Inc",
+    "organization_website_url": "http://temboinc.com"
+  },
+  "static_footer": {
+    "tembo_logo_src": "/assets/img/Tembo_Logo_White.png",
+    "tembo_logo_alt_text": "Tembo Logo",
+    "tembo_logo_link": "http://temboinc.com",
+    "google_attribution_img_src": "/assets/img/google-attribution.png",
+    "google_translate_link": "http://translate.google.com",
+    "google_attribution_alt_text": "Translated by Google",
+    "powered_by_text": "Powered by"
+  },
+  "header": {
+    "english_text": "English",
+    "spanish_text": "Español"
+  },
+  "nav_sections": [
+    {
+      "translations": {
+        "en": {
+          "navigation_item": "Overview"
+        }
+      },
+      "link": "[base_path]overview[language]"
+    },
+    {
+      "translations": {
+        "en": {
+          "navigation_item": "Performance"
+        }
+      },
+      "sub_navigation": [
+        {
+          "translations": {
+            "en": {
+              "navigation_item": "Student Achievement"
+            }
+          },
+          "link": "[base_path]student-achievement[language]",
+          "page_id": "student_achievement"
+        },
+        {
+          "translations": {
+            "en": {
+              "navigation_item": "School Progress"
+            }
+          },
+          "link": "[base_path]school-progress[language]",
+          "page_id": "school_progress"
+        },
+        {
+          "translations": {
+            "en": {
+              "navigation_item": "Closing the Gaps"
+            }
+          },
+          "link": "[base_path]closing-gaps[language]",
+          "page_id": "closing_gaps"
+        }
+      ]
+    },
+    {
+      "translations": {
+        "en": {
+          "navigation_item": "Finance"
+        }
+      },
+      "link": "[base_path]finance[language]"
+    },
+    {
+      "translations": {
+        "en": {
+          "navigation_item": "Profile"
+        }
+      },
+      "link": "[base_path]profile[language]",
+      "page_id": "profile"
+    },
+    {
+      "translations": {
+        "en": {
+          "navigation_item": "Campus List"
+        }
+      },
+      "link": "[base_path]campus-list[language]",
+      "page_id": "campus_list"
+    }
+  ],
+  "performance_page": {
+    "translations": {
+      "en": {
+        "q1": {
+          "question_title": "What is this school's overall letter grade?",
+          "illustration_image": "/assets/img/Academic Performance.png",
+          "grade_title": "2016-2017 Letter Grade"
+        },
+        "q2": {
+          "question_title": "How is this overall letter grade scored?",
+          "score_title": "2016-2017 School Performance Score",
+          "descriptive_text_1": "The school performance score communicates how well a school is preparing all of its students for the next level of study. For elementary schools, this score is based on students' mastery of key content for their grade level, and their successful transition into 9th grade for schools with 8th grade students. For high schools, this score also measures graduation rates and how well schools are preparing students for college and career.",
+          "descriptive_text_2": "Schools can sometimes receive a letter grade outside the score ranges shown here.",
+          "more_information_link_text": "Click here for more information.",
+          "video_link_text": "Watch here to learn how schools are rated"
+        }
+      }
+    },
+
+    "q3": {
+      "translations": {
+        "en": {
+          "question_title": "how does my child's school compare to the district?",
+          "district_link_text": "See this district's full report card"
+        }
+      },
+      "rows": [
+        {
+          "translations": {
+            "en": {
+              "label": "2016-2017 Overall School Performance"
+            }
+          },
+          "entity_id": "id",
+          "year": 2017
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "2016-2017 Overall District Performance"
+            }
+          },
+
+          "entity_type": "district",
+          "entity_id": "district_id",
+          "year": 2017
+        }
+      ]
+    },
+    "q4": {
+      "translations": {
+        "en": {
+          "question_title": "How has my child's school performed over time?"
+        }
+      },
+      "rows": [
+        {
+          "translations": {
+            "en": {
+              "label": "2016-2017 Overall Performance"
+            }
+          },
+          "metrics": [
+            "letter_grade",
+            "sps"
+          ],
+          "year": 2017
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "2015-2016 Overall Performance"
+            }
+          },
+          "metrics": [
+            "letter_grade",
+            "sps"
+          ],
+          "year": 2016
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "2014-2015 Overall Performance"
+            }
+          },
+          "metrics": [
+            "letter_grade",
+            "sps"
+          ],
+          "year": 2015
+        }
+      ]
+    },
+    "q5": {
+      "translations": {
+        "en": {
+          "question_title": "How did students at my school perform in each subject?"
+        }
+      },
+      "rows": [
+        {
+          "translations": {
+            "en": {
+              "label": "English Language Arts"
+            }
+          },
+          "metrics": [
+            "student_performance_ela"
+          ],
+          "year": 2017
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Mathematics"
+            }
+          },
+          "metrics": [
+            "student_performance_math"
+          ],
+          "year": 2017
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Science"
+            }
+          },
+          "metrics": [
+            "student_performance_science"
+          ],
+          "year": 2017
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Social Studies"
+            }
+          },
+          "metrics": [
+            "student_performance_social_studies"
+          ],
+          "year": 2017
+        }
+      ]
+    },
+    "q6": {
+      "translations": {
+        "en": {
+          "question_title": "How diverse is this school system's teacher workforce?",
+          "descriptive_text": "Teachers are one of the most influential factors in determining school and student success. This measure provides information about the qualifications of teachers in your school."
+        }
+      },
+      "rows": [
+        {
+          "translations": {
+            "en": {
+              "label": "Experienced"
+            }
+          },
+          "metrics": [
+            "teacher_qualification"
+          ],
+          "year": 2017,
+          "disaggregation_id": "experienced"
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Teaching Outside of the Area of Certification"
+            }
+          },
+          "metrics": [
+            "teacher_qualification"
+          ],
+          "year": 2017,
+          "disaggregation_id": "emergency_certificate"
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Teaching with an Emergency Certificate"
+            }
+          },
+          "metrics": [
+            "teacher_qualification"
+          ],
+          "year": 2017,
+          "disaggregation_id": "outside_certification"
+        }
+      ]
+    },
+    "q7": {
+      "translations": {
+        "en": {
+          "question_title": "What do parents, teachers, and students think of the environment at this school?",
+          "descriptive_text": "Classroom environment includes factors that impact the environment in the classroom, including student attendance and the strategies and methods used by teachers."
+        }
+      },
+      "rows": [
+        {
+          "translations": {
+            "en": {
+              "label": "Parent Satisfaction"
+            }
+          },
+          "metrics": [
+            "satisfaction"
+          ],
+          "year": 2017,
+          "disaggregation_id": "parent"
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Student Satisfaction"
+            }
+          },
+          "metrics": [
+            "satisfaction"
+          ],
+          "year": 2017,
+          "disaggregation_id": "student"
+        },
+        {
+          "translations": {
+            "en": {
+              "label": "Teacher Satisfaction"
+            }
+          },
+          "metrics": [
+            "satisfaction"
+          ],
+          "year": 2017,
+          "disaggregation_id": "teacher"
+        }
+      ]
+    }
+  },
+
+  "translations": {
+      "en": {
+        "intro_screen": {
+            "image": "assets/img/School@2x.png",
+            "image_alternate_text": "School",
+            "short_text": "Welcome to The TEMBO School Finder!",
+            "long_text": "This site will help you search for schools based on what matters most to you.",
+            "main_prompt_text": "Explore Schools",
+            "address_placeholder_text": "Enter an address or zip code in Philadelphia",
+            "cannot_find_address_text": "We cannot find this address. Please re-enter it or try a new address. Please note, our site will not find addresses outside the Philadelphia region. Click here to use an address in central Philadelphia.",
+            "cannot_find_address_url": "click here",
+            "school_lookup_text": "Jump Right to Your School",
+            "submit_button_text": "Enter Finder",
+            "multiple_addreses_text": "We found multiple addresses. Which one did you want?",
+            "no_results_text": "No school names match your search",
+            "placeholder_text": "Search by school name"
+        },
+        "header": {
+          "view_favorites_link_text": "View Favorites",
+          "compare_goto_text": "View Comparison",
+          "language_confirmation_text": "OK",
+          "favorited_schools_cancel_text": "Cancel",
+          "favorited_schools_header_text": "Favorited Schools",
+          "favorited_schools_remove_text": "Remove",
+          "remove_1_text": "Removing",
+          "remove_2_plural_text": "Schools from List",
+          "remove_2_singular_text": "School from List",
+          "save_favorites_link_text": "Save Favorites",
+          "saved_link_text": "Saved!",
+          "undo_text": "Undo",
+          "update_text": "Update",
+          "view_compare_link_text": "Compare",
+          "no_favorites_text": "No Favorites Selected",
+          "close_text": "Close"
+        },
+        "find": {
+          "finder_page_title": "Tembo School Finder",
+          "all_options_text": "All Options",
+          "any_option_text": "Any",
+          "more_filters_close_text": "Close Filters",
+          "more_filters_show_text": "More Filters",
+          "list_header_singular_text": "Displaying [XX] school",
+          "list_header_plural_text": "Displaying [XX] schools",
+          "list_header_plural_text_with_pagination": "Displaying [ZZ] schools of [XX]",
+          "within_distance_text": "within [YY] miles",
+          "show_filters_text": "Change Distance",
+          "list_nav_text": "List",
+          "filter_met_text": "Preference Met",
+          "letter_grade_title": "Letter Grade (16-17)",
+          "filter_options_modal_text": "What do these options mean?",
+          "filter_selected_text": "Selected",
+          "filters_met_text": "Preferences Met",
+          "filters_nav_text": "Filters",
+          "change_text": "Change",
+          "clear_filters_text": "Clear Filters",
+          "clear_one_filter_text": "Clear All",
+          "no_filters_selected_text": "None Selected",
+          "no_matches_acceptance_text": "Got It",
+          "no_matches_body_text": "Please change your filter selections to find matches.",
+          "no_matches_header_text": "We're sorry. No schools match the filters you have selected.",
+          "no_matches_long_text": "Your search has filtered out all schools. Try changing your filters or Click Here to clear your filters and start over.",
+          "no_matches_active_text": "Click Here",
+          "no_schools_found_text": "No Schools Found",
+          "miles_text": "Miles",
+          "distance_text": "Distance",
+          "search_school_name_text": "Search by School Name",
+          "sort_by_text": "Sort By",
+          "out_of_text": "out of",
+          "page_join_text": "of",
+          "address_placeholder_text": "Enter Your Address",
+          "sort_menu_options": {
+            "name_a_z": {
+              "name": "A-Z"
+              },
+            "distance_near_far": {
+              "name": "Distance (Closest)"
+              },
+            "preferences_met": {
+              "name": "Preferences Met"
+              }
+            },
+          "grade_change_modal": {
+            "cancel_button_text": "Don't Change",
+            "ok_button_text": "Ok, Continue",
+            "subtitle_text": "Changing this will reset your filters because the filters are grade-specific.",
+            "title_text": "Looking at a new grade level?"
+            },
+          "map_nav_text": "Map",
+          "preferences_header_text": "Preferences",
+          "filters_header_text": "Filters",
+          "address_grade_header_text": "Entered Address & Grade Level",
+          "address_grade_change_modal": {
+            "header_text": "Address & Grade Level",
+            "submit_text": "Update",
+            "cancel_text": "Cancel"
+          },
+          "report_card_strong_text": "K-12",
+          "report_card_sub_text": "Letter Grade",
+          "view_results_text": "View Results"
+        },
+        "explore": {
+          "profile_page_title": "Tembo School Profile",
+          "back_link_text": "Back to School Finder",
+          "school_letter_grade_title": "School Letter Grade",
+          "apply_button_text": "Apply Now",
+    		  "header_background_img": "https://storage.googleapis.com/core-demo-assets/illustrations/Header_Background_Icons.png",
+          "about_page": {
+            "maps_link_text": "View on Google Maps",
+            "overview_title": "Overview",
+            "grades_served_current_year_title": "Grades Served",
+            "district_title": "District/Parish",
+            "school_type_title": "School Type",
+            "leader_title": "Principal",
+            "earliest_drop_off_title": "Earliest Drop-Off",
+            "latest_pick_up_title": "Latest Pick-Up",
+            "mission": {
+              "title": "School Mission",
+              "icon": "https://storage.googleapis.com/core-demo-assets/Icons/Mission%402x.png"
+            },
+
+            "principal_message_title": "Message from the Principal",
+            "highlights": {
+              "title":"School Highlights",
+              "icon": "https://storage.googleapis.com/core-demo-assets/Icons/Highlight%402x.png"
+            },
+
+            "population": {
+              "population_title": "Student Population",
+              "population_icon": "https://storage.googleapis.com/core-demo-assets/Icons/Student_Population%402x.png",
+              "enrollment_title": "Total Student Enrollment",
+              "race_title": "Population by Race/Ethnicity",
+              "student_group_title": "Population by Student Groups",
+              "economic_disadvantage_title": "Economically Disadvantaged",
+              "ell_title": "English Language Learners",
+              "disabilities_title": "Students with Disabilities"
+            }
+           },
+          "programs_page": {
+            "academic_offerings_title": "Academic Offerings",
+            "clubs_title": "Clubs",
+            "music_art_title": "Music/Art",
+            "details_link": "View Details",
+            "sports": {
+              "sports_title": "Sports",
+              "girls_sports_title": "Girls",
+              "boys_sports_title": "Boys"
+            },
+            "view_details_title": "View Details >"
+          }
+        },
+        "compare": {
+            "add_item_text": "Add to Compare",
+            "compare_button_text": "Compare",
+            "category_title": "Select A Category To Compare",
+            "link_to_find_text": "FIND",
+            "list_find_no_comparison_text": "Please select some schools to compare!",
+            "list_need_more_schools_text": "Select at least one more school to compare",
+            "no_comparison_text": "Please select some schools to compare in FIND",
+            "remove_text": "Remove",
+            "list_title": "Compare List",
+            "compare_schools_text": "Compare Schools",
+            "ribbon_not_ready_text": "You added this school (XX of YY) to your Compare list! Add at least ZZ more school to compare them.",
+            "ribbon_ready_text": "You added this school (XX of YY) to your Compare list!",
+            "ribbon_compare_now_link_text": "Compare Schools Now",
+            "ribbon_limit_text": "You already added YY schools. Remove a school to add this one.",
+            "ribbon_manage_link_text": "Manage Schools to Compare"
+        },
+        "frameworks": {
+          "early_ed": {
+            "grade_levels": [
+              "Infant (under 1)",
+              "Toddler (1-2)",
+              "Pre-K (3-4)"
+            ]
+          },
+          "k_12": {
+            "grade_levels": [
+              "Kindergarten",
+              "Grade 1",
+              "Grade 2",
+              "Grade 3",
+              "Grade 4",
+              "Grade 5",
+              "Grade 6",
+              "Grade 7",
+              "Grade 8",
+              "Grade 9",
+              "Grade 10",
+              "Grade 11",
+              "Grade 12"
+            ]
+          }
+        },
+        "tools": {
+          "not_reported": "Not Reported"
+        }
+      }
+  }
+}]
