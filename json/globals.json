@@ -1,6 +1,6 @@
 [{
   "id": "tea-public-implementation",
-  "name": "TEA Public",
+  "name": "TEA Finder",
   "address_search_failure_image": "https://storage.googleapis.com/tembo-reference/images/AddressSearchFailureImage.png",
   "back_link_url": "/",
   "header_image": "https://storage.googleapis.com/core-demo-assets/Tembo_Logo_Long_White.png",
@@ -8,22 +8,22 @@
   "header_url": "http://www.temboinc.com",
   "find_link_url": "/",
   "compare_link_url": "/compare",
-  "organization_name": "Tembo Schools",
+  "organization_name": "Texas Education Agency (TEA)",
   "organization_contact": {
     "organization_address": {
-      "street": "1639 N Hancock St",
-      "city": "Philadelphia",
+      "street": "1701 N. Congress Avenue",
+      "city": "Austin",
       "postal_code": 19122,
-      "state": "PA",
+      "state": "TX",
       "latitude": 39.9755421,
       "longitude": -75.1389854
     },
     "prefix": "Office:",
-    "phone_value": "215-427-3608",
-    "organization_email": "hello@temboinc.com",
-    "organization_facebook_address": "https://www.facebook.com/pages/Tembo-Inc/1405814189652179",
-    "organization_twitter_address": "https://twitter.com/Tembo_Inc",
-    "organization_website_url": "http://temboinc.com"
+    "phone_value": "(512) 463-9734",
+    "organization_email": "teainfo@tea.texas.gov",
+    "organization_facebook_address": "https://www.facebook.com/TexasEducationAgency/",
+    "organization_twitter_address": "https://twitter.com/teainfo",
+    "organization_website_url": "https://tea.texas.gov/"
   },
   "static_footer": {
     "tembo_logo_src": "/assets/img/Tembo_Logo_White.png",
@@ -369,25 +369,11 @@
             "placeholder_text": "Search by school name"
         },
         "header": {
-          "view_favorites_link_text": "View Favorites",
-          "compare_goto_text": "View Comparison",
-          "language_confirmation_text": "OK",
-          "favorited_schools_cancel_text": "Cancel",
-          "favorited_schools_header_text": "Favorited Schools",
-          "favorited_schools_remove_text": "Remove",
-          "remove_1_text": "Removing",
-          "remove_2_plural_text": "Schools from List",
-          "remove_2_singular_text": "School from List",
-          "save_favorites_link_text": "Save Favorites",
-          "saved_link_text": "Saved!",
-          "undo_text": "Undo",
-          "update_text": "Update",
-          "view_compare_link_text": "Compare",
-          "no_favorites_text": "No Favorites Selected",
-          "close_text": "Close"
+         "spanish_text": "Español",
+        "language_confirmation_text": "OK"
         },
         "find": {
-          "finder_page_title": "Tembo School Finder",
+          "finder_page_title": "TEA School Finder",
           "all_options_text": "All Options",
           "any_option_text": "Any",
           "more_filters_close_text": "Close Filters",
@@ -452,10 +438,10 @@
           "view_results_text": "View Results"
         },
         "explore": {
+        "back_to_text": "Back to",
           "profile_page_title": "Tembo School Profile",
-          "back_link_text": "Back to School Finder",
+          "back_link_text": "Back to Finder",
           "school_letter_grade_title": "School Letter Grade",
-          "apply_button_text": "Apply Now",
     		  "header_background_img": "https://storage.googleapis.com/core-demo-assets/illustrations/Header_Background_Icons.png",
           "about_page": {
             "maps_link_text": "View on Google Maps",
@@ -469,12 +455,6 @@
             "mission": {
               "title": "School Mission",
               "icon": "https://storage.googleapis.com/core-demo-assets/Icons/Mission%402x.png"
-            },
-
-            "principal_message_title": "Message from the Principal",
-            "highlights": {
-              "title":"School Highlights",
-              "icon": "https://storage.googleapis.com/core-demo-assets/Icons/Highlight%402x.png"
             },
 
             "population": {
@@ -500,23 +480,6 @@
             },
             "view_details_title": "View Details >"
           }
-        },
-        "compare": {
-            "add_item_text": "Add to Compare",
-            "compare_button_text": "Compare",
-            "category_title": "Select A Category To Compare",
-            "link_to_find_text": "FIND",
-            "list_find_no_comparison_text": "Please select some schools to compare!",
-            "list_need_more_schools_text": "Select at least one more school to compare",
-            "no_comparison_text": "Please select some schools to compare in FIND",
-            "remove_text": "Remove",
-            "list_title": "Compare List",
-            "compare_schools_text": "Compare Schools",
-            "ribbon_not_ready_text": "You added this school (XX of YY) to your Compare list! Add at least ZZ more school to compare them.",
-            "ribbon_ready_text": "You added this school (XX of YY) to your Compare list!",
-            "ribbon_compare_now_link_text": "Compare Schools Now",
-            "ribbon_limit_text": "You already added YY schools. Remove a school to add this one.",
-            "ribbon_manage_link_text": "Manage Schools to Compare"
         },
         "frameworks": {
           "early_ed": {
