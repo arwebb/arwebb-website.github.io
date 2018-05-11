@@ -1,6 +1,6 @@
 [{
   "id": "core-demo-1-implementation",
-  "name": "Core Demo 1",
+  "name": "TEA Public",
   "address_search_failure_image": "https://storage.googleapis.com/tembo-reference/images/AddressSearchFailureImage.png",
   "back_link_url": "/",
   "header_image": "https://storage.googleapis.com/core-demo-assets/Tembo_Logo_Long_White.png",
