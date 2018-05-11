@@ -199,11 +199,27 @@
     }
   }
 },{
+  "id": "ccm_readiness_iep",
+  "domain_id": "ccm_readiness",
+  "translations": {
+    "en": {
+      "name": "IEP"
+    }
+  }
+},{
   "id": "ccm_readiness_us_armed_forces",
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
       "name": "United States Armed Forces"
+    }
+  }
+},{
+  "id": "ccm_readiness_cte_aligned",
+  "domain_id": "ccm_readiness",
+  "translations": {
+    "en": {
+      "name": "CTE Aligned"
     }
   }
 },{
