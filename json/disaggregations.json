@@ -149,4 +149,20 @@
       "name": "Special Education (Former)"
     }
   }
+},
+{
+  "id": "cont_enrolled",
+  "translations": {
+    "en": {
+      "name": "Continously Enrolled"
+    }
+  }
+},
+{
+  "id": "non_cont_enrolled",
+  "translations": {
+    "en": {
+      "name": "Not Continously Enrolled"
+    }
+  }
 }]
