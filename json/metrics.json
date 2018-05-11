@@ -15,14 +15,6 @@
     }
   }
 },{
-  "id": "overall_performance_points_possible",
-  "domain_id": "overall_performance",
-  "translations": {
-    "en": {
-      "name": "Overall Performance Points Possible"
-    }
-  }
-},{
   "id": "distinction_acad_achievement_reading",
   "domain_id": "distinctions",
   "translations": {
@@ -95,14 +87,6 @@
     }
   }
 },{
-  "id": "student_achievement_points_possible",
-  "domain_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Points Possible"
-    }
-  }
-},{
   "id": "student_achievement_weight",
   "domain_id": "student_achievement",
   "translations": {
@@ -124,14 +108,6 @@
   "translations": {
     "en": {
       "name": "Points Earned"
-    }
-  }
-},{
-  "id": "staar_performance_points_possible",
-  "domain_id": "staar_performance",
-  "translations": {
-    "en": {
-      "name": "Points Possible"
     }
   }
 },{
@@ -175,14 +151,6 @@
     }
   }
 },{
-  "id": "ccm_readiness_points_possible",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Points Possible"
-    }
-  }
-},{
   "id": "ccm_readiness_ready_rate",
   "domain_id": "ccm_readiness",
   "translations": {
@@ -204,14 +172,6 @@
   "translations": {
     "en": {
       "name": "TSI"
-    }
-  }
-},{
-  "id": "ccm_readiness_college_prep",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "College Preparation"
     }
   }
 },{
@@ -263,14 +223,6 @@
     }
   }
 },{
-  "id": "graduation_rate_points_possible",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Points Possible"
-    }
-  }
-},{
   "id": "graduation_rate_4yr",
   "domain_id": "graduation_rate",
   "translations": {
@@ -319,14 +271,6 @@
     }
   }
 },{
-  "id": "school_progress_points_possible",
-  "domain_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Points Possible"
-    }
-  }
-},{
   "id": "school_progress_weight",
   "domain_id": "school_progress",
   "translations": {
@@ -348,14 +292,6 @@
   "translations": {
     "en": {
       "name": "Points Earned"
-    }
-  }
-},{
-  "id": "student_growth_points_possible",
-  "domain_id": "student_growth",
-  "translations": {
-    "en": {
-      "name": "Points Possible"
     }
   }
 },{
@@ -383,123 +319,131 @@
     }
   }
 },{
-  "id": "relative_performance_weight",
+  "id": "relative_performance_points_earned",
   "domain_id": "relative_performance",
+  "translations": {
+    "en": {
+      "name": "Points Earned"
+    }
+  }
+},{
+  "id": "relative_performance_achievement",
+  "domain_id": "relative_performance",
+  "translations": {
+    "en": {
+      "name": "Achievement"
+    }
+  }
+},{
+  "id": "relative_performance_econ_dis",
+  "domain_id": "relative_performance",
+  "translations": {
+    "en": {
+      "name": "Economically Disadvantaged"
+    }
+  }
+},{
+  "id": "closing_the_gaps_rating",
+  "domain_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "Rating"
+    }
+  }
+},{
+  "id": "closing_the_gaps_points_earned",
+  "domain_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "Points Earned"
+    }
+  }
+},{
+  "id": "closing_the_gaps_weight",
+  "domain_id": "closing_the_gaps",
   "translations": {
     "en": {
       "name": "Weight"
     }
   }
 },{
-  "id": "relative_performance_weight",
-  "domain_id": "relative_performance",
+  "id": "ctg_achievement_percent_total_indicators_met",
+  "domain_id": "ctg_achievement",
+  "translations": {
+    "en": {
+      "name": "Percent Total Indicators Met"
+    }
+  }
+},{
+  "id": "ctg_achievement_total_indicators_met",
+  "domain_id": "ctg_achievement",
+  "translations": {
+    "en": {
+      "name": "Total Indicators Met"
+    }
+  }
+},{
+  "id": "ctg_achievement_total_indicators_eligible",
+  "domain_id": "ctg_achievement",
+  "translations": {
+    "en": {
+      "name": "Total Indicators Eligible"
+    }
+  }
+},{
+  "id": "ctg_achievement_weight",
+  "domain_id": "ctg_achievement",
   "translations": {
     "en": {
       "name": "Weight"
     }
   }
 },{
-  "id": "relative_performance_weight",
-  "domain_id": "relative_performance",
+  "id": "ctg_achievement_indicator_met",
+  "domain_id": "ctg_achievement",
+  "translations": {
+    "en": {
+      "name": "Indicator Met"
+    }
+  }
+},{
+  "id": "ctg_growth_percent_indicators_met",
+  "domain_id": "ctg_growth",
+  "translations": {
+    "en": {
+      "name": "Percent Total Indicators Met"
+    }
+  }
+},{
+  "id": "ctg_growth_total_indicators_met",
+  "domain_id": "ctg_growth",
+  "translations": {
+    "en": {
+      "name": "Total Indicators Met"
+    }
+  }
+},{
+  "id": "ctg_growth_total_indicators_eligible",
+  "domain_id": "ctg_growth",
+  "translations": {
+    "en": {
+      "name": "Total Indicators Eligible"
+    }
+  }
+},{
+  "id": "ctg_growth_weight",
+  "domain_id": "ctg_growth",
   "translations": {
     "en": {
       "name": "Weight"
     }
   }
 },{
-  "id": "closing_the_gaps_rating",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},{
-  "id": "closing_the_gaps_rating",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},{
-  "id": "closing_the_gaps_rating",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},{
-  "id": "closing_the_gaps_rating",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},{
-  "id": "ctg_achievement_percent_total_indicators_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_achievement_percent_total_indicators_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_achievement_percent_total_indicators_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_achievement_percent_total_indicators_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_growth_percent_indicators_met",
+  "id": "ctg_growth_indicator_met",
   "domain_id": "ctg_growth",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_growth_percent_indicators_met",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_growth_percent_indicators_met",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_growth_percent_indicators_met",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Indicator Met"
     }
   }
 },{
@@ -511,27 +455,35 @@
     }
   }
 },{
-  "id": "ctg_elp_percent_indicators_met",
+  "id": "ctg_elp_total_indicators_met",
   "domain_id": "ctg_elp",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Total Indicators Met"
     }
   }
 },{
-  "id": "ctg_elp_percent_indicators_met",
+  "id": "ctg_elp_total_indicators_eligible",
   "domain_id": "ctg_elp",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Total Indicators Eligible"
     }
   }
 },{
-  "id": "ctg_elp_percent_indicators_met",
+  "id": "ctg_elp_weight",
   "domain_id": "ctg_elp",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Weight"
+    }
+  }
+},{
+  "id": "ctg_elp_indicator_met",
+  "domain_id": "ctg_elp",
+  "translations": {
+    "en": {
+      "name": "Indicator Met"
     }
   }
 },{
@@ -543,83 +495,83 @@
     }
   }
 },{
-  "id": "ctg_sqss_percent_indicators_met",
+  "id": "ctg_sqss_total_indicators_met",
   "domain_id": "ctg_sqss",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Total Indicators Met"
     }
   }
 },{
-  "id": "ctg_sqss_percent_indicators_met",
+  "id": "ctg_sqss_total_indicators_eligible",
   "domain_id": "ctg_sqss",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Total Indicators Eligible"
     }
   }
 },{
-  "id": "ctg_sqss_percent_indicators_met",
+  "id": "ctg_sqss_weight",
   "domain_id": "ctg_sqss",
   "translations": {
     "en": {
-      "name": "Percent Total Indicators Met"
+      "name": "Weight"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
-  "domain_id": "revenue",
+  "id": "ctg_sqss_indicator_met",
+  "domain_id": "ctg_sqss",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Indicator Met"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
+  "id": "revenue_total_all",
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Total Revenue – All"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
+  "id": "revenue_per_stud_all",
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Revenue Per Student – All"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
+  "id": "revenue_per_stud_all_peer",
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Revenue Per Student – All (Peer)"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
+  "id": "revenue_total_general",
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Total Revenue – General"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
+  "id": "revenue_per_stud_general",
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Revenue Per Student – General"
     }
   }
 },{
-  "id": "revenue_total_indicators_eligible",
+  "id": "revenue_per_stud_general_peer",
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Indicators Eligible"
+      "name": "Revenue Per Student – General (Peer)"
     }
   }
 },{
@@ -631,43 +583,43 @@
     }
   }
 },{
-  "id": "expenditures_total_all",
+  "id": "expenditures_per_stud_all",
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Total Expenditures – All"
+      "name": "Expenditures Per Student – All"
     }
   }
 },{
-  "id": "expenditures_total_all",
+  "id": "expenditures_per_stud_all_peer",
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Total Expenditures – All"
+      "name": "Expenditures Per Student – All (Peer)"
     }
   }
 },{
-  "id": "expenditures_total_all",
+  "id": "expenditures_total_general",
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Total Expenditures – All"
+      "name": "Total Expenditures – General"
     }
   }
 },{
-  "id": "expenditures_total_all",
+  "id": "expenditures_per_stud_general",
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Total Expenditures – All"
+      "name": "Expenditures Per Student – General"
     }
   }
 },{
-  "id": "expenditures_total_all",
+  "id": "expenditures_per_stud_general_peer",
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Total Expenditures – All"
+      "name": "Expenditures Per Student – General (Peer)"
     }
   }
 },{
@@ -679,19 +631,19 @@
     }
   }
 },{
-  "id": "first_rating_rating",
+  "id": "first_rating_status",
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Status"
     }
   }
 },{
-  "id": "first_rating_rating",
+  "id": "first_rating_score",
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Score"
     }
   }
 },{
@@ -703,19 +655,19 @@
     }
   }
 },{
-  "id": "debt_per_stud",
+  "id": "debt_per_stud_peer",
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt per Student"
+      "name": "Debt per Student (Peer)"
     }
   }
 },{
-  "id": "debt_per_stud",
+  "id": "debt_fast_growth",
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt per Student"
+      "name": "Debt – Fast Growth"
     }
   }
 },{
@@ -727,19 +679,19 @@
     }
   }
 },{
-  "id": "number_campuses",
+  "id": "number_students",
   "domain_id": "enrollment",
   "translations": {
     "en": {
-      "name": "Number of Campuses"
+      "name": "Number of Students"
     }
   }
 },{
-  "id": "number_campuses",
+  "id": "percent_enrollment",
   "domain_id": "enrollment",
   "translations": {
     "en": {
-      "name": "Number of Campuses"
+      "name": "Percent Enrollment"
     }
   }
 },{
@@ -751,19 +703,19 @@
     }
   }
 },{
-  "id": "number_staff",
+  "id": "number_teachers",
   "domain_id": "staff",
   "translations": {
     "en": {
-      "name": "Number of Staff"
+      "name": "Number of Teachers"
     }
   }
 },{
-  "id": "number_staff",
+  "id": "avg_teacher_salary",
   "domain_id": "staff",
   "translations": {
     "en": {
-      "name": "Number of Staff"
+      "name": "Average Teacher Salary"
     }
   }
 },{
