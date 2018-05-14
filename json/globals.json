@@ -445,16 +445,7 @@
 				"about_page": {
 					"maps_link_text": "View on Google Maps",
 					"overview_title": "Overview",
-					"grades_served_current_year_title": "Grades Served",
-					"district_title": "District/Parish",
 					"school_type_title": "School Type",
-					"leader_title": "Principal",
-					"earliest_drop_off_title": "Earliest Drop-Off",
-					"latest_pick_up_title": "Latest Pick-Up",
-					"mission": {
-						"title": "School Mission",
-						"icon": "https://storage.googleapis.com/core-demo-assets/Icons/Mission%402x.png"
-					},
 
 					"population": {
 						"population_title": "Student Population",
@@ -468,8 +459,8 @@
 					}
 				},
 
-				"view_details_title": "View Details >",
-        	"tell_me_more_title": "Tell Me More >"
+				"view_details_title": "View Details",
+        	"tell_me_more_title": "Tell Me More"
 			}
 		},
 		"frameworks": {
