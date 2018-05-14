@@ -2,7 +2,13 @@
   "id": "overall_performance",
   "translations": {
     "en": {
-      "name": "Overall Performance"
+      "name": "Overall Performance",
+      "district_overview_title":"District Overview",
+      "campus_overview_title":"Campus Overview",
+      "overall_district_container":"2017-18 District Overall Performance",
+      "overall_campus_container":"2017-18 Campus Overall Performance",
+      "overview_district_des":"Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your school district is performing in multiple areas.",
+      "overview_campus_des":"Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your child's school is performing in multiple areas."
     }
   }
 },{
@@ -12,7 +18,24 @@
       "name": "Distinctions"
     }
   }
-},{
+},
+{
+  "id": "comp_support",
+  "translations": {
+    "en": {
+      "name": "Comprehensive Support"
+    }
+  }
+},
+{
+  "id": "public_ed_grant",
+  "translations": {
+    "en": {
+      "name": "Public Education Grant"
+    }
+  }
+},
+{
   "id": "student_achievement",
   "translations": {
     "en": {
