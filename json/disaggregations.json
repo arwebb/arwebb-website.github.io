@@ -82,6 +82,14 @@
 		"id": "asian",
 		"translations": {
 			"en": {
+				"name": "Asian"
+			}
+		}
+	},
+	{
+		"id": "hispanic",
+		"translations": {
+			"en": {
 				"name": "Hispanic"
 			}
 		}
