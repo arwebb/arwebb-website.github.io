@@ -347,14 +347,6 @@
     }
   }
 },{
-  "id": "relative_performance_weight",
-  "domain_id": "relative_performance",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
   "id": "relative_performance_points_earned",
   "domain_id": "relative_performance",
   "translations": {
