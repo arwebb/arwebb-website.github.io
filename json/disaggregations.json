@@ -1,168 +1,185 @@
 [{
-  "id": "reading",
-  "translations": {
-    "en": {
-      "name": "Reading"
-    }
-  }
-},
-{
-  "id": "mathematics",
-  "translations": {
-    "en": {
-      "name": "Mathematics"
-    }
-  }
-},
-{
-  "id": "science",
-  "translations": {
-    "en": {
-      "name": "Science"
-    }
-  }
-},
-{
-  "id": "social_studies",
-  "translations": {
-    "en": {
-      "name": "Social Studies"
-    }
-  }
-},
-{
-  "id": "writing",
-  "translations": {
-    "en": {
-      "name": "Writing"
-    }
-  }
-},
-{
-  "id": "graduation",
-  "translations": {
-    "en": {
-      "name": "Graduation"
-    }
-  }
-},
-{
-  "id": "telpas_progress_rate",
-  "translations": {
-    "en": {
-      "name": "TELPAS Progress Rate"
-    }
-  }
-},
-{
-  "id": "student_achievement_domain_score",
-  "translations": {
-    "en": {
-      "name": "Student Achievement Domain Score"
-    }
-  }
-},
-{
-  "id": "ccm_ready_rate",
-  "translations": {
-    "en": {
-      "name": "College, Career, and Military Readiness Rate"
-    }
-  }
-},
-{
-  "id": "african_american",
-  "translations": {
-    "en": {
-      "name": "African-American"
-    }
-  }
-},
-{
-  "id": "asian",
-  "translations": {
-    "en": {
-      "name": "Hispanic"
-    }
-  }
-},
-{
-  "id": "native_american",
-  "translations": {
-    "en": {
-      "name": "Native American"
-    }
-  }
-},
-{
-  "id": "pacific_islander",
-  "translations": {
-    "en": {
-      "name": "Pacific Islander"
-    }
-  }
-},
-{
-  "id": "two_or_more_races",
-  "translations": {
-    "en": {
-      "name": "Two or More Races"
-    }
-  }
-},
-{
-  "id": "white",
-  "translations": {
-    "en": {
-      "name": "White"
-    }
-  }
-},
-{
-  "id": "econ_dis",
-  "translations": {
-    "en": {
-      "name": "Economically Disadvantaged"
-    }
-  }
-},
-{
-  "id": "english_leader_cf",
-  "translations": {
-    "en": {
-      "name": "English Language Learner"
-    }
-  }
-},
-{
-  "id": "special_education",
-  "translations": {
-    "en": {
-      "name": "Special Education"
-    }
-  }
-},
-{
-  "id": "special_education_former",
-  "translations": {
-    "en": {
-      "name": "Special Education (Former)"
-    }
-  }
-},
-{
-  "id": "cont_enrolled",
-  "translations": {
-    "en": {
-      "name": "Continously Enrolled"
-    }
-  }
-},
-{
-  "id": "non_cont_enrolled",
-  "translations": {
-    "en": {
-      "name": "Not Continously Enrolled"
-    }
-  }
-}]
+		"id": "reading",
+		"translations": {
+			"en": {
+				"name": "Reading"
+			}
+		}
+	},
+	{
+		"id": "mathematics",
+		"translations": {
+			"en": {
+				"name": "Mathematics"
+			}
+		}
+	},
+	{
+		"id": "science",
+		"translations": {
+			"en": {
+				"name": "Science"
+			}
+		}
+	},
+	{
+		"id": "social_studies",
+		"translations": {
+			"en": {
+				"name": "Social Studies"
+			}
+		}
+	},
+	{
+		"id": "writing",
+		"translations": {
+			"en": {
+				"name": "Writing"
+			}
+		}
+	},
+	{
+		"id": "graduation",
+		"translations": {
+			"en": {
+				"name": "Graduation"
+			}
+		}
+	},
+	{
+		"id": "telpas_progress_rate",
+		"translations": {
+			"en": {
+				"name": "TELPAS Progress Rate"
+			}
+		}
+	},
+	{
+		"id": "student_achievement_domain_score",
+		"translations": {
+			"en": {
+				"name": "Student Achievement Domain Score"
+			}
+		}
+	},
+	{
+		"id": "ccm_ready_rate",
+		"translations": {
+			"en": {
+				"name": "College, Career, and Military Readiness Rate"
+			}
+		}
+	},
+	{
+		"id": "african_american",
+		"translations": {
+			"en": {
+				"name": "African-American"
+			}
+		}
+	},
+	{
+		"id": "asian",
+		"translations": {
+			"en": {
+				"name": "Hispanic"
+			}
+		}
+	},
+	{
+		"id": "native_american",
+		"translations": {
+			"en": {
+				"name": "Native American"
+			}
+		}
+	},
+	{
+		"id": "pacific_islander",
+		"translations": {
+			"en": {
+				"name": "Pacific Islander"
+			}
+		}
+	},
+	{
+		"id": "two_or_more_races",
+		"translations": {
+			"en": {
+				"name": "Two or More Races"
+			}
+		}
+	},
+	{
+		"id": "white",
+		"translations": {
+			"en": {
+				"name": "White"
+			}
+		}
+	},
+	{
+		"id": "econ_dis",
+		"translations": {
+			"en": {
+				"name": "Economically Disadvantaged"
+			}
+		}
+	},
+	{
+		"id": "english_leader_cf",
+		"translations": {
+			"en": {
+				"name": "English Language Learner"
+			}
+		}
+	},
+	{
+		"id": "special_education",
+		"translations": {
+			"en": {
+				"name": "Special Education"
+			}
+		}
+	},
+	{
+		"id": "special_education_former",
+		"translations": {
+			"en": {
+				"name": "Special Education (Former)"
+			}
+		}
+	},
+	{
+		"id": "cont_enrolled",
+		"translations": {
+			"en": {
+				"name": "Continously Enrolled"
+			}
+		}
+	},
+	{
+		"id": "non_cont_enrolled",
+		"translations": {
+			"en": {
+				"name": "Not Continously Enrolled"
+			}
+		}
+	},
+	{
+		"id": "gender_male",
+		"translations": {
+			"en": {
+				"name": "Male"
+			}
+		}
+	},
+	{
+		"id": "gender_female",
+		"translations": {
+			"en": {
+				"name": "Female"
+			}
+		}
+	}
+]
