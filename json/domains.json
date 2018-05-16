@@ -172,11 +172,44 @@
       "name": "Enrollment"
     }
   }
-},{
+},
+{
+  "id": "enrollment_details",
+  "translations": {
+    "en": {
+      "name": "2017-18 Enrollment Details"
+    }
+  }
+},
+{
+  "id": "student_population_race",
+  "translations": {
+    "en": {
+      "name": "Student Population by Race/Ethnicity"
+    }
+  }
+},
+{
+  "id": "student_population_gender",
+  "translations": {
+    "en": {
+      "name": "Enrollment by Gender"
+    }
+  }
+},
+{
+  "id": "student_population_subgroup",
+  "translations": {
+    "en": {
+      "name": "Student Population by Subgroup"
+    }
+  }
+},
+{
   "id": "staff",
   "translations": {
     "en": {
-      "name": "Overall Performance"
+      "name": "2016-17 Staff"
     }
   }
 },{
