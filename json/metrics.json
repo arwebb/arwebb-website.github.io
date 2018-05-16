@@ -78,7 +78,17 @@
       "name": "Rating"
     }
   }
-},{
+},
+{
+  "id": "student_achievement_letter_grade",
+  "domain_id": "student_achievement",
+  "translations": {
+    "en": {
+      "name": "Letter Grade"
+    }
+  }
+},
+{
   "id": "student_achievement_points_earned",
   "domain_id": "student_achievement",
   "translations": {
@@ -278,7 +288,17 @@
       "name": "Rating"
     }
   }
-},{
+},
+{
+  "id": "school_progress_letter_grade",
+  "domain_id": "school_progress",
+  "translations": {
+    "en": {
+      "name": "Letter Grade"
+    }
+  }
+},
+{
   "id": "school_progress_points_earned",
   "domain_id": "school_progress",
   "translations": {
@@ -366,7 +386,17 @@
       "name": "Rating"
     }
   }
-},{
+},
+{
+  "id": "closing_the_gaps_letter_grade",
+  "domain_id": "closing_the_gaps",
+  "translations": {
+    "en": {
+      "name": "Letter Grade"
+    }
+  }
+},
+{
   "id": "closing_the_gaps_points_earned",
   "domain_id": "closing_the_gaps",
   "translations": {
