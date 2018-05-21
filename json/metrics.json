@@ -721,7 +721,7 @@
   "domain_id": "enrollment",
   "translations": {
     "en": {
-      "name": "Number of Students"
+      "name": "Total Students Enrolled"
     }
   }
 },{
