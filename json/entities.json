@@ -3,6 +3,7 @@
   "name": "Full Tembo Elementary School",
   "slug": "full-tembo-elementary-school",
   "type": "campus",
+  "county": "Philadelphia",
   "district_id": "full-tembo-school-district",
   "address": {
     "street": "127 W Oxford St",
@@ -12,10 +13,11 @@
     "latitude": 39.974875,
     "longitude": -75.136022
   },
+  "alt_standards": true,
   "email_address": "sample@temboelementary.edu",
   "phone_number": "215-555-1234",
   "principal_name": "Edward Bacon",
-  "school_type": "Elementary",
+  "campus_type": "Elementary",
   "website": "https://temboelementary.edu",
   "translations": {
     "en": {
@@ -45,6 +47,7 @@
   "name": "Full Tembo High School",
   "slug": "full-tembo-high-school",
   "type": "campus",
+  "county": "Philadelphia",
   "district_id": "full-tembo-school-district",
   "address": {
     "street": "550 N Broad St",
@@ -57,7 +60,7 @@
   "email_address": "sample@tembohigh.edu",
   "phone_number": "215-555-6543",
   "principal_name": "Sly Stallone",
-  "school_type": "High",
+  "campus_type": "High",
   "website": "https://tembohigh.edu",
   "translations": {
     "en": {
@@ -82,7 +85,7 @@
   "slug": "empty-tembo-elementary-school",
   "type": "campus",
   "district_id": "empty-tembo-school-district",
-  "school_type": "Elementary",
+  "campus_type": "Elementary",
   "translations": {
     "en": {
       "grades": [{
@@ -112,7 +115,7 @@
   "slug": "empty-tembo-high-school",
   "type": "campus",
   "district_id": "empty-tembo-school-district",
-  "school_type": "High",
+  "campus_type": "High",
   "translations": {
     "en": {
       "grades": [{
@@ -147,7 +150,7 @@
   "email_address": "sample@k2tembo.edu",
   "phone_number": "215-555-1234",
   "principal_name": "Maggie Gyllenhaal",
-  "school_type": "Elementary",
+  "campus_type": "Elementary",
   "website": "https://k2tembo.edu",
   "translations": {
     "en": {
@@ -168,6 +171,7 @@
   "name": "Full Tembo School District",
   "slug": "full-tembo-school-district",
   "type": "district",
+  "county": "Philadelphia",
   "region_id": "tembo-region",
   "address": {
     "street": "440 N Broad St",
@@ -177,8 +181,10 @@
     "latitude": 39.960725,
     "longitude": -75.162929
   },
+  "charter_district": false,
   "email_address": "sample@tembosd.edu",
   "phone_number": "215-555-5544",
+  "single_campus_district": false,
   "superintendent_name": "Tina Fey",
   "website": "https://tembosd.edu"
 },{
