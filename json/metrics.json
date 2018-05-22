@@ -75,7 +75,8 @@
   "domain_id": "student_achievement",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Rating",
+      "description":"Description placeholder copy."
     }
   }
 },
@@ -285,7 +286,8 @@
   "domain_id": "school_progress",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Rating",
+      "description":"Description placeholder copy."
     }
   }
 },
@@ -375,7 +377,8 @@
   "domain_id": "closing_the_gaps",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Rating",
+      "description":"Description placeholder copy."
     }
   }
 },
