@@ -2,6 +2,7 @@ DELETE FROM campus_translation;
 DELETE FROM grade_translation;
 DELETE FROM grade;
 DELETE FROM campus;
+DELETE FROM region;
 DELETE FROM state;
 DELETE FROM district;
 DELETE FROM entity;
@@ -56,10 +57,13 @@ INSERT INTO entity VALUES
     ('6', 'tembo-charter-school', 'Tembo Charter School', 'campus'),
     ('7', 'se-pa', 'Southeastern Pennsylvania', 'region'),
     ('8', 'empty-tembo-school-district', 'Empty Tembo School District', 'district'),
-    ('9', 'empty-tembo-school', 'Empty Tembo School', 'campus');
+    ('9', 'empty-tembo-school', 'Empty Tembo School', 'campus'),;
     
 INSERT INTO state VALUES
     ('1', 'PA');
+    
+INSERT INTO region VALUES
+    ('7', '1');
 
 INSERT INTO district VALUES
     ('2',
