@@ -196,6 +196,7 @@
 				"view_results_text": "View Results"
 			},
 			"explore": {
+				"out_of_text": "out of 100",
 				"back_to_text": "Back to",
 				"profile_page_title": "Tembo School Profile",
 				"back_link_text": "Back to Finder",
