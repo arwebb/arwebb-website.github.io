@@ -15,7 +15,8 @@
   "id": "distinctions",
   "translations": {
     "en": {
-      "name": "Distinctions"
+      "name": "Distinctions",
+      "domain_display_title":"Distinctions Earned"
     }
   }
 },
@@ -39,7 +40,10 @@
   "id": "student_achievement",
   "translations": {
     "en": {
-      "name": "Student Achievement"
+      "name": "Student Achievement",
+      "page_title":"Student Achievement",
+      "domain_display_title":"Student Achievement Domain and Score Title",
+      "weighting_title":"Student Achievement Weighting Title"
     }
   }
 },{
@@ -47,7 +51,9 @@
   "parent_id": "student_achievement",
   "translations": {
     "en": {
-      "name": "STAAR Performance"
+      "name": "STAAR Performance",
+      "subdomain_display_title":"STAAR Performance Container Title",
+      "scaled_score_title":"STAAR Score Title"
     }
   }
 },{
@@ -55,7 +61,9 @@
   "parent_id": "student_achievement",
   "translations": {
     "en": {
-      "name": "College, Career, and Military Readiness"
+      "name": "College, Career, and Military Readiness",
+      "subdomain_display_title":"CCM Container Title",
+      "scaled_score_title":"CCM Score Title"
     }
   }
 },{
@@ -63,14 +71,19 @@
   "parent_id": "student_achievement",
   "translations": {
     "en": {
-      "name": "Graduation Rate"
+      "name": "Graduation Rate",
+      "subdomain_display_title":"Grad Rate Container Title",
+      "scaled_score_title":"Grad Rate Score Title"
     }
   }
 },{
   "id": "school_progress",
   "translations": {
     "en": {
-      "name": "School Progress"
+      "name": "School Progress",
+       "page_title":"School Progress",
+      "domain_display_title":"School Progress Domain and Score Title",
+      "weighting_title":"School Progress Weighting Title"
     }
   }
 },{
@@ -78,7 +91,9 @@
   "parent_id": "school_progress",
   "translations": {
     "en": {
-      "name": "Student Growth"
+      "name": "Student Growth",
+      "subdomain_display_title":"Student Growth Container Title",
+      "scaled_score_title":"Student Growth Score Title"
     }
   }
 },{
@@ -86,14 +101,19 @@
   "parent_id": "school_progress",
   "translations": {
     "en": {
-      "name": "Relative Performance"
+      "name": "Relative Performance",
+      "subdomain_display_title":"Relative Performance Container Title",
+      "scaled_score_title":"Relative Performance Score Title"
     }
   }
 },{
   "id": "closing_the_gaps",
   "translations": {
     "en": {
-      "name": "Closing the Gaps"
+      "name": "Closing the Gaps",
+       "page_title":"Closing the Gaps",
+      "domain_display_title":"Closing the Gaps Domain and Score Title",
+      "weighting_title":"Closing the Gaps Weighting Title"
     }
   }
 },{
@@ -146,7 +166,8 @@
   "id": "financial_management",
   "translations": {
     "en": {
-      "name": "Financial Management"
+      "name": "Financial Management",
+      "page_title":"Finance Summary"
     }
   }
 },{
@@ -154,7 +175,8 @@
   "parent_id": "financial_management",
   "translations": {
     "en": {
-      "name": "First Rating"
+      "name": "First Rating",
+      "subdomain_display_title":"First Rating Title"
     }
   }
 },{
