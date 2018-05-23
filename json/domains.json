@@ -1,244 +1,256 @@
 [{
-  "id": "overall_performance",
-  "translations": {
-    "en": {
-      "name": "Overall Performance",
-      "district_overview_title":"District Overview",
-      "campus_overview_title":"Campus Overview",
-      "overall_district_container":"2017-18 District Overall Performance",
-      "overall_campus_container":"2017-18 Campus Overall Performance",
-      "overview_district_des":"Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your school district is performing in multiple areas.",
-      "overview_campus_des":"Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your child's school is performing in multiple areas."
-    }
-  }
-},{
-  "id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Distinctions",
-      "domain_display_title":"Distinctions Earned"
-    }
-  }
-},
-{
-  "id": "comp_support",
-  "translations": {
-    "en": {
-      "name": "Comprehensive Support"
-    }
-  }
-},
-{
-  "id": "public_ed_grant",
-  "translations": {
-    "en": {
-      "name": "Public Education Grant"
-    }
-  }
-},
-{
-  "id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Student Achievement",
-      "page_title":"Student Achievement",
-      "domain_display_title":"Student Achievement Domain and Score Title",
-      "weighting_title":"Student Achievement Weighting Title"
-    }
-  }
-},{
-  "id": "staar_performance",
-  "parent_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "STAAR Performance",
-      "subdomain_display_title":"STAAR Performance Container Title",
-      "scaled_score_title":"STAAR Score Title"
-    }
-  }
-},{
-  "id": "ccm_readiness",
-  "parent_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "College, Career, and Military Readiness",
-      "subdomain_display_title":"CCM Container Title",
-      "scaled_score_title":"CCM Score Title"
-    }
-  }
-},{
-  "id": "graduation_rate",
-  "parent_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Graduation Rate",
-      "subdomain_display_title":"Grad Rate Container Title",
-      "scaled_score_title":"Grad Rate Score Title"
-    }
-  }
-},{
-  "id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "School Progress",
-       "page_title":"School Progress",
-      "domain_display_title":"School Progress Domain and Score Title",
-      "weighting_title":"School Progress Weighting Title"
-    }
-  }
-},{
-  "id": "student_growth",
-  "parent_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Student Growth",
-      "subdomain_display_title":"Student Growth Container Title",
-      "scaled_score_title":"Student Growth Score Title"
-    }
-  }
-},{
-  "id": "relative_performance",
-  "parent_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Relative Performance",
-      "subdomain_display_title":"Relative Performance Container Title",
-      "scaled_score_title":"Relative Performance Score Title"
-    }
-  }
-},{
-  "id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Closing the Gaps",
-       "page_title":"Closing the Gaps",
-      "domain_display_title":"Closing the Gaps Domain and Score Title",
-      "weighting_title":"Closing the Gaps Weighting Title"
-    }
-  }
-},{
-  "id": "ctg_achievement",
-  "parent_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Academic Achievement"
-    }
-  }
-},{
-  "id": "ctg_growth",
-  "parent_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Growth"
-    }
-  }
-},{
-  "id": "ctg_elp",
-  "parent_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "English Language Proficiency"
-    }
-  }
-},{
-  "id": "ctg_sqss",
-  "parent_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "School Quality or Student Success"
-    }
-  }
-},{
-  "id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Revenue"
-    }
-  }
-},{
-  "id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Expenditures"
-    }
-  }
-},{
-  "id": "financial_management",
-  "translations": {
-    "en": {
-      "name": "Financial Management",
-      "page_title":"Finance Summary"
-    }
-  }
-},{
-  "id": "first_rating",
-  "parent_id": "financial_management",
-  "translations": {
-    "en": {
-      "name": "First Rating",
-      "subdomain_display_title":"First Rating Title"
-    }
-  }
-},{
-  "id": "debt",
-  "parent_id": "financial_management",
-  "translations": {
-    "en": {
-      "name": "Debt"
-    }
-  }
-},{
-  "id": "enrollment",
-  "translations": {
-    "en": {
-      "name": "Enrollment"
-    }
-  }
-},
-{
-  "id": "enrollment_details",
-  "translations": {
-    "en": {
-      "name": "2017-18 Enrollment Details"
-    }
-  }
-},
-{
-  "id": "student_population_race",
-  "translations": {
-    "en": {
-      "name": "Student Population by Race/Ethnicity"
-    }
-  }
-},
-{
-  "id": "student_population_gender",
-  "translations": {
-    "en": {
-      "name": "Enrollment by Gender"
-    }
-  }
-},
-{
-  "id": "student_population_subgroup",
-  "translations": {
-    "en": {
-      "name": "Student Population by Subgroup"
-    }
-  }
-},
-{
-  "id": "staff",
-  "translations": {
-    "en": {
-      "name": "2016-17 Staff"
-    }
-  }
-},{
-  "id": "designations",
-  "translations": {
-    "en": {
-      "name": "Designations"
-    }
-  }
-}]
+		"id": "overall_performance",
+		"translations": {
+			"en": {
+				"name": "Overall Performance",
+				"district_overview_title": "District Overview",
+				"campus_overview_title": "Campus Overview",
+				"overall_district_container": "2017-18 District Overall Performance",
+				"overall_campus_container": "2017-18 Campus Overall Performance",
+				"overview_district_des": "Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your school district is performing in multiple areas.",
+				"overview_campus_des": "Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your child's school is performing in multiple areas."
+			}
+		}
+	}, {
+		"id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Distinctions",
+				"domain_display_title": "Distinctions Earned"
+			}
+		}
+	},
+	{
+		"id": "comp_support",
+		"translations": {
+			"en": {
+				"name": "Comprehensive Support"
+			}
+		}
+	},
+	{
+		"id": "public_ed_grant",
+		"translations": {
+			"en": {
+				"name": "Public Education Grant"
+			}
+		}
+	},
+	{
+		"id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "Student Achievement",
+				"page_title": "Student Achievement",
+				"domain_display_title": "Student Achievement Domain and Score Title",
+				"weighting_title": "Student Achievement Weighting Title",
+				"description": "Student Achievement description copy"
+			}
+		}
+	}, {
+		"id": "staar_performance",
+		"parent_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "STAAR Performance",
+				"subdomain_display_title": "STAAR Performance Container Title",
+				"scaled_score_title": "STAAR Score Title"
+			}
+		}
+	}, {
+		"id": "ccm_readiness",
+		"parent_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "College, Career, and Military Readiness",
+				"subdomain_display_title": "CCM Container Title",
+				"scaled_score_title": "CCM Score Title"
+			}
+		}
+	}, {
+		"id": "graduation_rate",
+		"parent_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "Graduation Rate",
+				"subdomain_display_title": "Grad Rate Container Title",
+				"scaled_score_title": "Grad Rate Score Title"
+			}
+		}
+	}, {
+		"id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "School Progress",
+				"page_title": "School Progress",
+				"domain_display_title": "School Progress Domain and Score Title",
+				"weighting_title": "School Progress Weighting Title",
+				"description": "School Progress description copy"
+			}
+		}
+	}, {
+		"id": "student_growth",
+		"parent_id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "Student Growth",
+				"subdomain_display_title": "Student Growth Container Title",
+				"scaled_score_title": "Student Growth Score Title"
+			}
+		}
+	}, {
+		"id": "relative_performance",
+		"parent_id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "Relative Performance",
+				"subdomain_display_title": "Relative Performance Container Title",
+				"scaled_score_title": "Relative Performance Score Title"
+			}
+		}
+	}, {
+		"id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Closing the Gaps",
+				"page_title": "Closing the Gaps",
+				"domain_display_title": "Closing the Gaps Domain and Score Title",
+				"weighting_title": "Closing the Gaps Weighting Title",
+				"description": "Closing the Gaps description copy",
+				"indicators_text": "Indicators",
+				"indicators_met_text": "Indicators Met",
+				"indicators_label_reading": "Reading Indicators",
+				"indicators_label_math": "Mathematics Indicators"
+			}
+		}
+	}, {
+		"id": "ctg_achievement",
+		"parent_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Academic Achievement",
+				"subdomain_display_title": "Academic Achievement Title"
+			}
+		}
+	}, {
+		"id": "ctg_growth",
+		"parent_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Growth",
+				"subdomain_display_title": "Growth Title"
+			}
+		}
+	}, {
+		"id": "ctg_elp",
+		"parent_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "English Language Proficiency",
+				"subdomain_display_title": "ELP Title"
+			}
+		}
+	}, {
+		"id": "ctg_sqss",
+		"parent_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "School Quality or Student Success",
+				"subdomain_display_title": "School Quality Title"
+			}
+		}
+	}, {
+		"id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Revenue"
+			}
+		}
+	}, {
+		"id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Expenditures"
+			}
+		}
+	}, {
+		"id": "financial_management",
+		"translations": {
+			"en": {
+				"name": "Financial Management",
+				"page_title": "Finance Summary"
+			}
+		}
+	}, {
+		"id": "first_rating",
+		"parent_id": "financial_management",
+		"translations": {
+			"en": {
+				"name": "First Rating",
+				"subdomain_display_title": "First Rating Title"
+			}
+		}
+	}, {
+		"id": "debt",
+		"parent_id": "financial_management",
+		"translations": {
+			"en": {
+				"name": "Debt"
+			}
+		}
+	}, {
+		"id": "enrollment",
+		"translations": {
+			"en": {
+				"name": "Enrollment"
+			}
+		}
+	},
+	{
+		"id": "enrollment_details",
+		"translations": {
+			"en": {
+				"name": "2017-18 Enrollment Details"
+			}
+		}
+	},
+	{
+		"id": "student_population_race",
+		"translations": {
+			"en": {
+				"name": "Student Population by Race/Ethnicity"
+			}
+		}
+	},
+	{
+		"id": "student_population_gender",
+		"translations": {
+			"en": {
+				"name": "Enrollment by Gender"
+			}
+		}
+	},
+	{
+		"id": "student_population_subgroup",
+		"translations": {
+			"en": {
+				"name": "Student Population by Subgroup"
+			}
+		}
+	},
+	{
+		"id": "staff",
+		"translations": {
+			"en": {
+				"name": "2016-17 Staff"
+			}
+		}
+	}, {
+		"id": "designations",
+		"translations": {
+			"en": {
+				"name": "Designations"
+			}
+		}
+	}
+]
