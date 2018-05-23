@@ -126,7 +126,8 @@
   "domain_id": "staar_performance",
   "translations": {
     "en": {
-      "name": "Approaches Grade Level"
+      "name": "Approaches Grade Level",
+      "metric_display_title":"Approaches Grade Level"
     }
   }
 },{
@@ -134,7 +135,8 @@
   "domain_id": "staar_performance",
   "translations": {
     "en": {
-      "name": "Meets Grade Level"
+      "name": "Meets Grade Level",
+      "metric_display_title":"Meets Grade Level"
     }
   }
 },{
@@ -142,7 +144,8 @@
   "domain_id": "staar_performance",
   "translations": {
     "en": {
-      "name": "Masters Grade Level"
+      "name": "Masters Grade Level",
+      "metric_display_title":"Masters Grade Level"
     }
   }
 },{
@@ -174,7 +177,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "Advanced Placment/International Baccalaureate"
+      "name": "Advanced Placment/International Baccalaureate",
+      "metric_display_title":"Meet Criteria on AP/IB Exams"
     }
   }
 },{
@@ -182,7 +186,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "TSI"
+      "name": "TSI",
+      "metric_display_title":"Meet TSI Criteria (SAT/ACT/TSIA) in Reading and Mathematics"
     }
   }
 },{
@@ -190,7 +195,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "Dual Credit"
+      "name": "Dual Credit",
+      "metric_display_title":"Complete a Course for Dual Credit"
     }
   }
 },{
@@ -198,7 +204,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "Associate’s Degree"
+      "name": "Associate’s Degree",
+      "metric_display_title":"Earn an Associate's Degree"
     }
   }
 },{
@@ -206,7 +213,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "Industry Certification"
+      "name": "Industry Certification",
+      "metric_display_title":"Earn Industry Certification"
     }
   }
 },{
@@ -214,7 +222,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "IEP"
+      "name": "IEP",
+      "metric_display_title":"IEP metric title"
     }
   }
 },{
@@ -222,7 +231,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "United States Armed Forces"
+      "name": "United States Armed Forces",
+      "metric_display_title":"Enlist in United States Armed Forces"
     }
   }
 },{
@@ -230,7 +240,8 @@
   "domain_id": "ccm_readiness",
   "translations": {
     "en": {
-      "name": "CTE Aligned"
+      "name": "CTE Aligned",
+      "metric_display_title":"CTE Aligned metric title"
     }
   }
 },{
@@ -254,7 +265,8 @@
   "domain_id": "graduation_rate",
   "translations": {
     "en": {
-      "name": "Four-Year Graduation Rate"
+      "name": "Four-Year Graduation Rate",
+      "metric_display_title":"Four-Year Grad Rate"
     }
   }
 },{
@@ -262,7 +274,8 @@
   "domain_id": "graduation_rate",
   "translations": {
     "en": {
-      "name": "Five-Year Graduation Rate"
+      "name": "Five-Year Graduation Rate",
+      "metric_display_title":"Five-Year Grad Rate"
     }
   }
 },{
@@ -270,7 +283,8 @@
   "domain_id": "graduation_rate",
   "translations": {
     "en": {
-      "name": "Six-Year Graduation Rate"
+      "name": "Six-Year Graduation Rate",
+      "metric_display_title":"Six-Year Grad Rate"
     }
   }
 },{
@@ -278,7 +292,8 @@
   "domain_id": "graduation_rate",
   "translations": {
     "en": {
-      "name": "Dropout Rate"
+      "name": "Dropout Rate",
+      "metric_display_title":"Dropout Rate"
     }
   }
 },{
