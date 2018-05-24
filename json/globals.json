@@ -231,7 +231,8 @@
 				"view_details_title": "View Details",
         	"tell_me_more_title": "Tell Me More",
 			"total_title":"Total",
-			"total_weight":"100%"
+			"total_weight":"100%",
+			"weight_text":"Weight"
 			}
 		},
 		"frameworks": {
