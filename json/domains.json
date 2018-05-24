@@ -84,8 +84,10 @@
 				"name": "School Progress",
 				"page_title": "School Progress",
 				"domain_display_title": "School Progress Domain and Score Title",
+					"description": "School Progress description copy",
 				"weighting_title": "School Progress Weighting Title",
-				"description": "School Progress description copy"
+			"weighting_text_scored":"Scoring Measure",
+			"weighting_text_unscored":"Other Measures in This Section"
 			}
 		}
 	}, {
@@ -95,7 +97,9 @@
 			"en": {
 				"name": "Student Growth",
 				"subdomain_display_title": "Student Growth Container Title",
-				"scaled_score_title": "Student Growth Score Title"
+				"scaled_score_title": "Student Growth Score Title",
+				"weighting_scored_description_district":"For this district, the School Progress domain score is based on Student Growth because this district performed better on Student Growth than Relative Performance.",
+					"weighting_scored_description_campus":"For this school, the School Progress domain score is based on Student Growth because this school performed better on Student Growth than Relative Performance."
 			}
 		}
 	}, {
@@ -105,7 +109,9 @@
 			"en": {
 				"name": "Relative Performance",
 				"subdomain_display_title": "Relative Performance Container Title",
-				"scaled_score_title": "Relative Performance Score Title"
+				"scaled_score_title": "Relative Performance Score Title",
+					"weighting_scored_description_district":"For this district, the School Progress domain score is based on Relative Performance because this district performed better on Relative Performance than Student Growth.",
+					"weighting_scored_description_campus":"For this school, the School Progress domain score is based on Relative Performance because this school performed better on Relative Performance than Student Growth."
 			}
 		}
 	}, {
