@@ -44,7 +44,7 @@
 					"navigation_item": "Overview"
 				}
 			},
-			"link": "[base_path]overview[language]"
+			"link": "[base_path][entity_id]/overview[language]"
 		},
 		{
 			"translations": {
@@ -58,7 +58,7 @@
 							"navigation_item": "Student Achievement"
 						}
 					},
-					"link": "[base_path]student-achievement[language]",
+					"link": "[base_path][entity_id]/student-achievement[language]",
 					"page_id": "student_achievement"
 				},
 				{
@@ -67,7 +67,7 @@
 							"navigation_item": "School Progress"
 						}
 					},
-					"link": "[base_path]school-progress[language]",
+					"link": "[base_path][entity_id]/school-progress[language]",
 					"page_id": "school_progress"
 				},
 				{
@@ -76,7 +76,7 @@
 							"navigation_item": "Closing the Gaps"
 						}
 					},
-					"link": "[base_path]closing-gaps[language]",
+					"link": "[base_path][entity_id]/closing-gaps[language]",
 					"page_id": "closing_gaps"
 				}
 			]
@@ -87,7 +87,7 @@
 					"navigation_item": "Finance"
 				}
 			},
-			"link": "[base_path]finance[language]"
+			"link": "[base_path][entity_id]/finance[language]"
 		},
 		{
 			"translations": {
@@ -95,7 +95,7 @@
 					"navigation_item": "Profile"
 				}
 			},
-			"link": "[base_path]profile[language]",
+			"link": "[base_path][entity_id]/profile[language]",
 			"page_id": "profile"
 		},
 		{
@@ -104,7 +104,7 @@
 					"navigation_item": "Campus List"
 				}
 			},
-			"link": "[base_path]campus-list[language]",
+			"link": "[base_path][entity_id]/campus-list[language]",
 			"page_id": "campus_list"
 		}
 	],
@@ -232,7 +232,7 @@
 
 				"view_details_title": "View Details",
         	"tell_me_more_title": "Tell Me More",
-			"total_title":"Total",,
+			"total_title":"Total",
 			"advanced_view_title":"Advanced View",
 			"total_weight":"100%",
 			"weight_text":"Weight",
