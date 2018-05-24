@@ -43,10 +43,13 @@
 				"name": "Student Achievement",
 				"page_title": "Student Achievement",
 				"domain_display_title": "Student Achievement Domain and Score Title",
+				"description": "Student Achievement description copy",
 				"weighting_title": "Student Achievement Weighting Title",
-				"description": "Student Achievement description copy"
+				"weighting_text_scored": "Scoring Measure",
+				"weighting_text_unscored": "Other Measures in This Section"
 			}
 		}
+
 	}, {
 		"id": "staar_performance",
 		"parent_id": "student_achievement",
@@ -54,7 +57,9 @@
 			"en": {
 				"name": "STAAR Performance",
 				"subdomain_display_title": "STAAR Performance Container Title",
-				"scaled_score_title": "STAAR Score Title"
+				"scaled_score_title": "STAAR Score Title",
+				"weighting_scored_description_district": "For this district, the Student Achievement score is based on STAAR Performance only, because this district is not scored on CCM or Grad Rate.",
+				"weighting_scored_description_campus": "For this school, the Student Achievement score is based on STAAR Performance only, because this school is not scored on CCM or Grad Rate."
 			}
 		}
 	}, {
@@ -84,10 +89,10 @@
 				"name": "School Progress",
 				"page_title": "School Progress",
 				"domain_display_title": "School Progress Domain and Score Title",
-					"description": "School Progress description copy",
+				"description": "School Progress description copy",
 				"weighting_title": "School Progress Weighting Title",
-			"weighting_text_scored":"Scoring Measure",
-			"weighting_text_unscored":"Other Measures in This Section"
+				"weighting_text_scored": "Scoring Measure",
+				"weighting_text_unscored": "Other Measures in This Section"
 			}
 		}
 	}, {
@@ -98,8 +103,8 @@
 				"name": "Student Growth",
 				"subdomain_display_title": "Student Growth Container Title",
 				"scaled_score_title": "Student Growth Score Title",
-				"weighting_scored_description_district":"For this district, the School Progress domain score is based on Student Growth because this district performed better on Student Growth than Relative Performance.",
-					"weighting_scored_description_campus":"For this school, the School Progress domain score is based on Student Growth because this school performed better on Student Growth than Relative Performance."
+				"weighting_scored_description_district": "For this district, the School Progress domain score is based on Student Growth because this district performed better on Student Growth than Relative Performance.",
+				"weighting_scored_description_campus": "For this school, the School Progress domain score is based on Student Growth because this school performed better on Student Growth than Relative Performance."
 			}
 		}
 	}, {
@@ -110,8 +115,8 @@
 				"name": "Relative Performance",
 				"subdomain_display_title": "Relative Performance Container Title",
 				"scaled_score_title": "Relative Performance Score Title",
-					"weighting_scored_description_district":"For this district, the School Progress domain score is based on Relative Performance because this district performed better on Relative Performance than Student Growth.",
-					"weighting_scored_description_campus":"For this school, the School Progress domain score is based on Relative Performance because this school performed better on Relative Performance than Student Growth."
+				"weighting_scored_description_district": "For this district, the School Progress domain score is based on Relative Performance because this district performed better on Relative Performance than Student Growth.",
+				"weighting_scored_description_campus": "For this school, the School Progress domain score is based on Relative Performance because this school performed better on Relative Performance than Student Growth."
 			}
 		}
 	}, {
@@ -211,40 +216,35 @@
 				"name": "Enrollment"
 			}
 		}
-	},
-	{
+	}, {
 		"id": "enrollment_details",
 		"translations": {
 			"en": {
 				"name": "2017-18 Enrollment Details"
 			}
 		}
-	},
-	{
+	}, {
 		"id": "student_population_race",
 		"translations": {
 			"en": {
 				"name": "Student Population by Race/Ethnicity"
 			}
 		}
-	},
-	{
+	}, {
 		"id": "student_population_gender",
 		"translations": {
 			"en": {
 				"name": "Enrollment by Gender"
 			}
 		}
-	},
-	{
+	}, {
 		"id": "student_population_subgroup",
 		"translations": {
 			"en": {
 				"name": "Student Population by Subgroup"
 			}
 		}
-	},
-	{
+	}, {
 		"id": "staff",
 		"translations": {
 			"en": {
