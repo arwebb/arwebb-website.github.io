@@ -680,8 +680,7 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Rating",
-      "metric_display_title":"Rating"
+      "name": "Rating"
     }
   }
 },{
@@ -689,8 +688,7 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Status",
-      "metric_display_title":"Status"
+      "name": "Status"
     }
   }
 },{
@@ -698,8 +696,7 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Score",
-      "metric_display_title":"Score"
+      "name": "Score"
     }
   }
 },{
@@ -707,7 +704,8 @@
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt per Student"
+      "name": "Debt per Student",
+      "metric_display_title":"Debt per Student"
     }
   }
 },{
@@ -715,7 +713,8 @@
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt per Student (Peer)"
+      "name": "Debt per Student (Peer)",
+      "metric_display_title":"Debt per Student (Peer)"
     }
   }
 },{
@@ -723,7 +722,8 @@
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt – Fast Growth"
+      "name": "Debt – Fast Growth",
+      "metric_display_title":"Fast Growth District"
     }
   }
 },{
