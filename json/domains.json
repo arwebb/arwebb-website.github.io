@@ -174,14 +174,16 @@
 		"id": "revenue",
 		"translations": {
 			"en": {
-				"name": "Revenue"
+				"name": "Revenue",
+				"domain_display_title_district":"2016-17 District Funding"
 			}
 		}
 	}, {
 		"id": "expenditures",
 		"translations": {
 			"en": {
-				"name": "Expenditures"
+				"name": "Expenditures",
+				"domain_display_title_district":"How much does my district receive and spend per student?"
 			}
 		}
 	}, {
@@ -206,7 +208,8 @@
 		"parent_id": "financial_management",
 		"translations": {
 			"en": {
-				"name": "Debt"
+				"name": "Debt",
+				"subdomain_display_title":"How Much Debt Per Student Does My District Have?"
 			}
 		}
 	}, {
