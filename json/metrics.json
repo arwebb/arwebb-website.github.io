@@ -680,7 +680,8 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Rating",
+      "metric_display_title":"Rating"
     }
   }
 },{
@@ -688,7 +689,8 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Status"
+      "name": "Status",
+      "metric_display_title":"Status"
     }
   }
 },{
@@ -696,7 +698,8 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Score"
+      "name": "Score",
+      "metric_display_title":"Score"
     }
   }
 },{
