@@ -199,12 +199,12 @@
 				"out_of_text": "out of 100",
 				"back_to_text": "Back to",
 				"profile_page_title": "Tembo School Profile",
-				"campus_list_page_title_district":"List of All Campuses in this District",
+				"campus_list_page_title_district": "List of All Campuses in this District",
 				"back_link_text": "Back to Finder",
-				"drawer_closed_subjects_label":"View Subject Results",
-				"drawer_open_subjects_label":"Hide Subject Results",
-				"grades_served_label":"Grades",
-				"enrolled_students_label":"Students Enrolled",
+				"drawer_closed_subjects_label": "View Subject Results",
+				"drawer_open_subjects_label": "Hide Subject Results",
+				"grades_served_label": "Grades",
+				"enrolled_students_label": "Students Enrolled",
 				"address_title": "Address",
 				"phone_title": "Phone",
 				"website_title": "Website",
@@ -231,12 +231,14 @@
 				},
 
 				"view_details_title": "View Details",
-        	"tell_me_more_title": "Tell Me More",
-			"total_title":"Total",
-			"advanced_view_title":"Advanced View",
-			"total_weight":"100%",
-			"weight_text":"Weight",
-			"download_data_text":"Download Data"
+				"tell_me_more_title": "Tell Me More",
+				"total_title": "Total",
+
+				"advanced_view_title": "Advanced View",
+				"total_weight": "100%",
+				"weight_text": "Weight",
+				"weighting_link_prompt": "Click a domain name to jump to that section",
+				"download_data_text": "Download Data"
 			}
 		},
 		"frameworks": {

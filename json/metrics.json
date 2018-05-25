@@ -7,6 +7,14 @@
     }
   }
 },{
+  "id": "overall_performance_rating_alt",
+  "domain_id": "overall_performance",
+  "translations": {
+    "en": {
+      "name": "Overall Performance Rating"
+    }
+  }
+},{
   "id": "overall_performance_points_earned",
   "domain_id": "overall_performance",
   "translations": {
@@ -704,7 +712,8 @@
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt per Student"
+      "name": "Debt per Student",
+      "metric_display_title":"Debt per Student"
     }
   }
 },{
@@ -712,7 +721,8 @@
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt per Student (Peer)"
+      "name": "Debt per Student (Peer)",
+      "metric_display_title":"Debt per Student (Peer)"
     }
   }
 },{
@@ -720,7 +730,8 @@
   "domain_id": "debt",
   "translations": {
     "en": {
-      "name": "Debt – Fast Growth"
+      "name": "Debt – Fast Growth",
+      "metric_display_title":"Fast Growth District"
     }
   }
 },{
