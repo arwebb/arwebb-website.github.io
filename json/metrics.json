@@ -7,6 +7,14 @@
     }
   }
 },{
+  "id": "overall_performance_rating_alt",
+  "domain_id": "overall_performance",
+  "translations": {
+    "en": {
+      "name": "Overall Performance Rating"
+    }
+  }
+},{
   "id": "overall_performance_points_earned",
   "domain_id": "overall_performance",
   "translations": {
