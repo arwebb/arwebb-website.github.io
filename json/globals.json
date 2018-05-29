@@ -270,5 +270,282 @@
 			"not_reported": "Not Reported"
 		}
 	}
-
+	"analyze": {
+    "translations": {
+      "en": {
+        "analyze_intro": {
+          "display_text": "What kind of analysis do you want to do?",
+          "analysis_types": [
+            {
+              "display_text": "Correlate",
+              "img": "http://via.placeholder.com/171x128",
+              "img_alt": "Image of a correlation",
+              "goto": "correlate",
+              "button_text": "View",
+              "description": "Long description about corrlations and how scatter plots can be useful ways to visualize data."
+            },  {
+              "display_text": "Compare",
+              "img": "http://via.placeholder.com/171x128",
+              "img_alt": "Image of a comparison",
+              "goto": "compare",
+              "button_text": "View",
+              "disabled_text": "Coming Soon!",
+              "description": "Long description about comparing things. Some things are similar, others are not.",
+              "disabled": false
+            }, {
+              "display_text": "Trend",
+              "img": "http://via.placeholder.com/171x128",
+              "img_alt": "Image of a trend",
+              "goto": "trend",
+              "button_text": "View",
+              "disabled_text": "Coming Soon!",
+              "description": "Long description about trends. Data changes over time. Line charts are pretty.",
+              "disabled": false
+            }
+          ]
+        },
+        "analyze_content_selection": {
+          "display_text": "What do you want to do?",
+          "or_text": "or",
+          "explore_text": "Explore on my own",
+          "correlate": [
+            {
+              "display_text": "Show correlation between x and y",
+              "description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
+              "button_text": "View",
+              "goto": "something"
+            },
+            {
+              "display_text": "Apples vs Pears",
+              "description": "We would never compare apples to oranges, or any other citrus",
+              "button_text": "View",
+              "goto": "something"
+            },
+            {
+              "display_text": "Consumption of apples and pears over a three-year period",
+              "description": "Sometimes people eat more pears. Usually they eat more apples.",
+              "button_text": "View",
+              "goto": "something"
+            }
+          ],
+          "compare": [
+            {
+              "display_text": "Apples vs Pears",
+              "description": "We would never compare apples to oranges, or any other citrus",
+              "button_text": "View",
+              "goto": "something"
+            },
+            {
+              "display_text": "Consumption of apples and pears over a three-year period",
+              "description": "Sometimes people eat more pears. Usually they eat more apples.",
+              "button_text": "View",
+              "goto": "something"
+            },
+            {
+              "display_text": "Show correlation between x and y",
+              "description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
+              "button_text": "View",
+              "goto": "something"
+            }
+          ],
+          "trend": [
+            {
+              "display_text": "Consumption of apples and pears over a three-year period",
+              "description": "Sometimes people eat more pears. Usually they eat more apples.",
+              "button_text": "View",
+              "goto": "something"
+            },
+            {
+              "display_text": "Show correlation between x and y",
+              "description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
+              "button_text": "View",
+              "goto": "something"
+            },
+            {
+              "display_text": "Apples vs Pears",
+              "description": "We would never compare apples to oranges, or any other citrus",
+              "button_text": "View",
+              "goto": "something"
+            }
+          ]
+        },
+        "view_text": "View",
+        "nav_bar": {
+          "logo_src": "/assets/img/Tembo_Logo_White.png",
+          "logo_url": "temboinc.com"
+        },
+        "entity_search": {
+          "search_placeholder_text": "Go to Another District or School View",
+          "search_fields": [
+            "entity_name",
+            "district_name"
+          ],
+          "title": "TX Reporting System"
+        },
+        "chart": {
+          "download_chart_text": "Export Chart"
+        },
+        "table": {
+          "show_table_text": "Show Details",
+          "hide_table_text": "Hide Details"
+        },
+        "favicon": "/assets/img/BRAF_Favicon.png",
+        "items_to_save": [
+          ".title",
+          ".chart-legend",
+          "#chart"
+        ],
+        "search_table_placeholder": "Search this table",
+        "data_menu_text": "Data Menu",
+        "entity_header_text": "Planning",
+        "modal_download_info": "The data you requested is being retrieved. This window will close when your download is ready.",
+        "paginator_text_fwd": "Next",
+        "paginator_text_back": "Previous",
+        "glossary_data_link": "Data View",
+        "default_insight_string": {
+          "domain_subdomain": "academic_acct",
+          "order": 1,
+          "view_level": "state",
+          "id": "academic_acct_q1_state",
+          "question": "How has my performance on each index changed over time?",
+          "insight_metric_id": "academic_acct_insight_q4",
+          "chart_datapoints": {
+            "entity_types": null,
+            "metrics": [
+              {
+                "metric_id": "index",
+                "type": [
+                  "k8_assessment",
+                  "dcai",
+                  "hs_assessment",
+                  "act",
+                  "grad_rate",
+                  "diploma",
+                  "k8_progress",
+                  "hs_progress"
+                ]
+              }
+            ],
+            "year": [
+              2015,
+              2016,
+              2017
+            ]
+          },
+          "chart": {
+            "title": "Index performance (2018 formula)",
+            "type": "bar",
+            "orientation": "horizontal",
+            "chart_stack": false,
+            "chart_fill": null,
+            "categorical_field": "type.display",
+            "categorical_domain": [
+              "K8 Assessment Index",
+              "DCAI Index",
+              "HS Assessment Index",
+              "ACT Index",
+              "Graduation Rate Index",
+              "Strength of Diploma Index",
+              "K8 Progress Index",
+              "9-12 Progress Index"
+            ],
+            "dataset_field": "year",
+            "dataset_domain": [
+              "2015",
+              "2016",
+              "2017"
+            ],
+            "data_label_precision": 1,
+            "data_label_prefix": null,
+            "data_label_suffix": null,
+            "data_labels_on_chart": 1,
+            "data_labels_on_hover": 0,
+            "legend": 1,
+            "numeric_field": "value",
+            "numeric_domain": [
+              0,
+              100
+            ],
+            "numeric_gridlines": null,
+            "numeric_precision": null,
+            "numeric_prefix": null,
+            "numeric_suffix": null
+          },
+          "table_datapoints": {
+            "entity_types": "district",
+            "metrics": [
+              {
+                "metric_id": "index",
+                "type": [
+                  "k8_assessment",
+                  "dcai",
+                  "hs_assessment",
+                  "act",
+                  "grad_rate",
+                  "diploma",
+                  "k8_progress",
+                  "hs_progress"
+                ]
+              }
+            ],
+            "year": [
+              2016,
+              2017
+            ]
+          },
+          "table": {
+            "table_title": "Index performance (2018 formula)",
+            "row_definition": null,
+            "columns": [
+              {
+                "column_definition": null,
+                "attribute": "entity.entity_name",
+                "display_text": "District"
+              },
+              {
+                "column_definition": null,
+                "attribute": "year",
+                "display_text": "Year",
+                "sort_order": [
+                  "2016-17",
+                  "2017-18",
+                  "2018-19",
+                  "2019-20"
+                ]
+              },
+              {
+                "column_definition": null,
+                "attribute": "type.display",
+                "display_text": "Index"
+              },
+              {
+                "column_definition": null,
+                "attribute": "value",
+                "display_text": "Index Score"
+              }
+            ]
+          }
+        },
+        "sort_order": "['nation', 'state', 'district', 'school', 'region', 'network', 'program', 'student']",
+        "confirm_reset_message": "This will delete your JSON and reset to a different, but functional insight object. Continue?",
+        "configurator": {
+          "lint": "Lint",
+          "prettify": "Prettify JSON",
+          "load_default_btn": "Load Default",
+          "invalid_json_err": "Invalid JSON!",
+          "datapoints_chart_btn": "Load Datapoints - Chart",
+          "datapoints_table_bth": "Load Datapoints - Table",
+          "delete_chart_btn": "Delete chart",
+          "chart_loading": "Chart Loading...",
+          "table_loading": "Table Loading...",
+          "chart_loading_fail": "Failed to load chart datasets",
+          "delete_table_btn": "Delete Table",
+          "table_loading_fail": "Failed to load table datasets",
+          "unauthorized_user": "You are not authorized to view this content. Click here to return to your data.",
+          "unauthorized_user_linked_text": "here",
+          "unauthorized_user_href": "/"
+        }
+      }
+    }
+  }
 }]
