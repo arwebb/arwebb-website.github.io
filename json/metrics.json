@@ -593,6 +593,9 @@
   "translations": {
     "en": {
       "name": "Total Revenue – All",
+      "metric_display_title":"Total Revenue",
+      "table_row_display_title":"Total Revenue",
+      "table_column_display_title":"All Funds Revenue",
       "metric_flyout_over_time_title":"All Funds Revenue Over Time title"
     }
   }
@@ -602,8 +605,11 @@
   "translations": {
     "en": {
       "name": "Revenue Per Student – All",
+      "metric_display_title":"Revenue Per Student",
+      "table_row_display_title":"Revenue per Student",
       "metric_display_title_district":"District Funding",
-      "metric_display_title_campus":"Campus Funding"
+      "metric_display_title_campus":"Campus Funding",
+      "metric_flyout_over_time_title":"Revenue Per Student Over Time title"
     }
   }
 },{
@@ -644,6 +650,7 @@
   "translations": {
     "en": {
       "name": "Total Expenditures – All",
+      "table_column_display_title":"All Funds Expenditures",
       "metric_flyout_over_time_title":"All Funds Expenditure Over Time title"
     }
   }
@@ -652,7 +659,8 @@
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Expenditures Per Student – All"
+      "name": "Expenditures Per Student – All",
+      "metric_flyout_over_time_title":"Expenditure per Student Over Time"
     }
   }
 },{
