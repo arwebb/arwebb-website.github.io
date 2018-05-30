@@ -175,7 +175,8 @@
 		"translations": {
 			"en": {
 				"name": "Revenue",
-				"domain_display_title_district":"2016-17 District Funding"
+				"domain_display_title_district":"2016-17 District Funding",
+				"per_student_label":"per Student"
 			}
 		}
 	}, {
