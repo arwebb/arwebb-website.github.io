@@ -3,6 +3,7 @@
 	"name": "TEA Finder",
 	"address_search_failure_image": "https://storage.googleapis.com/tembo-reference/images/AddressSearchFailureImage.png",
 	"back_link_url": "/",
+	"current_year": 2017,
 	"header_image": "https://storage.googleapis.com/core-demo-assets/Tembo_Logo_Long_White.png",
 	"header_image_dark": "https://storage.googleapis.com/core-demo-assets/Tembo_Logo_Long.png",
 	"header_url": "http://www.temboinc.com",
