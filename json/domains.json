@@ -38,6 +38,7 @@
 	},
 	{
 		"id": "student_achievement",
+		"icon": "https://storage.googleapis.com/suite-assets/images/Higher%20Improvement@2x.png",
 		"translations": {
 			"en": {
 				"name": "Student Achievement",
@@ -84,6 +85,7 @@
 		}
 	}, {
 		"id": "school_progress",
+		"icon": "https://storage.googleapis.com/suite-assets/images/Higher%20Improvement@2x.png",
 		"translations": {
 			"en": {
 				"name": "School Progress",
@@ -121,6 +123,7 @@
 		}
 	}, {
 		"id": "closing_the_gaps",
+		"icon": "https://storage.googleapis.com/suite-assets/images/Higher%20Improvement@2x.png",
 		"translations": {
 			"en": {
 				"name": "Closing the Gaps",
