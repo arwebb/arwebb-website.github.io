@@ -1,816 +1,819 @@
 [{
-  "id": "overall_performance_rating",
-  "domain_id": "overall_performance",
-  "translations": {
-    "en": {
-      "name": "Overall Performance Rating"
-    }
-  }
-},{
-  "id": "overall_performance_rating_alt",
-  "domain_id": "overall_performance",
-  "translations": {
-    "en": {
-      "name": "Overall Performance Rating"
-    }
-  }
-},{
-  "id": "overall_performance_points_earned",
-  "domain_id": "overall_performance",
-  "translations": {
-    "en": {
-      "name": "Overall Performance Points Earned"
-    }
-  }
-},{
-  "id": "distinction_acad_achievement_reading",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Academic Achievement – Reading"
-    }
-  }
-},{
-  "id": "distinction_acad_achievement_mathematics",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Academic Achievement – Mathematics"
-    }
-  }
-},{
-  "id": "distinction_acad_achievement_science",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Academic Achievement – Science"
-    }
-  }
-},{
-  "id": "distinction_acad_achievement_social_studies",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Academic Achievement – Social Studies"
-    }
-  }
-},{
-  "id": "distinction_top_25_student_progress",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Top 25 in Student Progress"
-    }
-  }
-},{
-  "id": "distinction_top_25_ctg",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Top 25 in Closing the Gaps"
-    }
-  }
-},{
-  "id": "distinction_post_secondary_readiness",
-  "domain_id": "distinctions",
-  "translations": {
-    "en": {
-      "name": "Post-Secondary Readiness"
-    }
-  }
-},{
-  "id": "student_achievement_rating",
-  "domain_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},
-{
-  "id": "student_achievement_letter_grade",
-  "domain_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Letter Grade"
-    }
-  }
-},
-{
-  "id": "student_achievement_points_earned",
-  "domain_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "student_achievement_weight",
-  "domain_id": "student_achievement",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "staar_performance_weight",
-  "domain_id": "staar_performance",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "staar_performance_points_earned",
-  "domain_id": "staar_performance",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "staar_performance_approaches_gl",
-  "domain_id": "staar_performance",
-  "translations": {
-    "en": {
-      "name": "Approaches Grade Level",
-      "metric_display_title":"Approaches Grade Level"
-    }
-  }
-},{
-  "id": "staar_performance_meets_gl",
-  "domain_id": "staar_performance",
-  "translations": {
-    "en": {
-      "name": "Meets Grade Level",
-      "metric_display_title":"Meets Grade Level"
-    }
-  }
-},{
-  "id": "staar_performance_masters_gl",
-  "domain_id": "staar_performance",
-  "translations": {
-    "en": {
-      "name": "Masters Grade Level",
-      "metric_display_title":"Masters Grade Level"
-    }
-  }
-},{
-  "id": "ccm_readiness_weight",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "ccm_readiness_points_earned",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "ccm_readiness_ready_rate",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Ready Rate"
-    }
-  }
-},{
-  "id": "ccm_readiness_ap_ib",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Advanced Placment/International Baccalaureate",
-      "metric_display_title":"Meet Criteria on AP/IB Exams"
-    }
-  }
-},{
-  "id": "ccm_readiness_tsi",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "TSI",
-      "metric_display_title":"Meet TSI Criteria (SAT/ACT/TSIA) in Reading and Mathematics"
-    }
-  }
-},{
-  "id": "ccm_readiness_dual_credit",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Dual Credit",
-      "metric_display_title":"Complete a Course for Dual Credit"
-    }
-  }
-},{
-  "id": "ccm_readiness_assoc_degree",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Associate’s Degree",
-      "metric_display_title":"Earn an Associate's Degree"
-    }
-  }
-},{
-  "id": "ccm_readiness_industry_cert",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "Industry Certification",
-      "metric_display_title":"Earn Industry Certification"
-    }
-  }
-},{
-  "id": "ccm_readiness_iep",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "IEP",
-      "metric_display_title":"IEP metric title"
-    }
-  }
-},{
-  "id": "ccm_readiness_us_armed_forces",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "United States Armed Forces",
-      "metric_display_title":"Enlist in United States Armed Forces"
-    }
-  }
-},{
-  "id": "ccm_readiness_cte_aligned",
-  "domain_id": "ccm_readiness",
-  "translations": {
-    "en": {
-      "name": "CTE Aligned",
-      "metric_display_title":"CTE Aligned metric title"
-    }
-  }
-},{
-  "id": "graduation_rate_weight",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "graduation_rate_points_earned",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "graduation_rate_4yr",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Four-Year Graduation Rate",
-      "metric_display_title":"Four-Year Grad Rate"
-    }
-  }
-},{
-  "id": "graduation_rate_5yr",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Five-Year Graduation Rate",
-      "metric_display_title":"Five-Year Grad Rate"
-    }
-  }
-},{
-  "id": "graduation_rate_6yr",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Six-Year Graduation Rate",
-      "metric_display_title":"Six-Year Grad Rate"
-    }
-  }
-},{
-  "id": "graduation_rate_dropout",
-  "domain_id": "graduation_rate",
-  "translations": {
-    "en": {
-      "name": "Dropout Rate",
-      "metric_display_title":"Dropout Rate"
-    }
-  }
-},{
-  "id": "school_progress_rating",
-  "domain_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},
-{
-  "id": "school_progress_letter_grade",
-  "domain_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Letter Grade"
-    }
-  }
-},
-{
-  "id": "school_progress_points_earned",
-  "domain_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "school_progress_weight",
-  "domain_id": "school_progress",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "student_growth_weight",
-  "domain_id": "student_growth",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "student_growth_points_earned",
-  "domain_id": "student_growth",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "student_growth_score",
-  "domain_id": "student_growth",
-  "translations": {
-    "en": {
-      "name": "Student Growth Score"
-    }
-  }
-},{
-  "id": "relative_performance_weight",
-  "domain_id": "relative_performance",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "relative_performance_points_earned",
-  "domain_id": "relative_performance",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "relative_performance_achievement",
-  "domain_id": "relative_performance",
-  "translations": {
-    "en": {
-      "name": "Achievement"
-    }
-  }
-},{
-  "id": "relative_performance_econ_dis",
-  "domain_id": "relative_performance",
-  "translations": {
-    "en": {
-      "name": "Economically Disadvantaged"
-    }
-  }
-},{
-  "id": "closing_the_gaps_rating",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Rating"
-    }
-  }
-},
-{
-  "id": "closing_the_gaps_letter_grade",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Letter Grade"
-    }
-  }
-},
-{
-  "id": "closing_the_gaps_points_earned",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Points Earned"
-    }
-  }
-},{
-  "id": "closing_the_gaps_weight",
-  "domain_id": "closing_the_gaps",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "ctg_achievement_percent_total_indicators_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_achievement_total_indicators_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_achievement_total_indicators_eligible",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Eligible"
-    }
-  }
-},{
-  "id": "ctg_achievement_weight",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "ctg_achievement_indicator_met",
-  "domain_id": "ctg_achievement",
-  "translations": {
-    "en": {
-      "name": "Indicator Met"
-    }
-  }
-},{
-  "id": "ctg_growth_percent_indicators_met",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_growth_total_indicators_met",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_growth_total_indicators_eligible",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Eligible"
-    }
-  }
-},{
-  "id": "ctg_growth_weight",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "ctg_growth_indicator_met",
-  "domain_id": "ctg_growth",
-  "translations": {
-    "en": {
-      "name": "Indicator Met"
-    }
-  }
-},{
-  "id": "ctg_elp_percent_indicators_met",
-  "domain_id": "ctg_elp",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_elp_total_indicators_met",
-  "domain_id": "ctg_elp",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_elp_total_indicators_eligible",
-  "domain_id": "ctg_elp",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Eligible"
-    }
-  }
-},{
-  "id": "ctg_elp_weight",
-  "domain_id": "ctg_elp",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "ctg_elp_indicator_met",
-  "domain_id": "ctg_elp",
-  "translations": {
-    "en": {
-      "name": "Indicator Met"
-    }
-  }
-},{
-  "id": "ctg_sqss_percent_indicators_met",
-  "domain_id": "ctg_sqss",
-  "translations": {
-    "en": {
-      "name": "Percent Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_sqss_total_indicators_met",
-  "domain_id": "ctg_sqss",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Met"
-    }
-  }
-},{
-  "id": "ctg_sqss_total_indicators_eligible",
-  "domain_id": "ctg_sqss",
-  "translations": {
-    "en": {
-      "name": "Total Indicators Eligible"
-    }
-  }
-},{
-  "id": "ctg_sqss_weight",
-  "domain_id": "ctg_sqss",
-  "translations": {
-    "en": {
-      "name": "Weight"
-    }
-  }
-},{
-  "id": "ctg_sqss_indicator_met",
-  "domain_id": "ctg_sqss",
-  "translations": {
-    "en": {
-      "name": "Indicator Met"
-    }
-  }
-},{
-  "id": "revenue_total_all",
-  "domain_id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Total Revenue – All",
-      "metric_display_title":"Total Revenue",
-      "table_row_display_title":"Total Revenue",
-      "table_column_display_title":"All Funds Revenue",
-      "metric_flyout_over_time_title":"All Funds Revenue Over Time title"
-    }
-  }
-},{
-  "id": "revenue_per_stud_all",
-  "domain_id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Revenue Per Student – All",
-      "metric_display_title":"Revenue Per Student",
-      "table_row_display_title":"Revenue per Student",
-      "metric_display_title_district":"District Funding",
-      "metric_display_title_campus":"Campus Funding",
-      "metric_flyout_over_time_title":"Revenue Per Student Over Time title"
-    }
-  }
-},{
-  "id": "revenue_per_stud_all_peer",
-  "domain_id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Revenue Per Student – All (Peer)"
-    }
-  }
-},{
-  "id": "revenue_total_general",
-  "domain_id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Total Revenue – General"
-    }
-  }
-},{
-  "id": "revenue_per_stud_general",
-  "domain_id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Revenue Per Student – General"
-    }
-  }
-},{
-  "id": "revenue_per_stud_general_peer",
-  "domain_id": "revenue",
-  "translations": {
-    "en": {
-      "name": "Revenue Per Student – General (Peer)"
-    }
-  }
-},{
-  "id": "expenditures_total_all",
-  "domain_id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Total Expenditures – All",
-      "table_column_display_title":"All Funds Expenditures",
-      "metric_flyout_over_time_title":"All Funds Expenditure Over Time title"
-    }
-  }
-},{
-  "id": "expenditures_per_stud_all",
-  "domain_id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Expenditures Per Student – All",
-      "metric_flyout_over_time_title":"Expenditure per Student Over Time"
-    }
-  }
-},{
-  "id": "expenditures_per_stud_all_peer",
-  "domain_id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Expenditures Per Student – All (Peer)"
-    }
-  }
-},{
-  "id": "expenditures_total_general",
-  "domain_id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Total Expenditures – General"
-    }
-  }
-},{
-  "id": "expenditures_per_stud_general",
-  "domain_id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Expenditures Per Student – General"
-    }
-  }
-},{
-  "id": "expenditures_per_stud_general_peer",
-  "domain_id": "expenditures",
-  "translations": {
-    "en": {
-      "name": "Expenditures Per Student – General (Peer)"
-    }
-  }
-},{
-  "id": "first_rating_rating",
-  "domain_id": "first_rating",
-  "translations": {
-    "en": {
-      "name": "Rating",
-      "metric_flyout_over_time_title":"Over Time title"
-    }
-  }
-},{
-  "id": "first_rating_status",
-  "domain_id": "first_rating",
-  "translations": {
-    "en": {
-      "name": "Status"
-    }
-  }
-},{
-  "id": "first_rating_score",
-  "domain_id": "first_rating",
-  "translations": {
-    "en": {
-      "name": "Score"
-    }
-  }
-},{
-  "id": "debt_per_stud",
-  "domain_id": "debt",
-  "translations": {
-    "en": {
-      "name": "Debt per Student",
-      "metric_display_title":"Debt per Student",
-      "metric_flyout_comparison_title":"Comparison title",
-      "metric_flyout_over_time_title":"Over Time title""
-    }
-  }
-},{
-  "id": "debt_per_stud_peer",
-  "domain_id": "debt",
-  "translations": {
-    "en": {
-      "name": "Debt per Student (Peer)",
-      "metric_display_title":"Debt per Student (Peer)"
-    }
-  }
-},{
-  "id": "debt_fast_growth",
-  "domain_id": "debt",
-  "translations": {
-    "en": {
-      "name": "Debt – Fast Growth",
-      "metric_display_title":"Fast Growth District"
-    }
-  }
-},{
-  "id": "number_campuses",
-  "domain_id": "enrollment",
-  "translations": {
-    "en": {
-      "name": "Number of Campuses"
-    }
-  }
-},{
-  "id": "number_students",
-  "domain_id": "enrollment",
-  "translations": {
-    "en": {
-      "name": "Total Students Enrolled"
-    }
-  }
-},{
-  "id": "percent_enrollment",
-  "domain_id": "enrollment",
-  "translations": {
-    "en": {
-      "name": "Percent Enrollment"
-    }
-  }
-},{
-  "id": "number_staff",
-  "domain_id": "staff",
-  "translations": {
-    "en": {
-      "name": "Number of Staff"
-    }
-  }
-},{
-  "id": "number_teachers",
-  "domain_id": "staff",
-  "translations": {
-    "en": {
-      "name": "Number of Teachers"
-    }
-  }
-},{
-  "id": "avg_teacher_salary",
-  "domain_id": "staff",
-  "translations": {
-    "en": {
-      "name": "Average Teacher Salary"
-    }
-  }
-},{
-  "id": "comp_targ_support",
-  "domain_id": "designations",
-  "translations": {
-    "en": {
-      "name": "Comprehensive Targeted Support"
-    }
-  }
-},{
-  "id": "public_education_grant",
-  "domain_id": "designations",
-  "translations": {
-    "en": {
-      "name": "Public Education Grants"
-    }
-  }
-}]
+		"id": "overall_performance_rating",
+		"domain_id": "overall_performance",
+		"translations": {
+			"en": {
+				"name": "Overall Performance Rating"
+			}
+		}
+	}, {
+		"id": "overall_performance_rating_alt",
+		"domain_id": "overall_performance",
+		"translations": {
+			"en": {
+				"name": "Overall Performance Rating"
+			}
+		}
+	}, {
+		"id": "overall_performance_points_earned",
+		"domain_id": "overall_performance",
+		"translations": {
+			"en": {
+				"name": "Overall Performance Points Earned"
+			}
+		}
+	}, {
+		"id": "distinction_acad_achievement_reading",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Academic Achievement – Reading"
+			}
+		}
+	}, {
+		"id": "distinction_acad_achievement_mathematics",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Academic Achievement – Mathematics"
+			}
+		}
+	}, {
+		"id": "distinction_acad_achievement_science",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Academic Achievement – Science"
+			}
+		}
+	}, {
+		"id": "distinction_acad_achievement_social_studies",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Academic Achievement – Social Studies"
+			}
+		}
+	}, {
+		"id": "distinction_top_25_student_progress",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Top 25 in Student Progress"
+			}
+		}
+	}, {
+		"id": "distinction_top_25_ctg",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Top 25 in Closing the Gaps"
+			}
+		}
+	}, {
+		"id": "distinction_post_secondary_readiness",
+		"domain_id": "distinctions",
+		"translations": {
+			"en": {
+				"name": "Post-Secondary Readiness"
+			}
+		}
+	}, {
+		"id": "student_achievement_rating",
+		"domain_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "Rating"
+			}
+		}
+	},
+	{
+		"id": "student_achievement_letter_grade",
+		"domain_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "Letter Grade"
+			}
+		}
+	},
+	{
+		"id": "student_achievement_points_earned",
+		"domain_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "student_achievement_weight",
+		"domain_id": "student_achievement",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "staar_performance_weight",
+		"domain_id": "staar_performance",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "staar_performance_points_earned",
+		"domain_id": "staar_performance",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "staar_performance_approaches_gl",
+		"domain_id": "staar_performance",
+		"translations": {
+			"en": {
+				"name": "Approaches Grade Level",
+				"metric_display_title": "Approaches Grade Level"
+			}
+		}
+	}, {
+		"id": "staar_performance_meets_gl",
+		"domain_id": "staar_performance",
+		"translations": {
+			"en": {
+				"name": "Meets Grade Level",
+				"metric_display_title": "Meets Grade Level"
+			}
+		}
+	}, {
+		"id": "staar_performance_masters_gl",
+		"domain_id": "staar_performance",
+		"translations": {
+			"en": {
+				"name": "Masters Grade Level",
+				"metric_display_title": "Masters Grade Level"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_weight",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_points_earned",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_ready_rate",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Ready Rate"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_ap_ib",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Advanced Placment/International Baccalaureate",
+				"metric_display_title": "Meet Criteria on AP/IB Exams"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_tsi",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "TSI",
+				"metric_display_title": "Meet TSI Criteria (SAT/ACT/TSIA) in Reading and Mathematics"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_dual_credit",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Dual Credit",
+				"metric_display_title": "Complete a Course for Dual Credit"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_assoc_degree",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Associate’s Degree",
+				"metric_display_title": "Earn an Associate's Degree"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_industry_cert",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "Industry Certification",
+				"metric_display_title": "Earn Industry Certification"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_iep",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "IEP",
+				"metric_display_title": "IEP metric title"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_us_armed_forces",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "United States Armed Forces",
+				"metric_display_title": "Enlist in United States Armed Forces"
+			}
+		}
+	}, {
+		"id": "ccm_readiness_cte_aligned",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "CTE Aligned",
+				"metric_display_title": "CTE Aligned metric title"
+			}
+		}
+	}, {
+		"id": "graduation_rate_weight",
+		"domain_id": "graduation_rate",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "graduation_rate_points_earned",
+		"domain_id": "graduation_rate",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "graduation_rate_4yr",
+		"domain_id": "graduation_rate",
+		"translations": {
+			"en": {
+				"name": "Four-Year Graduation Rate",
+				"metric_display_title": "Four-Year Grad Rate"
+			}
+		}
+	}, {
+		"id": "graduation_rate_5yr",
+		"domain_id": "graduation_rate",
+		"translations": {
+			"en": {
+				"name": "Five-Year Graduation Rate",
+				"metric_display_title": "Five-Year Grad Rate"
+			}
+		}
+	}, {
+		"id": "graduation_rate_6yr",
+		"domain_id": "graduation_rate",
+		"translations": {
+			"en": {
+				"name": "Six-Year Graduation Rate",
+				"metric_display_title": "Six-Year Grad Rate"
+			}
+		}
+	}, {
+		"id": "graduation_rate_dropout",
+		"domain_id": "graduation_rate",
+		"translations": {
+			"en": {
+				"name": "Dropout Rate",
+				"metric_display_title": "Dropout Rate"
+			}
+		}
+	}, {
+		"id": "school_progress_rating",
+		"domain_id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "Rating"
+			}
+		}
+	},
+	{
+		"id": "school_progress_letter_grade",
+		"domain_id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "Letter Grade"
+			}
+		}
+	},
+	{
+		"id": "school_progress_points_earned",
+		"domain_id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "school_progress_weight",
+		"domain_id": "school_progress",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "student_growth_weight",
+		"domain_id": "student_growth",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "student_growth_points_earned",
+		"domain_id": "student_growth",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "student_growth_score",
+		"domain_id": "student_growth",
+		"translations": {
+			"en": {
+				"name": "Student Growth Score"
+			}
+		}
+	}, {
+		"id": "relative_performance_weight",
+		"domain_id": "relative_performance",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "relative_performance_points_earned",
+		"domain_id": "relative_performance",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "relative_performance_achievement",
+		"domain_id": "relative_performance",
+		"translations": {
+			"en": {
+				"name": "Achievement"
+			}
+		}
+	}, {
+		"id": "relative_performance_econ_dis",
+		"domain_id": "relative_performance",
+		"translations": {
+			"en": {
+				"name": "Economically Disadvantaged"
+			}
+		}
+	}, {
+		"id": "closing_the_gaps_rating",
+		"domain_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Rating"
+			}
+		}
+	},
+	{
+		"id": "closing_the_gaps_letter_grade",
+		"domain_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Letter Grade"
+			}
+		}
+	},
+	{
+		"id": "closing_the_gaps_points_earned",
+		"domain_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Points Earned"
+			}
+		}
+	}, {
+		"id": "closing_the_gaps_weight",
+		"domain_id": "closing_the_gaps",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "ctg_achievement_percent_total_indicators_met",
+		"domain_id": "ctg_achievement",
+		"translations": {
+			"en": {
+				"name": "Percent Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_achievement_total_indicators_met",
+		"domain_id": "ctg_achievement",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_achievement_total_indicators_eligible",
+		"domain_id": "ctg_achievement",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Eligible"
+			}
+		}
+	}, {
+		"id": "ctg_achievement_weight",
+		"domain_id": "ctg_achievement",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "ctg_achievement_indicator_met",
+		"domain_id": "ctg_achievement",
+		"translations": {
+			"en": {
+				"name": "Indicator Met"
+			}
+		}
+	}, {
+		"id": "ctg_growth_percent_indicators_met",
+		"domain_id": "ctg_growth",
+		"translations": {
+			"en": {
+				"name": "Percent Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_growth_total_indicators_met",
+		"domain_id": "ctg_growth",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_growth_total_indicators_eligible",
+		"domain_id": "ctg_growth",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Eligible"
+			}
+		}
+	}, {
+		"id": "ctg_growth_weight",
+		"domain_id": "ctg_growth",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "ctg_growth_indicator_met",
+		"domain_id": "ctg_growth",
+		"translations": {
+			"en": {
+				"name": "Indicator Met"
+			}
+		}
+	}, {
+		"id": "ctg_elp_percent_indicators_met",
+		"domain_id": "ctg_elp",
+		"translations": {
+			"en": {
+				"name": "Percent Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_elp_total_indicators_met",
+		"domain_id": "ctg_elp",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_elp_total_indicators_eligible",
+		"domain_id": "ctg_elp",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Eligible"
+			}
+		}
+	}, {
+		"id": "ctg_elp_weight",
+		"domain_id": "ctg_elp",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "ctg_elp_indicator_met",
+		"domain_id": "ctg_elp",
+		"translations": {
+			"en": {
+				"name": "Indicator Met"
+			}
+		}
+	}, {
+		"id": "ctg_sqss_percent_indicators_met",
+		"domain_id": "ctg_sqss",
+		"translations": {
+			"en": {
+				"name": "Percent Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_sqss_total_indicators_met",
+		"domain_id": "ctg_sqss",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Met"
+			}
+		}
+	}, {
+		"id": "ctg_sqss_total_indicators_eligible",
+		"domain_id": "ctg_sqss",
+		"translations": {
+			"en": {
+				"name": "Total Indicators Eligible"
+			}
+		}
+	}, {
+		"id": "ctg_sqss_weight",
+		"domain_id": "ctg_sqss",
+		"translations": {
+			"en": {
+				"name": "Weight"
+			}
+		}
+	}, {
+		"id": "ctg_sqss_indicator_met",
+		"domain_id": "ctg_sqss",
+		"translations": {
+			"en": {
+				"name": "Indicator Met"
+			}
+		}
+	}, {
+		"id": "revenue_total_all",
+		"domain_id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Total Revenue – All",
+				"metric_display_title": "Total Revenue",
+				"table_row_display_title": "Total Revenue",
+				"table_column_display_title": "All Funds Revenue",
+				"metric_flyout_over_time_title": "All Funds Revenue Over Time title"
+			}
+		}
+	}, {
+		"id": "revenue_per_stud_all",
+		"domain_id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Revenue Per Student – All",
+				"metric_display_title": "Revenue Per Student",
+				"table_row_display_title": "Revenue per Student",
+				"metric_display_title_district": "District Funding",
+				"metric_display_title_campus": "Campus Funding",
+				"metric_flyout_over_time_title": "Revenue Per Student Over Time title"
+			}
+		}
+	}, {
+		"id": "revenue_per_stud_all_peer",
+		"domain_id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Revenue Per Student – All (Peer)"
+			}
+		}
+	}, {
+		"id": "revenue_total_general",
+		"domain_id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Total Revenue – General"
+			}
+		}
+	}, {
+		"id": "revenue_per_stud_general",
+		"domain_id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Revenue Per Student – General"
+			}
+		}
+	}, {
+		"id": "revenue_per_stud_general_peer",
+		"domain_id": "revenue",
+		"translations": {
+			"en": {
+				"name": "Revenue Per Student – General (Peer)"
+			}
+		}
+	}, {
+		"id": "expenditures_total_all",
+		"domain_id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Total Expenditures – All",
+				"table_column_display_title": "All Funds Expenditures",
+				"metric_flyout_over_time_title": "All Funds Expenditure Over Time title"
+			}
+		}
+	}, {
+		"id": "expenditures_per_stud_all",
+		"domain_id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Expenditures Per Student – All",
+				"metric_flyout_over_time_title": "Expenditure per Student Over Time"
+			}
+		}
+	}, {
+		"id": "expenditures_per_stud_all_peer",
+		"domain_id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Expenditures Per Student – All (Peer)"
+			}
+		}
+	}, {
+		"id": "expenditures_total_general",
+		"domain_id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Total Expenditures – General"
+			}
+		}
+	}, {
+		"id": "expenditures_per_stud_general",
+		"domain_id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Expenditures Per Student – General"
+			}
+		}
+	}, {
+		"id": "expenditures_per_stud_general_peer",
+		"domain_id": "expenditures",
+		"translations": {
+			"en": {
+				"name": "Expenditures Per Student – General (Peer)"
+			}
+		}
+	}, {
+		"id": "first_rating_rating",
+		"domain_id": "first_rating",
+		"translations": {
+			"en": {
+				"name": "Rating",
+				"metric_display_title": "First Rating",
+				"metric_flyout_over_time_title": "Over Time title"
+			}
+		}
+	}, {
+		"id": "first_rating_status",
+		"domain_id": "first_rating",
+		"translations": {
+			"en": {
+				"name": "Status"
+			}
+		}
+	}, {
+		"id": "first_rating_score",
+		"domain_id": "first_rating",
+		"translations": {
+			"en": {
+				"name": "Score"
+			}
+		}
+	}, {
+		"id": "debt_per_stud",
+		"domain_id": "debt",
+		"translations": {
+			"en": {
+				"name": "Debt per Student",
+				"metric_display_title": "Debt per Student",
+				"metric_flyout_comparison_title": "Comparison title",
+				"metric_flyout_over_time_title": "Over Time title"
+
+			}
+		}
+	}, {
+		"id": "debt_per_stud_peer",
+		"domain_id": "debt",
+		"translations": {
+			"en": {
+				"name": "Debt per Student (Peer)",
+				"metric_display_title": "Debt per Student (Peer)"
+			}
+		}
+	}, {
+		"id": "debt_fast_growth",
+		"domain_id": "debt",
+		"translations": {
+			"en": {
+				"name": "Debt – Fast Growth",
+				"metric_display_title": "Fast Growth District"
+			}
+		}
+	}, {
+		"id": "number_campuses",
+		"domain_id": "enrollment",
+		"translations": {
+			"en": {
+				"name": "Number of Campuses"
+			}
+		}
+	}, {
+		"id": "number_students",
+		"domain_id": "enrollment",
+		"translations": {
+			"en": {
+				"name": "Total Students Enrolled"
+			}
+		}
+	}, {
+		"id": "percent_enrollment",
+		"domain_id": "enrollment",
+		"translations": {
+			"en": {
+				"name": "Percent Enrollment"
+			}
+		}
+	}, {
+		"id": "number_staff",
+		"domain_id": "staff",
+		"translations": {
+			"en": {
+				"name": "Number of Staff"
+			}
+		}
+	}, {
+		"id": "number_teachers",
+		"domain_id": "staff",
+		"translations": {
+			"en": {
+				"name": "Number of Teachers"
+			}
+		}
+	}, {
+		"id": "avg_teacher_salary",
+		"domain_id": "staff",
+		"translations": {
+			"en": {
+				"name": "Average Teacher Salary"
+			}
+		}
+	}, {
+		"id": "comp_targ_support",
+		"domain_id": "designations",
+		"translations": {
+			"en": {
+				"name": "Comprehensive Targeted Support"
+			}
+		}
+	}, {
+		"id": "public_education_grant",
+		"domain_id": "designations",
+		"translations": {
+			"en": {
+				"name": "Public Education Grants"
+			}
+		}
+	}
+]
