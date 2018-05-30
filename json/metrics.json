@@ -617,7 +617,8 @@
 		"domain_id": "revenue",
 		"translations": {
 			"en": {
-				"name": "Revenue Per Student – All (Peer)"
+				"name": "Revenue Per Student – All (Peer)",
+				"metric_display_title":"Peer Funding"
 			}
 		}
 	}, {
