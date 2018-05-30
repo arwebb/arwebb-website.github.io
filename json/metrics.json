@@ -601,7 +601,9 @@
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Revenue Per Student – All"
+      "name": "Revenue Per Student – All",
+      "metric_display_title_district":"District Funding",
+      "metric_display_title_campus":"Campus Funding"
     }
   }
 },{
