@@ -592,7 +592,8 @@
   "domain_id": "revenue",
   "translations": {
     "en": {
-      "name": "Total Revenue – All"
+      "name": "Total Revenue – All",
+      "metric_flyout_over_time_title":"All Funds Revenue Over Time title"
     }
   }
 },{
@@ -640,7 +641,8 @@
   "domain_id": "expenditures",
   "translations": {
     "en": {
-      "name": "Total Expenditures – All"
+      "name": "Total Expenditures – All",
+      "metric_flyout_over_time_title":"All Funds Expenditure Over Time title"
     }
   }
 },{
@@ -688,7 +690,8 @@
   "domain_id": "first_rating",
   "translations": {
     "en": {
-      "name": "Rating"
+      "name": "Rating",
+      "metric_flyout_over_time_title":"Over Time title"
     }
   }
 },{
@@ -713,7 +716,9 @@
   "translations": {
     "en": {
       "name": "Debt per Student",
-      "metric_display_title":"Debt per Student"
+      "metric_display_title":"Debt per Student",
+      "metric_flyout_comparison_title":"Comparison title",
+      "metric_flyout_over_time_title":"Over Time title""
     }
   }
 },{
