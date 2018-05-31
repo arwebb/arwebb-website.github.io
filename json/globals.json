@@ -113,17 +113,13 @@
 	"translations": {
 		"en": {
 			"intro_screen": {
-				"image": "assets/img/School@2x.png",
-				"image_alternate_text": "School",
-				"short_text": "Welcome to The TEA School Finder!",
-				"long_text": "This site will help you search for schools based on what matters most to you.",
-				"main_prompt_text": "Explore Schools",
-				"address_placeholder_text": "Enter an address or zip code in Texas",
-				"cannot_find_address_text": "We cannot find this address. Please re-enter it or try a new address. Please note, our site will not find addresses outside the state of Texas. Click here to use an address in Texas.",
-				"cannot_find_address_url": "click here",
-				"school_lookup_text": "Jump Right to Your School",
-				"submit_button_text": "Enter Finder",
-				"multiple_addreses_text": "We found multiple addresses. Which one did you want?",
+				"image_desktop": "http://via.placeholder.com/720x720",
+				"image_mobile": "http://via.placeholder.com/350x150",
+				"image_alternate_text": "Image representing Texas",
+				"long_text": "Curabitur a quam ornare, venenatis nisl sit amet, cursus purus. Fusce ac luctus lacus, quis posuere felis. Cras pulvinar felis turpis, non fermentum est luctus ut. Pellentesque ac convallis mi. Nam est ex, blandit eu nunc faucibus, laoreet pulvinar odio.",
+				"main_prompt_text": "Explore A List of Campuses or Districts",
+				"or_text": "Or",
+				"submit_button_text": "View List",
 				"no_results_text": "No school names match your search",
 				"placeholder_text": "Search by school name"
 			},
