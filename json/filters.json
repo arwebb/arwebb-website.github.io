@@ -1,0 +1,33 @@
+[{
+  "id": "entity_type",
+  "prompt_text": "Select an Entity Type",
+  "value": [{
+    "value": "district",
+    "display_text": "Districts"
+  }, {
+    "value": "campus",
+    "display_text": "Campuses"
+  }]
+}, {
+  "id": "county",
+  "display_text": "Filter by county",
+  "any_text": "All counties",
+  "entity_type": ["district"],
+  "value": [{
+    "value": "Philadelphia"
+  }, {
+    "value": "Delaware"
+  }]
+}, {
+  "id": "district",
+  "display_text": "Filter by school district",
+  "entity_type": ["campus"],
+  "any_text": "All districts",
+  "value": [{
+    "value": "full-tembo-school-district",
+    "display_text": "Full Tembo School District"
+  }, {
+    "value": "empty-tembo-school-district",
+    "display_text": "Empty Tembo School District"
+  }]
+}]
