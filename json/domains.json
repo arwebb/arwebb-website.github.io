@@ -96,7 +96,8 @@
 				"pdf_description":"School Progress pdf description copy",
 				"weighting_title": "School Progress Weighting Title",
 				"weighting_text_scored": "Scoring Measure",
-				"weighting_text_unscored": "Other Measures in This Section"
+				"weighting_text_unscored": "Other Measures in This Section",
+				"pdf_display_text":"The higher of Growth or Performance is used."
 			}
 		}
 	}, {
