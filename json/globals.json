@@ -234,6 +234,7 @@
 				"score_text":"Score",
 				"advanced_view_title": "Advanced View",
 				"total_weight": "100%",
+				"total_score":"100",
 				"weight_text": "Weight",
 				"weighting_link_prompt": "Click a domain name to jump to that section",
 				"download_data_text": "Download Data"
