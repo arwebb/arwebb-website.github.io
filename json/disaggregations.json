@@ -143,6 +143,15 @@
 		}
 	},
 	{
+		"id": "english_learner_cf",
+		"translations": {
+			"en": {
+				"name": "English Language Learner (CF)",
+				"display_title":"English Language Learner (Current and Former)"
+			}
+		}
+	},
+	{
 		"id": "special_education",
 		"translations": {
 			"en": {
