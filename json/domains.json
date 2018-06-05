@@ -45,6 +45,7 @@
 				"page_title": "Student Achievement",
 				"domain_display_title": "Student Achievement Domain and Score Title",
 				"description": "Student Achievement description copy",
+				"pdf_description":"Student Achievement pdf description copy",
 				"weighting_title": "Student Achievement Weighting Title",
 				"weighting_text_scored": "Scoring Measure",
 				"weighting_text_unscored": "Other Measures in This Section"
@@ -92,6 +93,7 @@
 				"page_title": "School Progress",
 				"domain_display_title": "School Progress Domain and Score Title",
 				"description": "School Progress description copy",
+				"pdf_description":"School Progress pdf description copy",
 				"weighting_title": "School Progress Weighting Title",
 				"weighting_text_scored": "Scoring Measure",
 				"weighting_text_unscored": "Other Measures in This Section"
@@ -131,6 +133,7 @@
 				"domain_display_title": "Closing the Gaps Domain and Score Title",
 				"weighting_title": "Closing the Gaps Weighting Title",
 				"description": "Closing the Gaps description copy",
+				"pdf_description":"Closing the Gaps PDF description copy",
 				"indicators_text": "Indicators",
 				"indicators_met_text": "Indicators Met",
 				"indicators_label_reading": "Reading Indicators",
