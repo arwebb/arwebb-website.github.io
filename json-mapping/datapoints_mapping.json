@@ -10,10 +10,10 @@
       "column": "metric_id"
     },
     "disaggregation_id": {
-      "column": "disaggregation"
+      "column": "disaggregation_id"
     },
     "disaggregation2_id": {
-      "column": "disaggregation2"
+      "column": "disaggregation2_id"
     },
     "year": {
       "column": "year"
@@ -101,7 +101,7 @@
     },
     "required": [
       "entity_id",
-      "year"      
+      "year"
     ]
   }
 }
