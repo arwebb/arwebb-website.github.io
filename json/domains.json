@@ -183,6 +183,7 @@
 			"en": {
 				"name": "Revenue",
 				"domain_display_title_district":"2016-17 District Funding",
+				"pdf_display_title":"How much district receive per student in 2016-2017",
 				"per_student_label":"per Student"
 			}
 		}
@@ -208,7 +209,8 @@
 		"translations": {
 			"en": {
 				"name": "First Rating",
-				"subdomain_display_title": "First Rating Title"
+				"subdomain_display_title": "First Rating Title",
+				"pdf_display_title":"Finance Rating (First)"
 			}
 		}
 	}, {
