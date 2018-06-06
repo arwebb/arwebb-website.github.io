@@ -71,6 +71,14 @@
 		}
 	},
 	{
+		"id": "all",
+		"translations": {
+			"en": {
+				"name": "All Students"
+			}
+		}
+	},
+	{
 		"id": "african_american",
 		"translations": {
 			"en": {
