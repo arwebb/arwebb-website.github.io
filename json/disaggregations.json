@@ -130,7 +130,8 @@
 		"id": "econ_dis",
 		"translations": {
 			"en": {
-				"name": "Economically Disadvantaged"
+				"name": "Economically Disadvantaged",
+				"display_text":"Economically Disadvantaged"
 			}
 		}
 	},
@@ -138,7 +139,8 @@
 		"id": "english_learner",
 		"translations": {
 			"en": {
-				"name": "English Language Learner"
+				"name": "English Language Learner",
+				"display_text":"English Learner"
 			}
 		}
 	},
@@ -155,7 +157,8 @@
 		"id": "special_education",
 		"translations": {
 			"en": {
-				"name": "Special Education"
+				"name": "Special Education",
+				"display_text":"Students Served by Special Education"
 			}
 		}
 	},
