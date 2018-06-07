@@ -32,7 +32,7 @@ CREATE TABLE [dbo].[campus](
   [S_SITE_LATITUDE] [numeric](10, 8) NULL,
   [S_SITE_LONGITUDE] [numeric](10, 8) NULL,
 	[alt_standards] [bit] NULL,
-	[county_id] [nvarchar](9) NOT NULL,
+	[county_id] [nvarchar](9) NULL,
 	[district_id] [nvarchar](9) NOT NULL,
 	[paired_id] [nvarchar](9) NULL,
  CONSTRAINT [campus_pk] PRIMARY KEY CLUSTERED 
@@ -162,7 +162,7 @@ CREATE TABLE [dbo].[district](
 	[alt_standards] [bit] NULL,
 	[single_campus_district] [bit] NULL,
 	[charter_district] [bit] NULL,
-	[county_id] [nvarchar](9) NOT NULL,
+	[county_id] [nvarchar](9) NULL,
 	[region_id] [nvarchar](9) NOT NULL,
  CONSTRAINT [district_pk] PRIMARY KEY CLUSTERED 
 (
