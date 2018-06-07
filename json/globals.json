@@ -196,7 +196,8 @@
 			"explore": {
 				"out_of_text": "out of 100",
 				"back_to_text": "Back to",
-				"profile_page_title": "Tembo School Profile",
+				"profile_page_title_campus": "Campus Profile",
+				"profile_page_title_district":"District Profile",
 				"campus_list_page_title_district": "List of All Campuses in this District",
 				"back_link_text": "Back to Finder",
 				"download_pdf_text_campus":"Download Campus PDF",
