@@ -157,7 +157,7 @@
 		"translations": {
 			"en": {
 				"name": "English Language Learner (CF)",
-				"display_title":"English Language Learner (Current and Former)"
+				"display_text":"English Language Learner (Current and Former)"
 			}
 		}
 	},
