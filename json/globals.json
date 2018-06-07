@@ -205,6 +205,8 @@
 				"drawer_open_subjects_label": "Hide Subject Results",
 				"drawer_closed_indicators_label":"View Individual Indicators",
 				"drawer_open_indicators_label":"Hide Individual Indicators",
+				"drawer_closed_criteria_label":"View Criteria",
+				"drawer_closed_criteria_label":"Hide Criteria",
 				"grades_served_label": "Grades",
 				"enrolled_students_label": "Students Enrolled",
 				"address_title": "Address",
