@@ -206,7 +206,7 @@
 				"drawer_closed_indicators_label":"View Individual Indicators",
 				"drawer_open_indicators_label":"Hide Individual Indicators",
 				"drawer_closed_criteria_label":"View Criteria",
-				"drawer_closed_criteria_label":"Hide Criteria",
+				"drawer_open_criteria_label":"Hide Criteria",
 				"grades_served_label": "Grades",
 				"enrolled_students_label": "Students Enrolled",
 				"address_title": "Address",
@@ -243,7 +243,6 @@
 				"total_weight": "100%",
 				"total_score":"100",
 				"weight_text": "Weight",
-				"weighting_link_prompt": "Click a domain name to jump to that section",
 				"download_data_text": "Download Data"
 			},
       "finance_comparison_group_list": {
