@@ -7,6 +7,8 @@
 				"campus_overview_title": "Campus Overview",
 				"overall_district_container": "2017-18 District Overall Performance",
 				"overall_campus_container": "2017-18 Campus Overall Performance",
+				"overall_district_second_title":"A New Way of Looking at Academic Performance",
+				"overall_campus_second_title":"A New Way of Looking at Academic Performance",
 				"overview_district_des": "Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your school district is performing in multiple areas.",
 				"overview_campus_des": "Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your child's school is performing in multiple areas."
 			}
@@ -44,6 +46,7 @@
 				"name": "Student Achievement",
 				"page_title": "Student Achievement",
 				"domain_display_title": "Student Achievement Domain and Score Title",
+				"overview_page_description":"Placeholder text",
 				"description": "Student Achievement description copy",
 				"pdf_description":"Student Achievement pdf description copy",
 				"weighting_title": "Student Achievement Weighting Title",
@@ -92,6 +95,7 @@
 				"name": "School Progress",
 				"page_title": "School Progress",
 				"domain_display_title": "School Progress Domain and Score Title",
+				"overview_page_description":"Placeholder text",
 				"description": "School Progress description copy",
 				"pdf_description":"School Progress pdf description copy",
 				"weighting_title": "School Progress Weighting Title",
@@ -132,6 +136,7 @@
 				"name": "Closing the Gaps",
 				"page_title": "Closing the Gaps",
 				"domain_display_title": "Closing the Gaps Domain and Score Title",
+				"overview_page_description":"Placeholder text",
 				"weighting_title": "Closing the Gaps Weighting Title",
 				"description": "Closing the Gaps description copy",
 				"pdf_description":"Closing the Gaps PDF description copy",
