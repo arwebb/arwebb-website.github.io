@@ -57,7 +57,7 @@ INSERT INTO entity VALUES
     ('6', 'tembo-charter-school', 'Tembo Charter School', 'campus'),
     ('7', 'se-pa', 'Southeastern Pennsylvania', 'region'),
     ('8', 'empty-tembo-school-district', 'Empty Tembo School District', 'district'),
-    ('9', 'empty-tembo-school', 'Empty Tembo School', 'campus'),;
+    ('9', 'empty-tembo-school', 'Empty Tembo School', 'campus');
     
 INSERT INTO state VALUES
     ('1', 'PA');
