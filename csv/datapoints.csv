@@ -481,3 +481,17 @@ missing-data-high-school,school_progress,school_progress_rating,,,2017,,,,,,No d
 missing-data-school-district,school_progress,school_progress_rating,,,2017,,,,,,No data at this time
 missing-data-high-school,school_progress,school_progress_points_earned,,,2017,,,,,,No data at this time
 missing-data-school-district,school_progress,school_progress_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,student_growth,student_growth_points_earned,,,2017,,,,,,No data at this time
+missing-data-school-district,student_growth,student_growth_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,student_growth,student_growth_student_growth_score,all,,2017,,,,,,No data at this time
+missing-data-high-school,student_growth,student_growth_student_growth_score,reading,,2017,,,,,,
+missing-data-high-school,student_growth,student_growth_student_growth_score,mathematics,,2017,,,,,,
+missing-data-school-district,student_growth,student_growth_student_growth_score,all,,2017,,,,,,No data at this time
+missing-data-school-district,student_growth,student_growth_student_growth_score,reading,,2017,,,,,,
+missing-data-school-district,student_growth,student_growth_student_growth_score,mathematics,,2017,,,,,,
+missing-data-high-school,relative_performance,relative_performance_points_earned,,,2017,,,,,,No data at this time
+missing-data-school-district,relative_performance,relative_performance_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,relative_performance,relative_performance_achievement,,,2017,,,,,,No data at this time
+missing-data-high-school,relative_performance,relative_performance_econ_dis,,,2017,,,,,,No data at this time
+missing-data-school-district,relative_performance,relative_performance_achievement,,,2017,,,,,,No data at this time
+missing-data-school-district,relative_performance,relative_performance_econ_dis,,,2017,,,,,,No data at this time
