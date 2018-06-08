@@ -23,7 +23,7 @@
     "en": {
       "grades": [{
         "name": "Kindergarten",
-        "short_name": "K"  
+        "short_name": "K"
       },{
         "name": "Grade 1",
         "short_name": "1"
@@ -66,7 +66,7 @@
     "en": {
       "grades": [{
         "name": "Grade 9",
-        "short_name": "9"  
+        "short_name": "9"
       },{
         "name": "Grade 10",
         "short_name": "10"
@@ -90,7 +90,7 @@
     "en": {
       "grades": [{
         "name": "Kindergarten",
-        "short_name": "K"  
+        "short_name": "K"
       },{
         "name": "Grade 1",
         "short_name": "1"
@@ -120,7 +120,7 @@
     "en": {
       "grades": [{
         "name": "Grade 9",
-        "short_name": "9"  
+        "short_name": "9"
       },{
         "name": "Grade 10",
         "short_name": "10"
@@ -133,7 +133,31 @@
       }]
     }
   }
-},{
+}, {
+  "id": "missing-data-high-school",
+  "name": "Missing Data High School",
+  "slug": "missing-data-high-school",
+  "type": "campus",
+  "district_id": "missing-data-school-district",
+  "campus_type": "High",
+  "translations": {
+    "en": {
+      "grades": [{
+        "name": "Grade 9",
+        "short_name": "9"
+      },{
+        "name": "Grade 10",
+        "short_name": "10"
+      },{
+        "name": "Grade 11",
+        "short_name": "11"
+      },{
+        "name": "Grade 12",
+        "short_name": "12"
+      }]
+    }
+  }
+}, {
   "id": "k2-tembo-school",
   "name": "K2 Tembo School",
   "slug": "k2-tembo-school",
@@ -156,7 +180,7 @@
     "en": {
       "grades": [{
         "name": "Kindergarten",
-        "short_name": "K"  
+        "short_name": "K"
       },{
         "name": "Grade 1",
         "short_name": "1"
@@ -191,6 +215,12 @@
   "id": "empty-tembo-school-district",
   "name": "Empty Tembo School District",
   "slug": "empty-tembo-school-district",
+  "type": "district",
+  "region_id": "tembo-region"
+},{
+  "id": "missing-data-school-district",
+  "name": "Missing Data School District",
+  "slug": "missing-data-school-district",
   "type": "district",
   "region_id": "tembo-region"
 },{
