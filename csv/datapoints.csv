@@ -683,7 +683,6 @@ missing-data-high-school,overall_performance,overall_performance_points_earned,,
 missing-data-school-district,overall_performance,overall_performance_points_earned,,,2017,,,,,,No data at this time
 missing-data-school-district,ccm_readiness,ccm_readiness_points_earned,,,2017,,,,,,No data at this time
 missing-data-school-district,ctg_elp,ctg_elp_weight,,,2017,,,,,,No data at this time
-missing-data-high-school,staar_performance,staar_performance_weight,,,2017,,,,,,No data at this time
 missing-data-high-school,ctg_achievement,ctg_achievement_weight,,,2017,,,,,,No data at this time
 missing-data-high-school,ctg_elp,ctg_elp_weight,,,2017,,,,,,No data at this time
 missing-data-school-district,graduation_rate,graduation_rate_points_earned,,,2017,,,,,,No data at this time
