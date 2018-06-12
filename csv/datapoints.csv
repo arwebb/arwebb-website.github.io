@@ -696,3 +696,7 @@ missing-data-school-district,ctg_elp,ctg_elp_weight,,,2017,,,,,,No data at this 
 missing-data-school-district,revenue,revenue_per_stud_all,,,2017,,,,,,No data at this time
 missing-data-school-district,revenue,revenue_per_stud_all_peer,,,2017,,,,,,No data at this time
 missing-data-school-district,first_rating,first_rating_score,,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_points_earned,,,2017,,,,,,No data at this time
+missing-data-school-district,ccm_readiness,ccm_readiness_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_points_earned,,,2017,,,,,,No data at this time
