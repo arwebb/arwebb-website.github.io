@@ -126,7 +126,8 @@
 			},
 			"header": {
 				"spanish_text": "Español",
-				"language_confirmation_text": "OK"
+				"language_confirmation_text": "OK",
+				"search_display_text":"Search"
 			},
 			"find": {
 				"finder_page_title": "TEA School Finder",
