@@ -11,7 +11,7 @@ full-tembo-high-school,distinctions,distinction_post_secondary_readiness,,,2017,
 full-tembo-high-school,student_achievement,student_achievement_rating,,,2017,Met Standard,,,,,
 full-tembo-high-school,student_achievement,student_achievement_points_earned,,,2017,15,,,,,
 full-tembo-high-school,student_achievement,student_achievement_weight,,,2017,56,,,,,
-full-tembo-high-school,staar_performance,staar_performance_weight,,,2017,55,,,,,
+full-tembo-high-school,staar_performance,staar_performance_weight,,,2017,55,,1,,,
 full-tembo-high-school,staar_performance,staar_performance_points_earned,,,2017,57,,,,,
 full-tembo-high-school,staar_performance,staar_performance_approaches_gl,all,,2017,15,,,,,
 full-tembo-high-school,staar_performance,staar_performance_approaches_gl,reading,,2017,11,,,,,
@@ -31,7 +31,7 @@ full-tembo-high-school,staar_performance,staar_performance_masters_gl,mathematic
 full-tembo-high-school,staar_performance,staar_performance_masters_gl,science,,2017,95,,,,,
 full-tembo-high-school,staar_performance,staar_performance_masters_gl,social_studies,,2017,8,,,,,
 full-tembo-high-school,staar_performance,staar_performance_masters_gl,writing,,2017,25,,,,,
-full-tembo-high-school,ccm_readiness,ccm_readiness_weight,,,2017,55,,,,,
+full-tembo-high-school,ccm_readiness,ccm_readiness_weight,,,2017,55,,1,,,
 full-tembo-high-school,ccm_readiness,ccm_readiness_points_earned,,,2017,2,,,,,
 full-tembo-high-school,ccm_readiness,ccm_readiness_ccm_ready_rate,,,2017,44,,,,,
 full-tembo-high-school,ccm_readiness,ccm_readiness_ap_ib,,,2017,65,,,,,
@@ -42,7 +42,7 @@ full-tembo-high-school,ccm_readiness,ccm_readiness_industry_cert,,,2017,36,,,,,
 full-tembo-high-school,ccm_readiness,ccm_readiness_iep,,,2017,42,,,,,
 full-tembo-high-school,ccm_readiness,ccm_readiness_us_armed_forces,,,2017,53,,,,,
 full-tembo-high-school,ccm_readiness,ccm_readiness_cte_aligned,,,2017,50,,,,,
-full-tembo-high-school,graduation_rate,graduation_rate_weight,,,2017,17,,,,,
+full-tembo-high-school,graduation_rate,graduation_rate_weight,,,2017,17,,1,,,
 full-tembo-high-school,graduation_rate,graduation_rate_points_earned,,,2017,78,,,,,
 full-tembo-high-school,graduation_rate,graduation_rate_4yr,,,2017,72,,,,,
 full-tembo-high-school,graduation_rate,graduation_rate_5yr,,,2017,88,,,,,
@@ -163,7 +163,7 @@ full-tembo-school-district,distinctions,distinction_post_secondary_readiness,,,2
 full-tembo-school-district,student_achievement,student_achievement_rating,,,2017,B,,,,,
 full-tembo-school-district,student_achievement,student_achievement_points_earned,,,2017,86,,,,,
 full-tembo-school-district,student_achievement,student_achievement_weight,,,2017,82,,,,,
-full-tembo-school-district,staar_performance,staar_performance_weight,,,2017,35,,,,,
+full-tembo-school-district,staar_performance,staar_performance_weight,,,2017,35,,1,,,
 full-tembo-school-district,staar_performance,staar_performance_points_earned,,,2017,84,,,,,
 full-tembo-school-district,staar_performance,staar_performance_approaches_gl,all,,2017,28,,,,,
 full-tembo-school-district,staar_performance,staar_performance_approaches_gl,reading,,2017,86,,,,,
@@ -183,7 +183,7 @@ full-tembo-school-district,staar_performance,staar_performance_masters_gl,mathem
 full-tembo-school-district,staar_performance,staar_performance_masters_gl,science,,2017,17,,,,,
 full-tembo-school-district,staar_performance,staar_performance_masters_gl,social_studies,,2017,2,,,,,
 full-tembo-school-district,staar_performance,staar_performance_masters_gl,writing,,2017,94,,,,,
-full-tembo-school-district,ccm_readiness,ccm_readiness_weight,,,2017,52,,,,,
+full-tembo-school-district,ccm_readiness,ccm_readiness_weight,,,2017,52,,0,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_points_earned,,,2017,85,,,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_ccm_ready_rate,,,2017,95,,,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_ap_ib,,,2017,77,,,,,
@@ -194,7 +194,7 @@ full-tembo-school-district,ccm_readiness,ccm_readiness_industry_cert,,,2017,69,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_iep,,,2017,22,,,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_us_armed_forces,,,2017,55,,,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_cte_aligned,,,2017,71,,,,,
-full-tembo-school-district,graduation_rate,graduation_rate_weight,,,2017,22,,,,,
+full-tembo-school-district,graduation_rate,graduation_rate_weight,,,2017,22,,0,,,
 full-tembo-school-district,graduation_rate,graduation_rate_points_earned,,,2017,42,,,,,
 full-tembo-school-district,graduation_rate,graduation_rate_4yr,,,2017,97,,,,,
 full-tembo-school-district,graduation_rate,graduation_rate_5yr,,,2017,60,,,,,
@@ -679,3 +679,65 @@ missing-data-school-district,ctg_elp,ctg_elp_indicator_met,mathematics,special_e
 missing-data-school-district,ctg_elp,ctg_elp_indicator_met,mathematics,cont_enrolled,2017,,,,,,No data at this time
 missing-data-school-district,ctg_elp,ctg_elp_indicator_met,mathematics,non_cont_enrolled,2017,,,,,,No data at this time
 missing-data-school-district,ctg_sqss,ctg_sqss_percent_indicators_met,,,2017,,,,,,No data at this time
+missing-data-high-school,student_achievement,student_achievement_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,student_achievement,student_achievement_rating,,,2017,,,,,,No data at this time
+missing-data-high-school,student_achievement,staar_performance_weight,,,2017,35,,1,,,
+missing-data-high-school,student_achievement,ccm_readiness_weight,,,2017,35,,1,,,
+missing-data-high-school,student_achievement,graduation_rate_weight,,,2017,30,,1,,,
+missing-data-school-district,student_achievement,student_achievement_points_earned,,,2017,,,,,,No data at this time
+missing-data-school-district,student_achievement,student_achievement_rating,,,2017,,,,,,No data at this time
+missing-data-school-district,student_achievement,staar_performance_weight,,,2017,,,1,,,
+missing-data-school-district,student_achievement,ccm_readiness_weight,,,2017,,,0,,,
+missing-data-school-district,student_achievement,graduation_rate_weight,,,2017,,,0,,,
+missing-data-high-school,staar_performance,staar_performance_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_approaches_gl,all,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_approaches_gl,reading,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_approaches_gl,mathematics,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_approaches_gl,science,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_approaches_gl,social_studies,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_approaches_gl,writing,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_meets_gl,all,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_meets_gl,reading,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_meets_gl,mathematics,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_meets_gl,science,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_meets_gl,social_studies,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_meets_gl,writing,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_masters_gl,all,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_masters_gl,reading,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_masters_gl,mathematics,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_masters_gl,science,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_masters_gl,social_studies,,2017,,,,,,No data at this time
+missing-data-high-school,staar_performance,staar_performance_masters_gl,writing,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_ccm_ready_rate,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_ap_ib,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_tsi,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_college_prep,,,2017,85,,,,,
+missing-data-high-school,ccm_readiness,ccm_readiness_dual_credit,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_assoc_degree,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_industry_cert,,,2017,,,,,,No data at this time
+missing-data-high-school,ccm_readiness,ccm_readiness_us_armed_forces,,,2017,,,,,,No data at this time
+missing-data-high-school,graduation_rate,graduation_rate_points_earned,,,2017,,,,,,No data at this time
+missing-data-high-school,graduation_rate,graduation_rate_4yr,,,2017,,,,,,No data at this time
+missing-data-high-school,graduation_rate,graduation_rate_5yr,,,2017,40,,,,,
+missing-data-high-school,graduation_rate,graduation_rate_6yr,,,2017,,,,,,No data at this time
+missing-data-high-school,graduation_rate,graduation_rate_dropout,,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_points_earned,,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_approaches_gl,all,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_approaches_gl,reading,,2017,35,,,,,
+missing-data-school-district,staar_performance,staar_performance_approaches_gl,mathematics,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_approaches_gl,science,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_approaches_gl,social_studies,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_approaches_gl,writing,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_meets_gl,all,,2017,50,,,,,
+missing-data-school-district,staar_performance,staar_performance_meets_gl,reading,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_meets_gl,mathematics,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_meets_gl,science,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_meets_gl,social_studies,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_meets_gl,writing,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_masters_gl,all,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_masters_gl,reading,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_masters_gl,mathematics,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_masters_gl,science,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_masters_gl,social_studies,,2017,,,,,,No data at this time
+missing-data-school-district,staar_performance,staar_performance_masters_gl,writing,,2017,,,,,,No data at this time
