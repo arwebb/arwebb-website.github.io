@@ -27,7 +27,7 @@
 		"domain_id": "distinctions",
 		"translations": {
 			"en": {
-				"name": "Academic Achievement – Reading"
+				"name": "Academic Achievement in ELA/Reading"
 			}
 		}
 	}, {
@@ -35,7 +35,7 @@
 		"domain_id": "distinctions",
 		"translations": {
 			"en": {
-				"name": "Academic Achievement – Mathematics"
+				"name": "Academic Achievement in Mathematics"
 			}
 		}
 	}, {
@@ -43,7 +43,7 @@
 		"domain_id": "distinctions",
 		"translations": {
 			"en": {
-				"name": "Academic Achievement – Science"
+				"name": "Academic Achievement in Science"
 			}
 		}
 	}, {
@@ -51,7 +51,7 @@
 		"domain_id": "distinctions",
 		"translations": {
 			"en": {
-				"name": "Academic Achievement – Social Studies"
+				"name": "Academic Achievement in Social Studies"
 			}
 		}
 	}, {
@@ -59,7 +59,7 @@
 		"domain_id": "distinctions",
 		"translations": {
 			"en": {
-				"name": "Top 25 in Student Progress"
+				"name": "Top 25 Percent Student Progress"
 			}
 		}
 	}, {
@@ -67,7 +67,7 @@
 		"domain_id": "distinctions",
 		"translations": {
 			"en": {
-				"name": "Top 25 in Closing the Gaps"
+				"name": "Top 25 Percent Closing Performance Gaps"
 			}
 		}
 	}, {
