@@ -464,7 +464,9 @@
 		"domain_id": "ctg_achievement",
 		"translations": {
 			"en": {
-				"name": "Indicator Met"
+				"name": "Indicator Met",
+				"reading_label":"Reading",
+				"mathematics_label":"Mathematics"
 			}
 		}
 	}, {
@@ -504,7 +506,10 @@
 		"domain_id": "ctg_growth",
 		"translations": {
 			"en": {
-				"name": "Indicator Met"
+				"name": "Indicator Met",
+				"reading_label":"Reading",
+				"mathematics_label":"Mathematics",
+				"graduation_label":"Graduation"
 			}
 		}
 	}, {
@@ -516,11 +521,12 @@
 			}
 		}
 	}, {
-		"id": "ctg_elp_total_indicators_met",
+		"id": "ctg_elp_total_indicator_met",
 		"domain_id": "ctg_elp",
 		"translations": {
 			"en": {
-				"name": "Total Indicators Met"
+				"name": "Total Indicators Met",
+				"telpas_progress_rate_label":"Progress Rate"
 			}
 		}
 	}, {
@@ -584,7 +590,9 @@
 		"domain_id": "ctg_sqss",
 		"translations": {
 			"en": {
-				"name": "Indicator Met"
+				"name": "Indicator Met",
+				"student_achievement_domain_score_label":"Student Achievement",
+				"ccm_ready_rate_label":"Ready Rate"
 			}
 		}
 	}, {

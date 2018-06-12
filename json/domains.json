@@ -141,9 +141,7 @@
 				"description": "Closing the Gaps description copy",
 				"pdf_description":"Closing the Gaps PDF description copy",
 				"indicators_text": "Indicators",
-				"indicators_met_text": "Indicators Met",
-				"indicators_label_reading": "Reading Indicators",
-				"indicators_label_math": "Mathematics Indicators"
+				"indicators_met_text": "Indicators Met"
 			}
 		}
 	}, {
