@@ -752,3 +752,5 @@ missing-data-school-district,staar_performance,staar_performance_masters_gl,math
 missing-data-school-district,staar_performance,staar_performance_masters_gl,science,,2017,,,,,,No data at this time
 missing-data-school-district,staar_performance,staar_performance_masters_gl,social_studies,,2017,,,,,,No data at this time
 missing-data-school-district,staar_performance,staar_performance_masters_gl,writing,,2017,,,,,,No data at this time
+full-tembo-high-school,ccm_readiness,ccm_readiness_college_prep,,,2017,79,,,,,
+full-tembo-school-district,ccm_readiness,ccm_readiness_college_prep,,,2017,42,,,,,

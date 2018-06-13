@@ -198,6 +198,15 @@
 			}
 		}
 	}, {
+		"id": "ccm_readiness_college_prep",
+		"domain_id": "ccm_readiness",
+		"translations": {
+			"en": {
+				"name": "College Prep",
+				"metric_display_title": "College Prep Display Title"
+			}
+		}
+	}, {
 		"id": "ccm_readiness_dual_credit",
 		"domain_id": "ccm_readiness",
 		"translations": {
