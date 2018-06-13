@@ -39,7 +39,231 @@
       },{
         "name": "Grade 5",
         "short_name": "5"
-      }]
+      }],
+      "modal_content": {
+        "district_overview_overall_grade": [
+          {
+            "title": "District Overview – Overall Grade 1",
+            "value": "<p>A–F/campus ratings are used to show how well districts and schools are meeting the needs of all students and how well they are preparing them for success after high school. Much like the grades students receive, these ratings can help schools improve over time.</p>"
+          },
+          {
+            "title": "District Overview – Overall Grade 2",
+            "value": "<p>Schools that earn an <strong>A</strong> (90–100) for <strong>exemplary</strong> performance serve most students well, and almost all students demonstrate appropriate academic growth. Most students are on track to be prepared for success after high school.<p>"
+          },
+          {
+            "title": "District Overview – Overall Grade 3",
+            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"    
+          }
+        ],
+        "district_overview_student_achievement": [
+          {
+            "title": "District Overview – Student Achievement 1",
+            "value": "<p>Student Achievement uses student performance on the State of Texas Assessment of Academic Readiness or STAAR test. In high school, it also measures how many graduates are ready college, the workforce, or the military.</p>"
+          },
+          {
+            "title": "District Overview – Student Achievement 2",
+            "value": "<p>Schools earn an <strong>A</strong> (90–100) for the <strong>exemplary</strong> achievement of students when at least 60% of students meet grade level [HS ONLY: and at least 60% of graduates are college ready, obtain a specialized career credential, or enlist in the military]</p>"
+          }
+        ],
+        "district_overview_school_progress": [
+          {
+            "title": "District Overview – School Progress 1",
+            "value": "<p>School Progress shows much students are learning and improving from one year to the next. It also looks at the level of student achievement compared to similar schools.</p>"
+          },
+          {
+            "title": "District Overview – School Progress 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary progress with students when</p><ul><li>about 80% or more of students have made a year’s worth of academic gains, or</li><li>a school’s achievement is far above average compared to similar schools.</li></ul>"
+          }
+        ],
+        "district_overview_closing_gaps": [
+          {
+            "title": "District Overview – Closing the Gaps 1",
+            "value": "<p>Closing the gaps looks at how well different populations of students are performing and is meant to help ensure all students receive a quality education.</p>"
+          },
+          {
+            "title": "District Overview – Closing the Gaps 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary work at closing performance gaps when</p><ul><li>for elementary schools, 95% or more of student groups have met the state goals.</li><li>for middle schools, 90% or more of student groups have met the state goals.</li><li>for high schools and districts, 95% or more of student groups have met the state goals.</li></ul>"
+          }
+        ],
+        "district_overview_distinctions": [
+          {
+            "title": "District Overview – Distinctions",
+            "value": "<p>Districts that receive an accountability rating of <em>A, B, C, or D</em> are eligible to earn a <strong>distinction designation</strong>. Distinction designations are awarded for achievement in several areas and are based on performance relative other districts.</p>"
+          }
+        ],
+        "student_achievement_domain_grade": [
+          {
+            "title": "Student Achievement – Domain Grade 1",
+            "value": "<p>Student Achievement uses student performance STAAR test. In high school, it also measures how many graduates are ready college, the workforce, or the military.</p>"
+          },
+          {
+            "title": "Student Achievement – Domain Grade 2",
+            "value": "<p>Schools earn an A (90–100) for the exemplary achievement of students when</p><ul><li>at least 60% of students meet grade level [HS ONLY: and at least 60% of graduates are college ready, obtain a specialized career credential, or enlist in the military].</li></ul>"
+          }
+        ],
+        "student_achievement_domain_weighting": [
+          {
+            "title": "Student Achievement – Domain Weighting",
+            "value": "<p>STAAR performance, along with graduation rates and college and career readiness are used to calculate the student achievement rating. CCM Readiness is based on the number of graduates that qualify as college, career or military ready.</p><p>(insert measure) counts more than (insert measure) and (insert measure).</p>"
+          }
+        ],
+        "student_achievement_staar_performance": [
+          {
+            "title": "Student Achievement – STAAR Performance",
+            "value": "<p>Students in grades 3 – 8 take the STAAR test in reading and math. Students in grades (insert grades) take a social studies test, and those in grades (insert grades) take a science and writing test. In high school, students take STAAR tests after completing courses in …</p>"
+          }
+        ],
+        "student_achievement_ccmr": [
+          {
+            "title": "Student Achievement – College, Career, and Military Readiness",
+            "value": "<p>There are several ways a student can demonstrate college, career or military readiness. These include earning minimum scores on national college entrance exams, completing college-level classes in high school, or earning a qualifying industry credential. This measure illustrates the percentage of students who have met one of these criteria to demonstrate they are ready for one of those paths.</p>"
+          }
+        ],
+        "student_achievement_graduation_rate": [
+          {
+            "title": "Student Achievement – Graduation Rate",
+            "value": "<p>The graduation rate is from the class of (insert year).  If graduation rate is not available due to limited data, annual dropout rate is used instead.</p>"
+          }
+        ],
+        "school_progress_overall_grade": [
+          {
+            "title": "School Progress – Overall Grade 1",
+            "value": "<p>School Progress shows much students are learning and improving from one year to the next. It also looks at the level of student achievement compared to similar schools.</p>"
+          },
+          {
+            "title": "School Progress – Overall Grade 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary progress with students when</p><ul><li>about 80% or more of students have made a year’s worth of academic gains, or</li><li>a school’s achievement is far above average compared to similar schools.</li></ul>"
+          }
+        ],
+        "school_progress_narrative": [
+          {
+            "title": "School Progress – Narrative",
+            "value": "<p>The category above where the school earns a higher performance is what is used as the School Progress score in calculating the overall rating.</p>"
+          }
+        ],
+        "school_progress_academic_growth": [
+          {
+            "title": "School Progress – Academic Growth 1",
+            "value": "<p>Only students who have been tested in reading or math in consecutive years contribute to this component.</p>"
+          },
+          {
+            "title": "School Progress – Academic Growth 2",
+            "value": "<p>Each assessment result contributes zero, one-half, or one point to the calculation depending on the degree of student growth from the previous to the current year.</p>"
+          }
+        ],
+        "school_progress_relative_performance": [
+          {
+            "title": "School Progress – Relative Performance",
+            "value": "<p>Relative performance is determined by looking at a school's performance on the STAAR tests and the College and Career Readiness measure relative to the percentage of economically disadvantaged students at the school.</p>"
+          }
+        ],
+        "closing_gaps_overall_grade": [
+          {
+            "title": "Closing the Gaps – Overall Grade 1",
+            "value": "<p>Closing the gaps looks at how well different populations of students are performing and is meant to help ensure all students receive a quality education. Higher grades are awarded if all groups of students are doing well in terms of academic growth and student achievement.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Overall Grade 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary work at closing performance gaps when</p><ul><li>for elementary schools, 95% or more of student groups have met the state goals.</li><li>for middle schools, 90% or more of student groups have met the state goals.</li><li>for high schools and districts, 95% or more of student groups have met the state goals.</li></ul>"
+          }
+        ],
+        "closing_gaps_domain_grade_weighting": [
+          {
+            "title": "Closing the Gaps – Domain Grade Weighting",
+            "value": "<p>High schools have different calculations of the above categories than elementary and middle schools.</p>"
+          }
+        ],
+        "closing_gaps_academic_achievement": [
+          {
+            "title": "Closing the Gaps – Academic Achievement 1",
+            "value": "<p>Each group of students has a performance target set that is measured by the STAAR test. This shows whether each group of students met their target.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Academic Achievement 2",
+            "value": "<p>This component is worth 30% for elementary and middle schools and 50% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "closing_gaps_growth_graduation_rate": [
+          {
+            "title": "Closing the Gaps – Growth/Graduation Rate 1",
+            "value": "<p>Growth: Growth shows whether each group of students made expected progress from one year to the next in reading and math.</p><p>Graduation Rate: The percentage of students in each group that are graduating on time.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Growth/Graduation Rate 2",
+            "value": "<p>This component is worth 50% for elementary and middle schools and 10% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "closing_gaps_english_language_proficiency": [
+          {
+            "title": "Closing the Gaps – English Language Proficiency",
+            "value": "<p>This component looks at how well English learners are doing in meeting their targets in each subject.</p>"
+          }
+        ],
+        "closing_gaps_student_quality_success": [
+          {
+            "title": "Closing the Gaps – Student Quality Success 1",
+            "value": "<p>Elem & Middle: This component shows whether each group of students met their targets on the STAAR test.</p><p>High school: This component shows the college, career, and military readiness for each group of students.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Student Quality Success 2",
+            "value": "<p>This component is worth 10% for elementary and middle schools and 30% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "profile_enrollment_ecodis": [
+          {
+            "title": "Profile – Enrollment – Economically Disadvantaged",
+            "value": "<p>Students who are eligible for free or reduced lunches.</p>"
+          }
+        ],
+        "profile_enrollment_english_learners": [
+          {
+            "title": "Profile – Enrollment – English Learners",
+            "value": "<p>Students whose primary language is one other than English and who are in the process of acquiring English. The terms “English Language Learner,” “English Learner,” and “Limited English Proficient” (LEP) are used interchangeably.</p>"
+          }
+        ],
+        "profile_enrollment_sped": [
+          {
+            "title": "Profile – Enrollement – Special Education",
+            "value": "<p>The population of students who receives special education services.</p>"
+          }
+        ],
+        "finance_receive_spend": [
+          {
+            "title": "Finance – Receive and Spend 1",
+            "value": "<p><strong>How much does my district / charter school receive?</strong> Funding, also known as revenue, describes the funds received by a district and/or a charter school. All Funds consists of four fundamental fund groups: General Funds, Special Revenue Funds, Debt Service Funds, and Capital Project Funds. General funds are derived from local property taxes, the State Foundation School Program the state Available School Fund (ASF), and federal dollars from indirect cost revenue generated from federal grants and Medicaid reimbursements (SHARS). Special revenue funds include state and federal formula funding and grant funds for special education and low income students. Debt service funds are collected through local property tax collections approved by voters for bond projects.</p>"
+          },
+          {
+            "title": "Finance – Receive and Spend 2",
+            "value": "<p><strong>How much does my district / charter school spend?</strong> Spending is also known as expenditures. All Funds consists of four fundamental fund groups: General Funds, Special Revenue Funds, Debt Service Funds, and Capital Project Funds. General funds are spent on the day to day operations including teacher salaries, student transportation, utilities, technology, etc. Special revenue funds are spent on food services, supplemental education for students receiving free and reduced lunch and special education. Debt service funds pay for bond interest and principal. Capital project funds are spent on projects approved through voter bonds and can include expenditures for buildings and school buses.</p><p>Note: Charter schools do not have debt service funds. I would prefer to omit the debt service language for charters.<p>"
+          },
+          {
+            "title": "Finance – Receive and Spend 3",
+            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"    
+          }
+        ],
+        "finance_first_rating": [
+          {
+            "title": "Finance – First Rating 1",
+            "value": "<p>The state's school financial accountability rating system, known as the School Financial Integrity Rating System of Texas (FIRST), ensures that Texas public schools are held accountable for the quality of their financial management practices and that they improve those practices. The system is designed to encourage Texas public schools to better manage their financial resources to provide the maximum allocation possible for direct instructional purposes. For more information on FIRST ratings, please visit <a href='https://tea.texas.gov/index4.aspx?id=3864'>https://tea.texas.gov/index4.aspx?id=3864</a></p><p>Charter school link: <a href='https://tea.texas.gov/Finance_and_Grants/Financial_Accountability/Financial_Integrity_Rating_System_of_Texas_(FIRST)/School_FIRST_Rating_for_Charter_Schools/'>https://tea.texas.gov/Finance_and_Grants/Financial_Accountability/Financial_Integrity_Rating_System_of_Texas_(FIRST)/School_FIRST_Rating_for_Charter_Schools/</a></p>"
+          },
+          {
+            "title": "Finance – First Rating 2",
+            "value": "<p>Determination of Rating 2016-2017 Rating Year:</p><p>Did the district answer 'No' to Indicators 1, 3, 4, 5, or 2.A? If so, the school district's rating is F for Substandard Achievement regardless of points earned.</p><p>Determine the rating by the applicable number of points. (Indicators 6-15)</p><ul><li>A = Superior:  90-100</li><li>B = Above Standard:  80-89</li><li>C = Meets Standard:  60-79</li><li>F = Substandard Achievement:  <60</li></ul><p>To view the district / charter school entire FIRST report, please visit <a href='https://tealprod.tea.state.tx.us/First/forms/District.aspx?year=2015&district=<<CDN_Number>'>https://tealprod.tea.state.tx.us/First/forms/District.aspx?year=2015&district=<<CDN_Number></a></p><p>Charter ratings: <a href='https://pryor.tea.state.tx.us/Tea.CharterFirst.Web/Public/District.aspx'>https://pryor.tea.state.tx.us/Tea.CharterFirst.Web/Public/District.aspx</a></p>"
+          }
+        ],
+        "finance_debt": [
+          {
+            "title": "Finance – Debt",
+            "value": "<p>Districts and charter schools are required to report their debt payable on their audited annual financial statements. Non-current liabilities that are due within one year and due in more than one year are summed and then divided by the total number of students.</p>"
+          }
+        ],
+        "finance_debt_fast_growth": [
+          {
+            "title": "Finance – Debt – Fast Growth",
+            "value": "<p>WHAT IS A FAST-GROWTH SCHOOL DISTRICT? (DRAFT LANGUAGE).</p><p>To be identified as a fast-growth school district the following criteria must be met:</p><ol><li>Enrollment of at least 2,500 students during the previous school year; and</li><li>Enrollment growth over the last five years of at least 10%, or</li><li>A net increase of 3,500 or more students.</li></ol>"
+          }
+        ]
+      }
     }
   }
 },{
@@ -76,7 +300,231 @@
       },{
         "name": "Grade 12",
         "short_name": "12"
-      }]
+      }],
+      "modal_content": {
+        "district_overview_overall_grade": [
+          {
+            "title": "District Overview – Overall Grade 1",
+            "value": "<p>A–F/campus ratings are used to show how well districts and schools are meeting the needs of all students and how well they are preparing them for success after high school. Much like the grades students receive, these ratings can help schools improve over time.</p>"
+          },
+          {
+            "title": "District Overview – Overall Grade 2",
+            "value": "<p>Schools that earn an <strong>A</strong> (90–100) for <strong>exemplary</strong> performance serve most students well, and almost all students demonstrate appropriate academic growth. Most students are on track to be prepared for success after high school.<p>"
+          },
+          {
+            "title": "District Overview – Overall Grade 3",
+            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"    
+          }
+        ],
+        "district_overview_student_achievement": [
+          {
+            "title": "District Overview – Student Achievement 1",
+            "value": "<p>Student Achievement uses student performance on the State of Texas Assessment of Academic Readiness or STAAR test. In high school, it also measures how many graduates are ready college, the workforce, or the military.</p>"
+          },
+          {
+            "title": "District Overview – Student Achievement 2",
+            "value": "<p>Schools earn an <strong>A</strong> (90–100) for the <strong>exemplary</strong> achievement of students when at least 60% of students meet grade level [HS ONLY: and at least 60% of graduates are college ready, obtain a specialized career credential, or enlist in the military]</p>"
+          }
+        ],
+        "district_overview_school_progress": [
+          {
+            "title": "District Overview – School Progress 1",
+            "value": "<p>School Progress shows much students are learning and improving from one year to the next. It also looks at the level of student achievement compared to similar schools.</p>"
+          },
+          {
+            "title": "District Overview – School Progress 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary progress with students when</p><ul><li>about 80% or more of students have made a year’s worth of academic gains, or</li><li>a school’s achievement is far above average compared to similar schools.</li></ul>"
+          }
+        ],
+        "district_overview_closing_gaps": [
+          {
+            "title": "District Overview – Closing the Gaps 1",
+            "value": "<p>Closing the gaps looks at how well different populations of students are performing and is meant to help ensure all students receive a quality education.</p>"
+          },
+          {
+            "title": "District Overview – Closing the Gaps 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary work at closing performance gaps when</p><ul><li>for elementary schools, 95% or more of student groups have met the state goals.</li><li>for middle schools, 90% or more of student groups have met the state goals.</li><li>for high schools and districts, 95% or more of student groups have met the state goals.</li></ul>"
+          }
+        ],
+        "district_overview_distinctions": [
+          {
+            "title": "District Overview – Distinctions",
+            "value": "<p>Districts that receive an accountability rating of <em>A, B, C, or D</em> are eligible to earn a <strong>distinction designation</strong>. Distinction designations are awarded for achievement in several areas and are based on performance relative other districts.</p>"
+          }
+        ],
+        "student_achievement_domain_grade": [
+          {
+            "title": "Student Achievement – Domain Grade 1",
+            "value": "<p>Student Achievement uses student performance STAAR test. In high school, it also measures how many graduates are ready college, the workforce, or the military.</p>"
+          },
+          {
+            "title": "Student Achievement – Domain Grade 2",
+            "value": "<p>Schools earn an A (90–100) for the exemplary achievement of students when</p><ul><li>at least 60% of students meet grade level [HS ONLY: and at least 60% of graduates are college ready, obtain a specialized career credential, or enlist in the military].</li></ul>"
+          }
+        ],
+        "student_achievement_domain_weighting": [
+          {
+            "title": "Student Achievement – Domain Weighting",
+            "value": "<p>STAAR performance, along with graduation rates and college and career readiness are used to calculate the student achievement rating. CCM Readiness is based on the number of graduates that qualify as college, career or military ready.</p><p>(insert measure) counts more than (insert measure) and (insert measure).</p>"
+          }
+        ],
+        "student_achievement_staar_performance": [
+          {
+            "title": "Student Achievement – STAAR Performance",
+            "value": "<p>Students in grades 3 – 8 take the STAAR test in reading and math. Students in grades (insert grades) take a social studies test, and those in grades (insert grades) take a science and writing test. In high school, students take STAAR tests after completing courses in …</p>"
+          }
+        ],
+        "student_achievement_ccmr": [
+          {
+            "title": "Student Achievement – College, Career, and Military Readiness",
+            "value": "<p>There are several ways a student can demonstrate college, career or military readiness. These include earning minimum scores on national college entrance exams, completing college-level classes in high school, or earning a qualifying industry credential. This measure illustrates the percentage of students who have met one of these criteria to demonstrate they are ready for one of those paths.</p>"
+          }
+        ],
+        "student_achievement_graduation_rate": [
+          {
+            "title": "Student Achievement – Graduation Rate",
+            "value": "<p>The graduation rate is from the class of (insert year).  If graduation rate is not available due to limited data, annual dropout rate is used instead.</p>"
+          }
+        ],
+        "school_progress_overall_grade": [
+          {
+            "title": "School Progress – Overall Grade 1",
+            "value": "<p>School Progress shows much students are learning and improving from one year to the next. It also looks at the level of student achievement compared to similar schools.</p>"
+          },
+          {
+            "title": "School Progress – Overall Grade 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary progress with students when</p><ul><li>about 80% or more of students have made a year’s worth of academic gains, or</li><li>a school’s achievement is far above average compared to similar schools.</li></ul>"
+          }
+        ],
+        "school_progress_narrative": [
+          {
+            "title": "School Progress – Narrative",
+            "value": "<p>The category above where the school earns a higher performance is what is used as the School Progress score in calculating the overall rating.</p>"
+          }
+        ],
+        "school_progress_academic_growth": [
+          {
+            "title": "School Progress – Academic Growth 1",
+            "value": "<p>Only students who have been tested in reading or math in consecutive years contribute to this component.</p>"
+          },
+          {
+            "title": "School Progress – Academic Growth 2",
+            "value": "<p>Each assessment result contributes zero, one-half, or one point to the calculation depending on the degree of student growth from the previous to the current year.</p>"
+          }
+        ],
+        "school_progress_relative_performance": [
+          {
+            "title": "School Progress – Relative Performance",
+            "value": "<p>Relative performance is determined by looking at a school's performance on the STAAR tests and the College and Career Readiness measure relative to the percentage of economically disadvantaged students at the school.</p>"
+          }
+        ],
+        "closing_gaps_overall_grade": [
+          {
+            "title": "Closing the Gaps – Overall Grade 1",
+            "value": "<p>Closing the gaps looks at how well different populations of students are performing and is meant to help ensure all students receive a quality education. Higher grades are awarded if all groups of students are doing well in terms of academic growth and student achievement.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Overall Grade 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary work at closing performance gaps when</p><ul><li>for elementary schools, 95% or more of student groups have met the state goals.</li><li>for middle schools, 90% or more of student groups have met the state goals.</li><li>for high schools and districts, 95% or more of student groups have met the state goals.</li></ul>"
+          }
+        ],
+        "closing_gaps_domain_grade_weighting": [
+          {
+            "title": "Closing the Gaps – Domain Grade Weighting",
+            "value": "<p>High schools have different calculations of the above categories than elementary and middle schools.</p>"
+          }
+        ],
+        "closing_gaps_academic_achievement": [
+          {
+            "title": "Closing the Gaps – Academic Achievement 1",
+            "value": "<p>Each group of students has a performance target set that is measured by the STAAR test. This shows whether each group of students met their target.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Academic Achievement 2",
+            "value": "<p>This component is worth 30% for elementary and middle schools and 50% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "closing_gaps_growth_graduation_rate": [
+          {
+            "title": "Closing the Gaps – Growth/Graduation Rate 1",
+            "value": "<p>Growth: Growth shows whether each group of students made expected progress from one year to the next in reading and math.</p><p>Graduation Rate: The percentage of students in each group that are graduating on time.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Growth/Graduation Rate 2",
+            "value": "<p>This component is worth 50% for elementary and middle schools and 10% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "closing_gaps_english_language_proficiency": [
+          {
+            "title": "Closing the Gaps – English Language Proficiency",
+            "value": "<p>This component looks at how well English learners are doing in meeting their targets in each subject.</p>"
+          }
+        ],
+        "closing_gaps_student_quality_success": [
+          {
+            "title": "Closing the Gaps – Student Quality Success 1",
+            "value": "<p>Elem & Middle: This component shows whether each group of students met their targets on the STAAR test.</p><p>High school: This component shows the college, career, and military readiness for each group of students.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Student Quality Success 2",
+            "value": "<p>This component is worth 10% for elementary and middle schools and 30% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "profile_enrollment_ecodis": [
+          {
+            "title": "Profile – Enrollment – Economically Disadvantaged",
+            "value": "<p>Students who are eligible for free or reduced lunches.</p>"
+          }
+        ],
+        "profile_enrollment_english_learners": [
+          {
+            "title": "Profile – Enrollment – English Learners",
+            "value": "<p>Students whose primary language is one other than English and who are in the process of acquiring English. The terms “English Language Learner,” “English Learner,” and “Limited English Proficient” (LEP) are used interchangeably.</p>"
+          }
+        ],
+        "profile_enrollment_sped": [
+          {
+            "title": "Profile – Enrollement – Special Education",
+            "value": "<p>The population of students who receives special education services.</p>"
+          }
+        ],
+        "finance_receive_spend": [
+          {
+            "title": "Finance – Receive and Spend 1",
+            "value": "<p><strong>How much does my district / charter school receive?</strong> Funding, also known as revenue, describes the funds received by a district and/or a charter school. All Funds consists of four fundamental fund groups: General Funds, Special Revenue Funds, Debt Service Funds, and Capital Project Funds. General funds are derived from local property taxes, the State Foundation School Program the state Available School Fund (ASF), and federal dollars from indirect cost revenue generated from federal grants and Medicaid reimbursements (SHARS). Special revenue funds include state and federal formula funding and grant funds for special education and low income students. Debt service funds are collected through local property tax collections approved by voters for bond projects.</p>"
+          },
+          {
+            "title": "Finance – Receive and Spend 2",
+            "value": "<p><strong>How much does my district / charter school spend?</strong> Spending is also known as expenditures. All Funds consists of four fundamental fund groups: General Funds, Special Revenue Funds, Debt Service Funds, and Capital Project Funds. General funds are spent on the day to day operations including teacher salaries, student transportation, utilities, technology, etc. Special revenue funds are spent on food services, supplemental education for students receiving free and reduced lunch and special education. Debt service funds pay for bond interest and principal. Capital project funds are spent on projects approved through voter bonds and can include expenditures for buildings and school buses.</p><p>Note: Charter schools do not have debt service funds. I would prefer to omit the debt service language for charters.<p>"
+          },
+          {
+            "title": "Finance – Receive and Spend 3",
+            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"    
+          }
+        ],
+        "finance_first_rating": [
+          {
+            "title": "Finance – First Rating 1",
+            "value": "<p>The state's school financial accountability rating system, known as the School Financial Integrity Rating System of Texas (FIRST), ensures that Texas public schools are held accountable for the quality of their financial management practices and that they improve those practices. The system is designed to encourage Texas public schools to better manage their financial resources to provide the maximum allocation possible for direct instructional purposes. For more information on FIRST ratings, please visit <a href='https://tea.texas.gov/index4.aspx?id=3864'>https://tea.texas.gov/index4.aspx?id=3864</a></p><p>Charter school link: <a href='https://tea.texas.gov/Finance_and_Grants/Financial_Accountability/Financial_Integrity_Rating_System_of_Texas_(FIRST)/School_FIRST_Rating_for_Charter_Schools/'>https://tea.texas.gov/Finance_and_Grants/Financial_Accountability/Financial_Integrity_Rating_System_of_Texas_(FIRST)/School_FIRST_Rating_for_Charter_Schools/</a></p>"
+          },
+          {
+            "title": "Finance – First Rating 2",
+            "value": "<p>Determination of Rating 2016-2017 Rating Year:</p><p>Did the district answer 'No' to Indicators 1, 3, 4, 5, or 2.A? If so, the school district's rating is F for Substandard Achievement regardless of points earned.</p><p>Determine the rating by the applicable number of points. (Indicators 6-15)</p><ul><li>A = Superior:  90-100</li><li>B = Above Standard:  80-89</li><li>C = Meets Standard:  60-79</li><li>F = Substandard Achievement:  <60</li></ul><p>To view the district / charter school entire FIRST report, please visit <a href='https://tealprod.tea.state.tx.us/First/forms/District.aspx?year=2015&district=<<CDN_Number>'>https://tealprod.tea.state.tx.us/First/forms/District.aspx?year=2015&district=<<CDN_Number></a></p><p>Charter ratings: <a href='https://pryor.tea.state.tx.us/Tea.CharterFirst.Web/Public/District.aspx'>https://pryor.tea.state.tx.us/Tea.CharterFirst.Web/Public/District.aspx</a></p>"
+          }
+        ],
+        "finance_debt": [
+          {
+            "title": "Finance – Debt",
+            "value": "<p>Districts and charter schools are required to report their debt payable on their audited annual financial statements. Non-current liabilities that are due within one year and due in more than one year are summed and then divided by the total number of students.</p>"
+          }
+        ],
+        "finance_debt_fast_growth": [
+          {
+            "title": "Finance – Debt – Fast Growth",
+            "value": "<p>WHAT IS A FAST-GROWTH SCHOOL DISTRICT? (DRAFT LANGUAGE).</p><p>To be identified as a fast-growth school district the following criteria must be met:</p><ol><li>Enrollment of at least 2,500 students during the previous school year; and</li><li>Enrollment growth over the last five years of at least 10%, or</li><li>A net increase of 3,500 or more students.</li></ol>"
+          }
+        ]
+      }
     }
   }
 },{
@@ -210,7 +658,235 @@
   "phone_number": "215-555-5544",
   "single_campus_district": false,
   "superintendent_name": "Tina Fey",
-  "website": "https://tembosd.edu"
+  "website": "https://tembosd.edu",
+  "translations": {
+    "en": {
+      "modal_content": {
+        "district_overview_overall_grade": [
+          {
+            "title": "District Overview – Overall Grade 1",
+            "value": "<p>A–F/campus ratings are used to show how well districts and schools are meeting the needs of all students and how well they are preparing them for success after high school. Much like the grades students receive, these ratings can help schools improve over time.</p>"
+          },
+          {
+            "title": "District Overview – Overall Grade 2",
+            "value": "<p>Schools that earn an <strong>A</strong> (90–100) for <strong>exemplary</strong> performance serve most students well, and almost all students demonstrate appropriate academic growth. Most students are on track to be prepared for success after high school.<p>"
+          },
+          {
+            "title": "District Overview – Overall Grade 3",
+            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"    
+          }
+        ],
+        "district_overview_student_achievement": [
+          {
+            "title": "District Overview – Student Achievement 1",
+            "value": "<p>Student Achievement uses student performance on the State of Texas Assessment of Academic Readiness or STAAR test. In high school, it also measures how many graduates are ready college, the workforce, or the military.</p>"
+          },
+          {
+            "title": "District Overview – Student Achievement 2",
+            "value": "<p>Schools earn an <strong>A</strong> (90–100) for the <strong>exemplary</strong> achievement of students when at least 60% of students meet grade level [HS ONLY: and at least 60% of graduates are college ready, obtain a specialized career credential, or enlist in the military]</p>"
+          }
+        ],
+        "district_overview_school_progress": [
+          {
+            "title": "District Overview – School Progress 1",
+            "value": "<p>School Progress shows much students are learning and improving from one year to the next. It also looks at the level of student achievement compared to similar schools.</p>"
+          },
+          {
+            "title": "District Overview – School Progress 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary progress with students when</p><ul><li>about 80% or more of students have made a year’s worth of academic gains, or</li><li>a school’s achievement is far above average compared to similar schools.</li></ul>"
+          }
+        ],
+        "district_overview_closing_gaps": [
+          {
+            "title": "District Overview – Closing the Gaps 1",
+            "value": "<p>Closing the gaps looks at how well different populations of students are performing and is meant to help ensure all students receive a quality education.</p>"
+          },
+          {
+            "title": "District Overview – Closing the Gaps 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary work at closing performance gaps when</p><ul><li>for elementary schools, 95% or more of student groups have met the state goals.</li><li>for middle schools, 90% or more of student groups have met the state goals.</li><li>for high schools and districts, 95% or more of student groups have met the state goals.</li></ul>"
+          }
+        ],
+        "district_overview_distinctions": [
+          {
+            "title": "District Overview – Distinctions",
+            "value": "<p>Districts that receive an accountability rating of <em>A, B, C, or D</em> are eligible to earn a <strong>distinction designation</strong>. Distinction designations are awarded for achievement in several areas and are based on performance relative other districts.</p>"
+          }
+        ],
+        "student_achievement_domain_grade": [
+          {
+            "title": "Student Achievement – Domain Grade 1",
+            "value": "<p>Student Achievement uses student performance STAAR test. In high school, it also measures how many graduates are ready college, the workforce, or the military.</p>"
+          },
+          {
+            "title": "Student Achievement – Domain Grade 2",
+            "value": "<p>Schools earn an A (90–100) for the exemplary achievement of students when</p><ul><li>at least 60% of students meet grade level [HS ONLY: and at least 60% of graduates are college ready, obtain a specialized career credential, or enlist in the military].</li></ul>"
+          }
+        ],
+        "student_achievement_domain_weighting": [
+          {
+            "title": "Student Achievement – Domain Weighting",
+            "value": "<p>STAAR performance, along with graduation rates and college and career readiness are used to calculate the student achievement rating. CCM Readiness is based on the number of graduates that qualify as college, career or military ready.</p><p>(insert measure) counts more than (insert measure) and (insert measure).</p>"
+          }
+        ],
+        "student_achievement_staar_performance": [
+          {
+            "title": "Student Achievement – STAAR Performance",
+            "value": "<p>Students in grades 3 – 8 take the STAAR test in reading and math. Students in grades (insert grades) take a social studies test, and those in grades (insert grades) take a science and writing test. In high school, students take STAAR tests after completing courses in …</p>"
+          }
+        ],
+        "student_achievement_ccmr": [
+          {
+            "title": "Student Achievement – College, Career, and Military Readiness",
+            "value": "<p>There are several ways a student can demonstrate college, career or military readiness. These include earning minimum scores on national college entrance exams, completing college-level classes in high school, or earning a qualifying industry credential. This measure illustrates the percentage of students who have met one of these criteria to demonstrate they are ready for one of those paths.</p>"
+          }
+        ],
+        "student_achievement_graduation_rate": [
+          {
+            "title": "Student Achievement – Graduation Rate",
+            "value": "<p>The graduation rate is from the class of (insert year).  If graduation rate is not available due to limited data, annual dropout rate is used instead.</p>"
+          }
+        ],
+        "school_progress_overall_grade": [
+          {
+            "title": "School Progress – Overall Grade 1",
+            "value": "<p>School Progress shows much students are learning and improving from one year to the next. It also looks at the level of student achievement compared to similar schools.</p>"
+          },
+          {
+            "title": "School Progress – Overall Grade 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary progress with students when</p><ul><li>about 80% or more of students have made a year’s worth of academic gains, or</li><li>a school’s achievement is far above average compared to similar schools.</li></ul>"
+          }
+        ],
+        "school_progress_narrative": [
+          {
+            "title": "School Progress – Narrative",
+            "value": "<p>The category above where the school earns a higher performance is what is used as the School Progress score in calculating the overall rating.</p>"
+          }
+        ],
+        "school_progress_academic_growth": [
+          {
+            "title": "School Progress – Academic Growth 1",
+            "value": "<p>Only students who have been tested in reading or math in consecutive years contribute to this component.</p>"
+          },
+          {
+            "title": "School Progress – Academic Growth 2",
+            "value": "<p>Each assessment result contributes zero, one-half, or one point to the calculation depending on the degree of student growth from the previous to the current year.</p>"
+          }
+        ],
+        "school_progress_relative_performance": [
+          {
+            "title": "School Progress – Relative Performance",
+            "value": "<p>Relative performance is determined by looking at a school's performance on the STAAR tests and the College and Career Readiness measure relative to the percentage of economically disadvantaged students at the school.</p>"
+          }
+        ],
+        "closing_gaps_overall_grade": [
+          {
+            "title": "Closing the Gaps – Overall Grade 1",
+            "value": "<p>Closing the gaps looks at how well different populations of students are performing and is meant to help ensure all students receive a quality education. Higher grades are awarded if all groups of students are doing well in terms of academic growth and student achievement.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Overall Grade 2",
+            "value": "<p>Schools earn an A (90–100) for exemplary work at closing performance gaps when</p><ul><li>for elementary schools, 95% or more of student groups have met the state goals.</li><li>for middle schools, 90% or more of student groups have met the state goals.</li><li>for high schools and districts, 95% or more of student groups have met the state goals.</li></ul>"
+          }
+        ],
+        "closing_gaps_domain_grade_weighting": [
+          {
+            "title": "Closing the Gaps – Domain Grade Weighting",
+            "value": "<p>High schools have different calculations of the above categories than elementary and middle schools.</p>"
+          }
+        ],
+        "closing_gaps_academic_achievement": [
+          {
+            "title": "Closing the Gaps – Academic Achievement 1",
+            "value": "<p>Each group of students has a performance target set that is measured by the STAAR test. This shows whether each group of students met their target.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Academic Achievement 2",
+            "value": "<p>This component is worth 30% for elementary and middle schools and 50% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "closing_gaps_growth_graduation_rate": [
+          {
+            "title": "Closing the Gaps – Growth/Graduation Rate 1",
+            "value": "<p>Growth: Growth shows whether each group of students made expected progress from one year to the next in reading and math.</p><p>Graduation Rate: The percentage of students in each group that are graduating on time.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Growth/Graduation Rate 2",
+            "value": "<p>This component is worth 50% for elementary and middle schools and 10% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "closing_gaps_english_language_proficiency": [
+          {
+            "title": "Closing the Gaps – English Language Proficiency",
+            "value": "<p>This component looks at how well English learners are doing in meeting their targets in each subject.</p>"
+          }
+        ],
+        "closing_gaps_student_quality_success": [
+          {
+            "title": "Closing the Gaps – Student Quality Success 1",
+            "value": "<p>Elem & Middle: This component shows whether each group of students met their targets on the STAAR test.</p><p>High school: This component shows the college, career, and military readiness for each group of students.</p>"
+          },
+          {
+            "title": "Closing the Gaps – Student Quality Success 2",
+            "value": "<p>This component is worth 10% for elementary and middle schools and 30% for high schools, K–12, and AEA campuses towards the total score for closing the gaps.</p>"
+          }
+        ],
+        "profile_enrollment_ecodis": [
+          {
+            "title": "Profile – Enrollment – Economically Disadvantaged",
+            "value": "<p>Students who are eligible for free or reduced lunches.</p>"
+          }
+        ],
+        "profile_enrollment_english_learners": [
+          {
+            "title": "Profile – Enrollment – English Learners",
+            "value": "<p>Students whose primary language is one other than English and who are in the process of acquiring English. The terms “English Language Learner,” “English Learner,” and “Limited English Proficient” (LEP) are used interchangeably.</p>"
+          }
+        ],
+        "profile_enrollment_sped": [
+          {
+            "title": "Profile – Enrollement – Special Education",
+            "value": "<p>The population of students who receives special education services.</p>"
+          }
+        ],
+        "finance_receive_spend": [
+          {
+            "title": "Finance – Receive and Spend 1",
+            "value": "<p><strong>How much does my district / charter school receive?</strong> Funding, also known as revenue, describes the funds received by a district and/or a charter school. All Funds consists of four fundamental fund groups: General Funds, Special Revenue Funds, Debt Service Funds, and Capital Project Funds. General funds are derived from local property taxes, the State Foundation School Program the state Available School Fund (ASF), and federal dollars from indirect cost revenue generated from federal grants and Medicaid reimbursements (SHARS). Special revenue funds include state and federal formula funding and grant funds for special education and low income students. Debt service funds are collected through local property tax collections approved by voters for bond projects.</p>"
+          },
+          {
+            "title": "Finance – Receive and Spend 2",
+            "value": "<p><strong>How much does my district / charter school spend?</strong> Spending is also known as expenditures. All Funds consists of four fundamental fund groups: General Funds, Special Revenue Funds, Debt Service Funds, and Capital Project Funds. General funds are spent on the day to day operations including teacher salaries, student transportation, utilities, technology, etc. Special revenue funds are spent on food services, supplemental education for students receiving free and reduced lunch and special education. Debt service funds pay for bond interest and principal. Capital project funds are spent on projects approved through voter bonds and can include expenditures for buildings and school buses.</p><p>Note: Charter schools do not have debt service funds. I would prefer to omit the debt service language for charters.<p>"
+          },
+          {
+            "title": "Finance – Receive and Spend 3",
+            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"    
+          }
+        ],
+        "finance_first_rating": [
+          {
+            "title": "Finance – First Rating 1",
+            "value": "<p>The state's school financial accountability rating system, known as the School Financial Integrity Rating System of Texas (FIRST), ensures that Texas public schools are held accountable for the quality of their financial management practices and that they improve those practices. The system is designed to encourage Texas public schools to better manage their financial resources to provide the maximum allocation possible for direct instructional purposes. For more information on FIRST ratings, please visit <a href='https://tea.texas.gov/index4.aspx?id=3864'>https://tea.texas.gov/index4.aspx?id=3864</a></p><p>Charter school link: <a href='https://tea.texas.gov/Finance_and_Grants/Financial_Accountability/Financial_Integrity_Rating_System_of_Texas_(FIRST)/School_FIRST_Rating_for_Charter_Schools/'>https://tea.texas.gov/Finance_and_Grants/Financial_Accountability/Financial_Integrity_Rating_System_of_Texas_(FIRST)/School_FIRST_Rating_for_Charter_Schools/</a></p>"
+          },
+          {
+            "title": "Finance – First Rating 2",
+            "value": "<p>Determination of Rating 2016-2017 Rating Year:</p><p>Did the district answer 'No' to Indicators 1, 3, 4, 5, or 2.A? If so, the school district's rating is F for Substandard Achievement regardless of points earned.</p><p>Determine the rating by the applicable number of points. (Indicators 6-15)</p><ul><li>A = Superior:  90-100</li><li>B = Above Standard:  80-89</li><li>C = Meets Standard:  60-79</li><li>F = Substandard Achievement:  <60</li></ul><p>To view the district / charter school entire FIRST report, please visit <a href='https://tealprod.tea.state.tx.us/First/forms/District.aspx?year=2015&district=<<CDN_Number>'>https://tealprod.tea.state.tx.us/First/forms/District.aspx?year=2015&district=<<CDN_Number></a></p><p>Charter ratings: <a href='https://pryor.tea.state.tx.us/Tea.CharterFirst.Web/Public/District.aspx'>https://pryor.tea.state.tx.us/Tea.CharterFirst.Web/Public/District.aspx</a></p>"
+          }
+        ],
+        "finance_debt": [
+          {
+            "title": "Finance – Debt",
+            "value": "<p>Districts and charter schools are required to report their debt payable on their audited annual financial statements. Non-current liabilities that are due within one year and due in more than one year are summed and then divided by the total number of students.</p>"
+          }
+        ],
+        "finance_debt_fast_growth": [
+          {
+            "title": "Finance – Debt – Fast Growth",
+            "value": "<p>WHAT IS A FAST-GROWTH SCHOOL DISTRICT? (DRAFT LANGUAGE).</p><p>To be identified as a fast-growth school district the following criteria must be met:</p><ol><li>Enrollment of at least 2,500 students during the previous school year; and</li><li>Enrollment growth over the last five years of at least 10%, or</li><li>A net increase of 3,500 or more students.</li></ol>"
+          }
+        ]
+      }
+    }
+  }
 },{
   "id": "empty-tembo-school-district",
   "name": "Empty Tembo School District",
