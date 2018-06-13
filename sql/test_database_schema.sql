@@ -197,8 +197,6 @@ CREATE TABLE [dbo].[entity_modal_content](
 	[entity_id] [nvarchar](9) NOT NULL,
 	[modal_content_id] [int] NOT NULL,
 	[modal_id] [nvarchar](100) NOT NULL,
-	[domain_id] [nvarchar](100) NULL,
-	[metric_id] [nvarchar](100) NULL,
 	[order] [int] NOT NULL,
  CONSTRAINT [entity_modal_content_pk] PRIMARY KEY CLUSTERED 
 (
