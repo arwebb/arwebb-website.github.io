@@ -188,6 +188,25 @@ CREATE TABLE [dbo].[entity](
 ) ON [PRIMARY]
 
 GO
+/****** Object:  Table [dbo].[entity_modal_content]    Script Date: 5/11/2018 1:13:36 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[entity_modal_content](
+	[entity_id] [nvarchar](9) NOT NULL,
+	[modal_content_id] [int] NOT NULL,
+	[domain_id] [nvarchar](100) NULL,
+	[metric_id] [nvarchar](100) NULL,
+	[order] [int] NOT NULL,
+ CONSTRAINT [entity_modal_content_pk] PRIMARY KEY CLUSTERED 
+(
+	[entity_id] ASC,
+	[modal_content_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
 /****** Object:  Table [dbo].[grade]    Script Date: 5/11/2018 1:13:36 PM ******/
 SET ANSI_NULLS ON
 GO
@@ -243,7 +262,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[modal_content] (
     [id] [int]  NOT NULL,
-    [value] [nvarchar](max)  NOT NULL,
+	[image_url] [nvarchar](200) NULL,
     CONSTRAINT [modal_content_pk] PRIMARY KEY  ([id] ASC)
     WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
@@ -256,7 +275,8 @@ GO
 CREATE TABLE [dbo].[modal_content_translation] (
     [non_translated_id] [int]  NOT NULL,
     [language_id] [int]  NOT NULL,
-    [value] [nvarchar](max)  NOT NULL,
+	[title] [nvarchar](100) NULL,
+	[value] [nvarchar](MAX) NULL,
     CONSTRAINT [modal_content_translation_pk] PRIMARY KEY CLUSTERED  ([non_translated_id] ASC,[language_id] ASC)
     WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
