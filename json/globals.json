@@ -219,21 +219,13 @@
 				"superintendent_title": "Superintendent",
 				"principal_title": "Principal",
 				"district_title": "District",
+				"table_search_background_text":"Search by Campus Name",
 				"header_background_img": "https://storage.googleapis.com/core-demo-assets/illustrations/Header_Background_Icons.png",
 				"about_page": {
 					"maps_link_text": "View on Google Maps",
 					"overview_title": "Overview",
-					"school_type_title": "School Type",
+					"school_type_title": "School Type"
 
-					"population": {
-						"population_title": "Student Population",
-						"population_icon": "https://storage.googleapis.com/core-demo-assets/Icons/Student_Population%402x.png",
-						"enrollment_title": "Total Student Enrollment",
-						"race_title": "Population by Race/Ethnicity",
-						"student_group_title": "Population by Student Groups",
-						"economic_disadvantage_title": "Economically Disadvantaged",
-						"ell_title": "English Language Learners",
-						"disabilities_title": "Students with Disabilities"
 					}
 				},
 
