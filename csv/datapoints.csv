@@ -1,4 +1,5 @@
 entity_id,domain_id,metric_id,disagg_subject_id,disagg_subgroup_id,year,value,n,scored,display_text,exception_code,exception_description
+full-tembo-high-school,overall_performance,overall_performance_rating,,,2017,Met Standard,,,,,
 full-tembo-high-school,overall_performance,overall_performance_rating_alt,,,2017,Met Alternative Standard,,,,,
 full-tembo-high-school,overall_performance,overall_performance_points_earned,,,2017,18,,,,,
 full-tembo-high-school,distinctions,distinction_acad_achievement_reading,,,2017,1,,,,,
@@ -754,3 +755,4 @@ missing-data-school-district,staar_performance,staar_performance_masters_gl,soci
 missing-data-school-district,staar_performance,staar_performance_masters_gl,writing,,2017,,,,,,No data at this time
 full-tembo-high-school,ccm_readiness,ccm_readiness_college_prep,,,2017,79,,,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_college_prep,,,2017,42,,,,,
+missing-data-school-district,overall_performance,overall_performance_rating_alt,,,2017,Alternative,,,,,
