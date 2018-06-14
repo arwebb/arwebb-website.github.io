@@ -52,7 +52,7 @@
           },
           {
             "title": "District Overview – Overall Grade 3",
-            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"    
+            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"
           }
         ],
         "district_overview_student_achievement": [
@@ -238,7 +238,7 @@
           },
           {
             "title": "Finance – Receive and Spend 3",
-            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"    
+            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"
           }
         ],
         "finance_first_rating": [
@@ -313,7 +313,7 @@
           },
           {
             "title": "District Overview – Overall Grade 3",
-            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"    
+            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"
           }
         ],
         "district_overview_student_achievement": [
@@ -499,7 +499,7 @@
           },
           {
             "title": "Finance – Receive and Spend 3",
-            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"    
+            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"
           }
         ],
         "finance_first_rating": [
@@ -653,7 +653,7 @@
     "latitude": 39.960725,
     "longitude": -75.162929
   },
-  "charter_district": false,
+  "charter_district": 0,
   "email_address": "sample@tembosd.edu",
   "phone_number": "215-555-5544",
   "single_campus_district": false,
@@ -673,7 +673,7 @@
           },
           {
             "title": "District Overview – Overall Grade 3",
-            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"    
+            "value": "<p>The overall rating based is based on a school's performance in three different areas, or domains:</p><ol><li>Student Achievement</li><li>School Progress</li><li>Closing the Gaps</li></ol>"
           }
         ],
         "district_overview_student_achievement": [
@@ -859,7 +859,7 @@
           },
           {
             "title": "Finance – Receive and Spend 3",
-            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"    
+            "value": "<ol><li><strong>How is District / Charter School Funding per student calculated?</strong> The district / charter school per-student funding, is calculated by dividing the total All Funds revenue for the district by the total students in the district and/or charter school.</li><li><strong>How is Peer Funding per student calculated?</strong> The peer per-student funding, is calculated by dividing the total All Funds revenue for peer groups by the total students in the district and/or charter school.  Peer groups were developed by grouping districts and charter schools by enrollment, percentage of economically disadvantaged students, and tax rates.</li><li><strong>How is Region Funding per student calculated?</strong> The state of Texas is divided into 20 regions, each containing an Educational Service Center (ESC). The region per-student funding, is calculated by dividing the total All Funds revenue in each region and then by the total students each region.</li><li><strong>How is State Funding per student calculated?</strong> The state per-student funding, is calculated by dividing the total All Funds revenue for all districts and charter schools by the total students in districts and charter schools in Texas.</li></ol>"
           }
         ],
         "finance_first_rating": [
@@ -892,12 +892,14 @@
   "name": "Empty Tembo School District",
   "slug": "empty-tembo-school-district",
   "type": "district",
+  "charter_district": 1,
   "region_id": "tembo-region"
 },{
   "id": "missing-data-school-district",
   "name": "Missing Data School District",
   "slug": "missing-data-school-district",
   "type": "district",
+  "charter_district": 0,
   "region_id": "tembo-region"
 },{
   "id": "tembo-region",
