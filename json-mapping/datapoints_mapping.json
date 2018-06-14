@@ -9,11 +9,11 @@
     "metric_id": {
       "column": "metric_id"
     },
-    "disaggregation_id": {
-      "column": "disaggregation_id"
+    "disagg_subject_id": {
+      "column": "disagg_subject_id"
     },
-    "disaggregation2_id": {
-      "column": "disaggregation2_id"
+    "disagg_subgroup_id": {
+      "column": "disagg_subgroup_id"
     },
     "year": {
       "column": "year"
@@ -61,10 +61,10 @@
       "metric_id": {
     		"type": "string"
   		},
-      "disaggregation_id": {
+      "disagg_subject_id": {
     		"type": "string"
   		},
-      "disaggregation2_id": {
+      "disagg_subgroup_id": {
     		"type": "string"
   		},
       "value": {

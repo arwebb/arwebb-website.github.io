@@ -1,4 +1,4 @@
-entity_id,domain_id,metric_id,disaggregation_id,disaggregation2_id,year,value,n,scored,display_text,exception_code,exception_description
+entity_id,domain_id,metric_id,disagg_subject_id,disagg_subgroup_id,year,value,n,scored,display_text,exception_code,exception_description
 full-tembo-high-school,overall_performance,overall_performance_rating_alt,,,2017,Met Alternative Standard,,,,,
 full-tembo-high-school,overall_performance,overall_performance_points_earned,,,2017,18,,,,,
 full-tembo-high-school,distinctions,distinction_acad_achievement_reading,,,2017,1,,,,,
