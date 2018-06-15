@@ -49,15 +49,15 @@ INSERT INTO county VALUES
     ('phila', 'Philadelphia');
 
 INSERT INTO entity VALUES
-    ('1', 'pa', 'Pennslyvania', 'state'),
-    ('2', 'psd', 'Philadelphia School District', 'district'),
-    ('3', 'tembo-high-school', 'Tembo High School', 'campus'),
-    ('4', 'tembo-elementary-school', 'Tembo Elementary School', 'campus'),
-    ('5', 'tembo-middle-school', 'Tembo Middle School', 'campus'),
-    ('6', 'tembo-charter-school', 'Tembo Charter School', 'campus'),
-    ('7', 'se-pa', 'Southeastern Pennsylvania', 'region'),
-    ('8', 'empty-tembo-school-district', 'Empty Tembo School District', 'district'),
-    ('9', 'empty-tembo-school', 'Empty Tembo School', 'campus');
+    ('1', 'Pennslyvania', 'state'),
+    ('2', 'Philadelphia School District', 'district'),
+    ('3', 'Tembo High School', 'campus'),
+    ('4', 'Tembo Elementary School', 'campus'),
+    ('5', 'Tembo Middle School', 'campus'),
+    ('6', 'Tembo Charter School', 'campus'),
+    ('7', 'Southeastern Pennsylvania', 'region'),
+    ('8', 'Empty Tembo School District', 'district'),
+    ('9', 'Empty Tembo School', 'campus');
     
 INSERT INTO state VALUES
     ('1', 'PA');
