@@ -123,6 +123,7 @@
           "or_text": "Or",
           "submit_button_text": "View List",
           "no_results_text": "No school names match your search",
+          "not_ready_text": "Loading...",
           "placeholder_text": "Search by school name"
         },
         "header": {
