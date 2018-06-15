@@ -178,7 +178,6 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[entity](
 	[id] [nvarchar](9) NOT NULL,
-	[slug] [nvarchar](200) NOT NULL,
 	[name] [nvarchar](500) NOT NULL,
 	[type] [nvarchar](50) NOT NULL,
  CONSTRAINT [entity_pk] PRIMARY KEY CLUSTERED 
