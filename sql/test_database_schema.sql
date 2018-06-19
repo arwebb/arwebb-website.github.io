@@ -260,11 +260,10 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[modal_content] (
     [id] [int]  NOT NULL,
-	[image_url] [nvarchar](200) NULL,
     CONSTRAINT [modal_content_pk] PRIMARY KEY  ([id] ASC)
     WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
-
+GO
 /****** Object:  Table [dbo].[modal_content_translation]    Script Date: 5/11/2018 1:13:36 PM ******/
 SET ANSI_NULLS ON
 GO
@@ -278,7 +277,7 @@ CREATE TABLE [dbo].[modal_content_translation] (
     CONSTRAINT [modal_content_translation_pk] PRIMARY KEY CLUSTERED  ([non_translated_id] ASC,[language_id] ASC)
     WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
-
+GO
 /****** Object:  Table [dbo].[region]    Script Date: 5/11/2018 1:13:36 PM ******/
 SET ANSI_NULLS ON
 GO
