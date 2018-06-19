@@ -1,10 +1,3 @@
-USE [master]
-GO
-/****** Object:  Database [test]    Script Date: 5/11/2018 1:13:35 PM ******/
-CREATE DATABASE [test]
-GO
-USE [test]
-GO
 /****** Object:  Table [dbo].[campus]    Script Date: 5/11/2018 1:13:36 PM ******/
 SET ANSI_NULLS ON
 GO
@@ -195,7 +188,7 @@ GO
 CREATE TABLE [dbo].[entity_modal_content](
 	[entity_id] [nvarchar](9) NOT NULL,
 	[modal_content_id] [int] NOT NULL,
-	[modal_id] [nvarchar](100) NOT NULL,
+	[modal_id] [nvarchar](100) NULL,
 	[order] [int] NOT NULL,
  CONSTRAINT [entity_modal_content_pk] PRIMARY KEY CLUSTERED 
 (
