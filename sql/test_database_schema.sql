@@ -124,8 +124,8 @@ GO
 CREATE TABLE [dbo].[datapoint_translation](
 	[non_translated_id] [int] NOT NULL,
 	[language_id] [int] NOT NULL,
-	[exception_description] [nvarchar](500) NOT NULL,
-	[display_text] [nvarchar](200) NOT NULL,
+	[exception_description] [nvarchar](500) NULL,
+	[display_text] [nvarchar](200) NULL,
  CONSTRAINT [datapoint_translation_pk] PRIMARY KEY CLUSTERED 
 (
 	[non_translated_id] ASC,
