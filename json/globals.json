@@ -1,570 +1,557 @@
-[
-  {
-    "id": "tea-public-implementation",
-    "name": "TEA Finder",
-    "address_search_failure_image": "https:\/\/storage.googleapis.com\/tembo-reference\/images\/AddressSearchFailureImage.png",
-    "back_link_url": "\/",
-    "current_year": 2017,
-    "header_image": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/texas_logo.png",
-    "header_image_dark": "https:\/\/storage.googleapis.com\/core-demo-assets\/Tembo_Logo_Long.png",
-    "header_url": "https:\/\/tea.texas.gov\/",
-    "find_link_url": "\/",
-    "compare_link_url": "\/compare",
-    "organization_name": "Texas Education Agency (TEA)",
-    "organization_contact": {
-      "organization_address": {
-        "street": "1701 N. Congress Avenue",
-        "city": "Austin",
-        "postal_code": 19122,
-        "state": "TX",
-        "latitude": 39.9755421,
-        "longitude": -75.1389854
-      },
-      "prefix": "Office:",
-      "phone_value": "(512) 463-9734",
-      "organization_email": "teainfo@tea.texas.gov",
-      "organization_facebook_address": "https:\/\/www.facebook.com\/TexasEducationAgency\/",
-      "organization_twitter_address": "https:\/\/twitter.com\/teainfo",
-      "organization_youtube_address": "https:\/\/tea.texas.gov\/",
-      "organization_website_url": "https:\/\/tea.texas.gov\/"
-    },
-    "static_footer": {
-      "tea_logo_src": "\/assets\/img\/Tembo_Logo_White.png",
-      "tea_logo_alt_text": "Texas Education Agency Logo",
-      "google_attribution_img_src": "\/assets\/img\/google-attribution.png",
-      "google_translate_link": "http:\/\/translate.google.com",
-      "google_attribution_alt_text": "Translated by Google",
-      "powered_by_text": "Powered by"
-    },
-    "header": {
-      "english_text": "English",
-      "spanish_text": "Espa\u00f1ol"
-    },
-    "nav_sections": [
-      {
-        "translations": {
-          "en": {
-            "navigation_item": "Overview"
-          }
-        },
-        "link": "[base_path][entity_id]\/overview[language]"
-      },
-      {
-        "translations": {
-          "en": {
-            "navigation_item": "Performance"
-          }
-        },
-        "sub_navigation": [
-          {
-            "translations": {
-              "en": {
-                "navigation_item": "Student Achievement"
-              }
-            },
-            "link": "[base_path][entity_id]\/student-achievement[language]",
-            "page_id": "student_achievement"
-          },
-          {
-            "translations": {
-              "en": {
-                "navigation_item": "School Progress"
-              }
-            },
-            "link": "[base_path][entity_id]\/school-progress[language]",
-            "page_id": "school_progress"
-          },
-          {
-            "translations": {
-              "en": {
-                "navigation_item": "Closing the Gaps"
-              }
-            },
-            "link": "[base_path][entity_id]\/closing-gaps[language]",
-            "page_id": "closing_gaps"
-          }
-        ]
-      },
-      {
-        "translations": {
-          "en": {
-            "navigation_item": "Finance"
-          }
-        },
-        "link": "[base_path][entity_id]\/finance[language]"
-      },
-      {
-        "translations": {
-          "en": {
-            "navigation_item": "Profile"
-          }
-        },
-        "link": "[base_path][entity_id]\/profile[language]",
-        "page_id": "profile"
-      },
-      {
-        "translations": {
-          "en": {
-            "navigation_item": "Campus List"
-          }
-        },
-        "link": "[base_path][entity_id]\/campus-list[language]",
-        "page_id": "campus_list"
-      }
-    ],
-    "translations": {
-      "en": {
-        "intro_screen": {
-          "image_desktop": "http:\/\/via.placeholder.com\/720x720",
-          "image_mobile": "http:\/\/via.placeholder.com\/350x150",
-          "image_alternate_text": "Image representing Texas",
-          "long_text": "Curabitur a quam ornare, venenatis nisl sit amet, cursus purus. Fusce ac luctus lacus, quis posuere felis. Cras pulvinar felis turpis, non fermentum est luctus ut. Pellentesque ac convallis mi. Nam est ex, blandit eu nunc faucibus, laoreet pulvinar odio.",
-          "main_prompt_text": "Explore A List of Campuses or Districts",
-          "or_text": "Or",
-          "submit_button_text": "View List",
-          "no_results_text": "There are no results for your search",
-          "not_ready_text": "Loading...",
-          "placeholder_text": "Search by school name"
-        },
-        "header": {
-          "spanish_text": "Espa\u00f1ol",
-          "language_confirmation_text": "OK",
-          "search_display_text": "Search"
-        },
-        "find": {
-          "finder_page_title": "TEA School Finder",
-          "all_options_text": "All Options",
-          "any_option_text": "Any",
-          "more_filters_close_text": "Close Filters",
-          "more_filters_show_text": "More Filters",
-          "list_header_singular_text": "Displaying [XX] [entity_type]",
-          "list_header_plural_text": "Displaying [XX] [entity_type]",
-          "list_header_plural_text_with_pagination": "Displaying [ZZ] [entity_type] of [XX]",
-          "within_distance_text": "within [YY] miles",
-          "show_filters_text": "Change Distance",
-          "list_nav_text": "List",
-          "filter_met_text": "Preference Met",
-          "letter_grade_title": "Letter Grade (16-17)",
-          "filter_options_modal_text": "What do these options mean?",
-          "filter_selected_text": "Selected",
-          "filters_met_text": "Preferences Met",
-          "filters_nav_text": "Filters",
-          "change_text": "Change",
-          "clear_filters_text": "Clear Filters",
-          "clear_one_filter_text": "Clear All",
-          "no_filters_selected_text": "None Selected",
-          "no_matches_acceptance_text": "Got It",
-          "no_matches_body_text": "Please change your filter selections to find matches.",
-          "no_matches_header_text": "We're sorry. No schools match the filters you have selected.",
-          "no_matches_long_text": "Your search has filtered out all schools. Try changing your filters or Click Here to clear your filters and start over.",
-          "no_matches_active_text": "Click Here",
-          "no_schools_found_text": "No Schools Found",
-          "miles_text": "Miles",
-          "distance_text": "Distance",
-          "search_district_name_text": "Search by District Name",
-          "search_campus_name_text": "Search by Campus Name",
-          "sort_by_text": "Sort By",
-          "pagination_toggle_prompt": "View:",
-          "out_of_text": "out of",
-          "page_join_text": "of",
-          "view_profile_text": "View Profile",
-          "address_placeholder_text": "Enter Your Address",
-          "sort_menu_options": {
-            "name_a_z": {
-              "name": "A-Z"
-            },
-            "distance_near_far": {
-              "name": "Distance (Closest)"
-            },
-            "preferences_met": {
-              "name": "Preferences Met"
-            }
-          },
-          "grade_change_modal": {
-            "cancel_button_text": "Don't Change",
-            "ok_button_text": "Ok, Continue",
-            "subtitle_text": "Changing this will reset your filters because the filters are grade-specific.",
-            "title_text": "Looking at a new grade level?"
-          },
-          "district_type_charter": "Charter",
-          "district_type_traditional": "Traditional",
-          "table_columns": {
-            "campus_name_header": "Campus Name",
-            "district_name_header": "District Name",
-            "overall_rating_header": "Overall Rating",
-            "overall_score_header": "Overall Score",
-            "grades_served_header": "Grades Served",
-            "county_name_header": "County Name",
-            "district_type_header": "District Type"
-          },
-          "map_nav_text": "Map",
-          "preferences_header_text": "Preferences",
-          "filters_header_text": "Filters",
-          "address_grade_header_text": "Entered Address & Grade Level",
-          "address_grade_change_modal": {
-            "header_text": "Address & Grade Level",
-            "submit_text": "Update",
-            "cancel_text": "Cancel"
-          },
-          "report_card_strong_text": "K-12",
-          "report_card_sub_text": "Letter Grade",
-          "view_results_text": "View Results"
-        },
-        "explore": {
-          "back_to_text": "Back to",
-          "profile_page_title_campus": "Campus Profile",
-          "profile_page_title_district": "District Profile",
-          "out_of_text": "out of 100",
-          "campus_list_page_title_district": "List of All Campuses in this District",
-          "back_link_text": "Back to Finder",
-          "search_text": "Search",
-          "download_pdf_text_campus": "Download Campus PDF",
-          "download_pdf_text_district": "Download District PDF",
-          "drawer_closed_subjects_label": "View Subject Results",
-          "drawer_open_subjects_label": "Hide Subject Results",
-          "drawer_closed_indicators_label": "View Individual Indicators",
-          "drawer_open_indicators_label": "Hide Individual Indicators",
-          "drawer_closed_criteria_label": "View Criteria",
-          "drawer_open_criteria_label": "Hide Criteria",
-          "grades_served_label": "Grades",
-          "enrolled_students_label": "Students Enrolled",
-          "address_title": "Address",
-          "phone_title": "Phone",
-          "website_title": "Website",
-          "email_title": "Email",
-          "superintendent_title": "Superintendent",
-          "principal_title": "Principal",
-          "district_title": "District",
-          "table_search_background_text": "Search by Campus Name",
-          "header_background_img": "https:\/\/storage.googleapis.com\/core-demo-assets\/illustrations\/Header_Background_Icons.png",
-          "about_page": {
-            "maps_link_text": "View on Google Maps",
-            "overview_title": "Overview",
-            "school_type_title": "School Type"
-          },
-          "view_details_title": "View Details",
-          "tell_me_more_title": "Tell Me More",
-          "learn_more_title": "Learn More",
-          "total_title": "Total",
-          "score_text": "Score",
-          "advanced_view_title": "Advanced View",
-          "total_weight": "100%",
-          "total_score": "100",
-          "weight_text": "Weight",
-          "download_data_text": "Download Data"
-        }
-      },
-      "finance_comparison_group_list": {
-        "district_title": "District",
-        "peer_title": "Peer Average",
-        "region_title": "Region Average",
-        "state_title": "State Average"
-      },
-      "frameworks": {
-        "early_ed": {
-          "grade_levels": [
-            "Infant (under 1)",
-            "Toddler (1-2)",
-            "Pre-K (3-4)"
-          ]
-        },
-        "k_12": {
-          "grade_levels": [
-            "Kindergarten",
-            "Grade 1",
-            "Grade 2",
-            "Grade 3",
-            "Grade 4",
-            "Grade 5",
-            "Grade 6",
-            "Grade 7",
-            "Grade 8",
-            "Grade 9",
-            "Grade 10",
-            "Grade 11",
-            "Grade 12"
-          ]
-        }
-      },
-      "tools": {
-        "not_reported": "Not Reported"
-      },
-      "analyze": {
-        "configurator": {
-          "lint": "Lint",
-          "prettify": "Prettify JSON",
-          "load_default_btn": "Load Default",
-          "invalid_json_err": "Invalid JSON!",
-          "datapoints_chart_btn": "Load Datapoints - Chart",
-          "datapoints_table_bth": "Load Datapoints - Table",
-          "delete_chart_btn": "Delete chart",
-          "chart_loading": "Chart Loading...",
-          "table_loading": "Table Loading...",
-          "chart_loading_fail": "Failed to load chart datasets",
-          "delete_table_btn": "Delete Table",
-          "table_loading_fail": "Failed to load table datasets",
-          "unauthorized_user": "You are not authorized to view this content. Click here to return to your data.",
-          "unauthorized_user_linked_text": "here",
-          "unauthorized_user_href": "\/"
-        },
-        "analyze_intro": {
-          "display_text": "What kind of analysis do you want to do?",
-          "analysis_types": [
-            {
-              "display_text": "Correlate",
-              "img": "http:\/\/via.placeholder.com\/171x128",
-              "img_alt": "Image of a correlation",
-              "goto": "correlate",
-              "button_text": "View",
-              "description": "Long description about corrlations and how scatter plots can be useful ways to visualize data."
-            },
-            {
-              "display_text": "Compare",
-              "img": "http:\/\/via.placeholder.com\/171x128",
-              "img_alt": "Image of a comparison",
-              "goto": "compare",
-              "button_text": "View",
-              "disabled_text": "Coming Soon!",
-              "description": "Long description about comparing things. Some things are similar, others are not.",
-              "disabled": false
-            },
-            {
-              "display_text": "Trend",
-              "img": "http:\/\/via.placeholder.com\/171x128",
-              "img_alt": "Image of a trend",
-              "goto": "trend",
-              "button_text": "View",
-              "disabled_text": "Coming Soon!",
-              "description": "Long description about trends. Data changes over time. Line charts are pretty.",
-              "disabled": false
-            }
-          ]
-        },
-        "analyze_content_selection": {
-          "display_text": "What do you want to do?",
-          "or_text": "or",
-          "explore_text": "Explore on my own",
-          "correlate": [
-            {
-              "display_text": "Show correlation between x and y",
-              "description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
-              "button_text": "View",
-              "goto": "something"
-            },
-            {
-              "display_text": "Apples vs Pears",
-              "description": "We would never compare apples to oranges, or any other citrus",
-              "button_text": "View",
-              "goto": "something"
-            },
-            {
-              "display_text": "Consumption of apples and pears over a three-year period",
-              "description": "Sometimes people eat more pears. Usually they eat more apples.",
-              "button_text": "View",
-              "goto": "something"
-            }
-          ],
-          "compare": [
-            {
-              "display_text": "Apples vs Pears",
-              "description": "We would never compare apples to oranges, or any other citrus",
-              "button_text": "View",
-              "goto": "something"
-            },
-            {
-              "display_text": "Consumption of apples and pears over a three-year period",
-              "description": "Sometimes people eat more pears. Usually they eat more apples.",
-              "button_text": "View",
-              "goto": "something"
-            },
-            {
-              "display_text": "Show correlation between x and y",
-              "description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
-              "button_text": "View",
-              "goto": "something"
-            }
-          ],
-          "trend": [
-            {
-              "display_text": "Consumption of apples and pears over a three-year period",
-              "description": "Sometimes people eat more pears. Usually they eat more apples.",
-              "button_text": "View",
-              "goto": "something"
-            },
-            {
-              "display_text": "Show correlation between x and y",
-              "description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
-              "button_text": "View",
-              "goto": "something"
-            },
-            {
-              "display_text": "Apples vs Pears",
-              "description": "We would never compare apples to oranges, or any other citrus",
-              "button_text": "View",
-              "goto": "something"
-            }
-          ]
-        },
-        "view_text": "View",
-        "nav_bar": {
-          "logo_src": "\/assets\/img\/Tembo_Logo_White.png",
-          "logo_url": "temboinc.com"
-        },
-        "entity_search": {
-          "search_placeholder_text": "Go to Another District or School View",
-          "search_fields": [
-            "entity_name",
-            "district_name"
-          ],
-          "title": "TX Reporting System"
-        },
-        "chart": {
-          "download_chart_text": "Export Chart"
-        },
-        "table": {
-          "show_table_text": "Show Details",
-          "hide_table_text": "Hide Details"
-        },
-        "favicon": "\/assets\/img\/BRAF_Favicon.png",
-        "items_to_save": [
-          ".title",
-          ".chart-legend",
-          "#chart"
-        ],
-        "search_table_placeholder": "Search this table",
-        "data_menu_text": "Data Menu",
-        "entity_header_text": "Planning",
-        "modal_download_info": "The data you requested is being retrieved. This window will close when your download is ready.",
-        "paginator_text_fwd": "Next",
-        "paginator_text_back": "Previous",
-        "glossary_data_link": "Data View",
-        "default_insight_string": {
-          "domain_subdomain": "academic_acct",
-          "order": 1,
-          "view_level": "state",
-          "id": "academic_acct_q1_state",
-          "question": "How has my performance on each index changed over time?",
-          "insight_metric_id": "academic_acct_insight_q4",
-          "chart_datapoints": {
-            "entity_types": null,
-            "metrics": [
-              {
-                "metric_id": "index",
-                "type": [
-                  "k8_assessment",
-                  "dcai",
-                  "hs_assessment",
-                  "act",
-                  "grad_rate",
-                  "diploma",
-                  "k8_progress",
-                  "hs_progress"
-                ]
-              }
-            ],
-            "year": [
-              2015,
-              2016,
-              2017
-            ]
-          },
-          "chart": {
-            "title": "Index performance (2018 formula)",
-            "type": "bar",
-            "orientation": "horizontal",
-            "chart_stack": false,
-            "chart_fill": null,
-            "categorical_field": "type.display",
-            "categorical_domain": [
-              "K8 Assessment Index",
-              "DCAI Index",
-              "HS Assessment Index",
-              "ACT Index",
-              "Graduation Rate Index",
-              "Strength of Diploma Index",
-              "K8 Progress Index",
-              "9-12 Progress Index"
-            ],
-            "dataset_field": "year",
-            "dataset_domain": [
-              "2015",
-              "2016",
-              "2017"
-            ],
-            "data_label_precision": 1,
-            "data_label_prefix": null,
-            "data_label_suffix": null,
-            "data_labels_on_chart": 1,
-            "data_labels_on_hover": 0,
-            "legend": 1,
-            "numeric_field": "value",
-            "numeric_domain": [
-              0,
-              100
-            ],
-            "numeric_gridlines": null,
-            "numeric_precision": null,
-            "numeric_prefix": null,
-            "numeric_suffix": null
-          },
-          "table_datapoints": {
-            "entity_types": "district",
-            "metrics": [
-              {
-                "metric_id": "index",
-                "type": [
-                  "k8_assessment",
-                  "dcai",
-                  "hs_assessment",
-                  "act",
-                  "grad_rate",
-                  "diploma",
-                  "k8_progress",
-                  "hs_progress"
-                ]
-              }
-            ],
-            "year": [
-              2016,
-              2017
-            ]
-          },
-          "table": {
-            "table_title": "Index performance (2018 formula)",
-            "row_definition": null,
-            "columns": [
-              {
-                "column_definition": null,
-                "attribute": "entity.entity_name",
-                "display_text": "District"
-              },
-              {
-                "column_definition": null,
-                "attribute": "year",
-                "display_text": "Year",
-                "sort_order": [
-                  "2016-17",
-                  "2017-18",
-                  "2018-19",
-                  "2019-20"
-                ]
-              },
-              {
-                "column_definition": null,
-                "attribute": "type.display",
-                "display_text": "Index"
-              },
-              {
-                "column_definition": null,
-                "attribute": "value",
-                "display_text": "Index Score"
-              }
-            ]
-          }
-        },
-        "sort_order": "['nation', 'state', 'district', 'school', 'region', 'network', 'program', 'student']",
-        "confirm_reset_message": "This will delete your JSON and reset to a different, but functional insight object. Continue?"
-      }
-    }
-  }
-]
+[{
+	"id": "tea-public-implementation",
+	"name": "TEA Finder",
+	"address_search_failure_image": "https:\/\/storage.googleapis.com\/tembo-reference\/images\/AddressSearchFailureImage.png",
+	"back_link_url": "\/",
+	"current_year": 2017,
+	"header_image": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/texas_logo.png",
+	"header_image_dark": "https:\/\/storage.googleapis.com\/core-demo-assets\/Tembo_Logo_Long.png",
+	"header_url": "https:\/\/tea.texas.gov\/",
+	"find_link_url": "\/",
+	"compare_link_url": "\/compare",
+	"organization_name": "Texas Education Agency (TEA)",
+	"organization_contact": {
+		"organization_address": {
+			"street": "1701 N. Congress Avenue",
+			"city": "Austin",
+			"postal_code": 19122,
+			"state": "TX",
+			"latitude": 39.9755421,
+			"longitude": -75.1389854
+		},
+		"prefix": "Office:",
+		"phone_value": "(512) 463-9734",
+		"organization_email": "teainfo@tea.texas.gov",
+		"organization_facebook_address": "https:\/\/www.facebook.com\/TexasEducationAgency\/",
+		"organization_twitter_address": "https:\/\/twitter.com\/teainfo",
+		"organization_youtube_address": "https:\/\/tea.texas.gov\/",
+		"organization_website_url": "https:\/\/tea.texas.gov\/"
+	},
+	"static_footer": {
+		"tea_logo_src": "\/assets\/img\/Tembo_Logo_White.png",
+		"tea_logo_alt_text": "Texas Education Agency Logo",
+		"google_attribution_img_src": "\/assets\/img\/google-attribution.png",
+		"google_translate_link": "http:\/\/translate.google.com",
+		"google_attribution_alt_text": "Translated by Google",
+		"powered_by_text": "Powered by"
+	},
+	"header": {
+		"english_text": "English",
+		"spanish_text": "Espa\u00f1ol"
+	},
+	"nav_sections": [{
+			"translations": {
+				"en": {
+					"navigation_item": "Overview"
+				}
+			},
+			"link": "[base_path][entity_id]\/overview[language]"
+		},
+		{
+			"translations": {
+				"en": {
+					"navigation_item": "Performance"
+				}
+			},
+			"sub_navigation": [{
+					"translations": {
+						"en": {
+							"navigation_item": "Student Achievement"
+						}
+					},
+					"link": "[base_path][entity_id]\/student-achievement[language]",
+					"page_id": "student_achievement"
+				},
+				{
+					"translations": {
+						"en": {
+							"navigation_item": "School Progress"
+						}
+					},
+					"link": "[base_path][entity_id]\/school-progress[language]",
+					"page_id": "school_progress"
+				},
+				{
+					"translations": {
+						"en": {
+							"navigation_item": "Closing the Gaps"
+						}
+					},
+					"link": "[base_path][entity_id]\/closing-gaps[language]",
+					"page_id": "closing_gaps"
+				}
+			]
+		},
+		{
+			"translations": {
+				"en": {
+					"navigation_item": "Finance"
+				}
+			},
+			"link": "[base_path][entity_id]\/finance[language]"
+		},
+		{
+			"translations": {
+				"en": {
+					"navigation_item": "Profile"
+				}
+			},
+			"link": "[base_path][entity_id]\/profile[language]",
+			"page_id": "profile"
+		},
+		{
+			"translations": {
+				"en": {
+					"navigation_item": "Campus List"
+				}
+			},
+			"link": "[base_path][entity_id]\/campus-list[language]",
+			"page_id": "campus_list"
+		}
+	],
+	"translations": {
+		"en": {
+			"intro_screen": {
+				"image_desktop": "http:\/\/via.placeholder.com\/720x720",
+				"image_mobile": "http:\/\/via.placeholder.com\/350x150",
+				"image_alternate_text": "Image representing Texas",
+				"long_text": "Curabitur a quam ornare, venenatis nisl sit amet, cursus purus. Fusce ac luctus lacus, quis posuere felis. Cras pulvinar felis turpis, non fermentum est luctus ut. Pellentesque ac convallis mi. Nam est ex, blandit eu nunc faucibus, laoreet pulvinar odio.",
+				"main_prompt_text": "Explore A List of Campuses or Districts",
+				"or_text": "Or",
+				"submit_button_text": "View List",
+				"no_results_text": "There are no results for your search",
+				"not_ready_text": "Loading...",
+				"placeholder_text": "Search by school name"
+			},
+			"header": {
+				"spanish_text": "Espa\u00f1ol",
+				"language_confirmation_text": "OK",
+				"search_display_text": "Search"
+			},
+			"find": {
+				"finder_page_title": "TEA School Finder",
+				"all_options_text": "All Options",
+				"any_option_text": "Any",
+				"more_filters_close_text": "Close Filters",
+				"more_filters_show_text": "More Filters",
+				"list_header_singular_text": "Displaying [XX] [entity_type]",
+				"list_header_plural_text": "Displaying [XX] [entity_type]",
+				"list_header_plural_text_with_pagination": "Displaying [ZZ] [entity_type] of [XX]",
+				"within_distance_text": "within [YY] miles",
+				"show_filters_text": "Change Distance",
+				"list_nav_text": "List",
+				"filter_met_text": "Preference Met",
+				"letter_grade_title": "Letter Grade (16-17)",
+				"filter_options_modal_text": "What do these options mean?",
+				"filter_selected_text": "Selected",
+				"filters_met_text": "Preferences Met",
+				"filters_nav_text": "Filters",
+				"change_text": "Change",
+				"clear_filters_text": "Clear Filters",
+				"clear_one_filter_text": "Clear All",
+				"no_filters_selected_text": "None Selected",
+				"no_matches_acceptance_text": "Got It",
+				"no_matches_body_text": "Please change your filter selections to find matches.",
+				"no_matches_header_text": "We're sorry. No schools match the filters you have selected.",
+				"no_matches_long_text": "Your search has filtered out all schools. Try changing your filters or Click Here to clear your filters and start over.",
+				"no_matches_active_text": "Click Here",
+				"no_schools_found_text": "No Schools Found",
+				"miles_text": "Miles",
+				"distance_text": "Distance",
+				"search_district_name_text": "Search by District Name",
+				"search_campus_name_text": "Search by Campus Name",
+				"sort_by_text": "Sort By",
+				"pagination_toggle_prompt": "View:",
+				"out_of_text": "out of",
+				"page_join_text": "of",
+				"view_profile_text": "View Profile",
+				"address_placeholder_text": "Enter Your Address",
+				"sort_menu_options": {
+					"name_a_z": {
+						"name": "A-Z"
+					},
+					"distance_near_far": {
+						"name": "Distance (Closest)"
+					},
+					"preferences_met": {
+						"name": "Preferences Met"
+					}
+				},
+				"grade_change_modal": {
+					"cancel_button_text": "Don't Change",
+					"ok_button_text": "Ok, Continue",
+					"subtitle_text": "Changing this will reset your filters because the filters are grade-specific.",
+					"title_text": "Looking at a new grade level?"
+				},
+				"district_type_charter": "Charter",
+				"district_type_traditional": "Traditional",
+				"table_columns": {
+					"campus_name_header": "Campus Name",
+					"district_name_header": "District Name",
+					"overall_rating_header": "Overall Rating",
+					"overall_score_header": "Overall Score",
+					"grades_served_header": "Grades Served",
+					"county_name_header": "County Name",
+					"district_type_header": "District Type"
+				},
+				"map_nav_text": "Map",
+				"preferences_header_text": "Preferences",
+				"filters_header_text": "Filters",
+				"address_grade_header_text": "Entered Address & Grade Level",
+				"address_grade_change_modal": {
+					"header_text": "Address & Grade Level",
+					"submit_text": "Update",
+					"cancel_text": "Cancel"
+				},
+				"report_card_strong_text": "K-12",
+				"report_card_sub_text": "Letter Grade",
+				"view_results_text": "View Results"
+			},
+			"explore": {
+				"back_to_text": "Back to",
+				"profile_page_title_campus": "Campus Profile",
+				"profile_page_title_district": "District Profile",
+				"out_of_text": "out of 100",
+				"campus_list_page_title_district": "List of All Campuses in this District",
+				"back_link_text": "Back to Finder",
+				"search_text": "Search",
+				"download_pdf_text_campus": "Download Campus PDF",
+				"download_pdf_text_district": "Download District PDF",
+				"drawer_closed_subjects_label": "View Subject Results",
+				"drawer_open_subjects_label": "Hide Subject Results",
+				"drawer_closed_indicators_label": "View Individual Indicators",
+				"drawer_open_indicators_label": "Hide Individual Indicators",
+				"drawer_closed_criteria_label": "View Criteria",
+				"drawer_open_criteria_label": "Hide Criteria",
+				"grades_served_label": "Grades",
+				"enrolled_students_label": "Students Enrolled",
+				"address_title": "Address",
+				"phone_title": "Phone",
+				"website_title": "Website",
+				"email_title": "Email",
+				"superintendent_title": "Superintendent",
+				"principal_title": "Principal",
+				"district_title": "District",
+				"table_search_background_text": "Search by Campus Name",
+				"header_background_img": "https:\/\/storage.googleapis.com\/core-demo-assets\/illustrations\/Header_Background_Icons.png",
+				"about_page": {
+					"maps_link_text": "View on Google Maps",
+					"overview_title": "Overview",
+					"school_type_title": "School Type"
+				},
+				"view_details_title": "View Details",
+				"tell_me_more_title": "Tell Me More",
+				"learn_more_title": "Learn More",
+				"total_title": "Total",
+				"score_text": "Score",
+				"advanced_view_title": "Advanced View",
+				"total_weight": "100%",
+				"total_score": "100",
+				"weight_text": "Weight",
+				"download_data_text": "Download Data"
+			},
+			"finance_comparison_group_list": {
+				"district_title": "District",
+				"peer_title": "Peer Average",
+				"region_title": "Region Average",
+				"state_title": "State Average"
+			},
+			"frameworks": {
+				"early_ed": {
+					"grade_levels": [
+						"Infant (under 1)",
+						"Toddler (1-2)",
+						"Pre-K (3-4)"
+					]
+				},
+				"k_12": {
+					"grade_levels": [
+						"Kindergarten",
+						"Grade 1",
+						"Grade 2",
+						"Grade 3",
+						"Grade 4",
+						"Grade 5",
+						"Grade 6",
+						"Grade 7",
+						"Grade 8",
+						"Grade 9",
+						"Grade 10",
+						"Grade 11",
+						"Grade 12"
+					]
+				}
+			},
+			"tools": {
+				"not_reported": "Not Reported"
+			},
+			"analyze": {
+				"configurator": {
+					"lint": "Lint",
+					"prettify": "Prettify JSON",
+					"load_default_btn": "Load Default",
+					"invalid_json_err": "Invalid JSON!",
+					"datapoints_chart_btn": "Load Datapoints - Chart",
+					"datapoints_table_bth": "Load Datapoints - Table",
+					"delete_chart_btn": "Delete chart",
+					"chart_loading": "Chart Loading...",
+					"table_loading": "Table Loading...",
+					"chart_loading_fail": "Failed to load chart datasets",
+					"delete_table_btn": "Delete Table",
+					"table_loading_fail": "Failed to load table datasets",
+					"unauthorized_user": "You are not authorized to view this content. Click here to return to your data.",
+					"unauthorized_user_linked_text": "here",
+					"unauthorized_user_href": "\/"
+				},
+				"analyze_intro": {
+					"display_text": "What kind of analysis do you want to do?",
+					"analysis_types": [{
+							"display_text": "Correlate",
+							"img": "http:\/\/via.placeholder.com\/171x128",
+							"img_alt": "Image of a correlation",
+							"goto": "correlate",
+							"button_text": "View",
+							"description": "Long description about corrlations and how scatter plots can be useful ways to visualize data."
+						},
+						{
+							"display_text": "Compare",
+							"img": "http:\/\/via.placeholder.com\/171x128",
+							"img_alt": "Image of a comparison",
+							"goto": "compare",
+							"button_text": "View",
+							"disabled_text": "Coming Soon!",
+							"description": "Long description about comparing things. Some things are similar, others are not.",
+							"disabled": false
+						},
+						{
+							"display_text": "Trend",
+							"img": "http:\/\/via.placeholder.com\/171x128",
+							"img_alt": "Image of a trend",
+							"goto": "trend",
+							"button_text": "View",
+							"disabled_text": "Coming Soon!",
+							"description": "Long description about trends. Data changes over time. Line charts are pretty.",
+							"disabled": false
+						}
+					]
+				},
+				"analyze_content_selection": {
+					"display_text": "What do you want to do?",
+					"or_text": "or",
+					"explore_text": "Explore on my own",
+					"correlate": [{
+							"display_text": "Show correlation between x and y",
+							"description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
+							"button_text": "View",
+							"goto": "something"
+						},
+						{
+							"display_text": "Apples vs Pears",
+							"description": "We would never compare apples to oranges, or any other citrus",
+							"button_text": "View",
+							"goto": "something"
+						},
+						{
+							"display_text": "Consumption of apples and pears over a three-year period",
+							"description": "Sometimes people eat more pears. Usually they eat more apples.",
+							"button_text": "View",
+							"goto": "something"
+						}
+					],
+					"compare": [{
+							"display_text": "Apples vs Pears",
+							"description": "We would never compare apples to oranges, or any other citrus",
+							"button_text": "View",
+							"goto": "something"
+						},
+						{
+							"display_text": "Consumption of apples and pears over a three-year period",
+							"description": "Sometimes people eat more pears. Usually they eat more apples.",
+							"button_text": "View",
+							"goto": "something"
+						},
+						{
+							"display_text": "Show correlation between x and y",
+							"description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
+							"button_text": "View",
+							"goto": "something"
+						}
+					],
+					"trend": [{
+							"display_text": "Consumption of apples and pears over a three-year period",
+							"description": "Sometimes people eat more pears. Usually they eat more apples.",
+							"button_text": "View",
+							"goto": "something"
+						},
+						{
+							"display_text": "Show correlation between x and y",
+							"description": "X is important and can be related to Y. Long description about corrlations and how scatter plots can be useful ways to visualize data.",
+							"button_text": "View",
+							"goto": "something"
+						},
+						{
+							"display_text": "Apples vs Pears",
+							"description": "We would never compare apples to oranges, or any other citrus",
+							"button_text": "View",
+							"goto": "something"
+						}
+					]
+				},
+				"view_text": "View",
+				"nav_bar": {
+					"logo_src": "\/assets\/img\/Tembo_Logo_White.png",
+					"logo_url": "temboinc.com"
+				},
+				"entity_search": {
+					"search_placeholder_text": "Go to Another District or School View",
+					"search_fields": [
+						"entity_name",
+						"district_name"
+					],
+					"title": "TX Reporting System"
+				},
+				"chart": {
+					"download_chart_text": "Export Chart"
+				},
+				"table": {
+					"show_table_text": "Show Details",
+					"hide_table_text": "Hide Details"
+				},
+				"favicon": "\/assets\/img\/BRAF_Favicon.png",
+				"items_to_save": [
+					".title",
+					".chart-legend",
+					"#chart"
+				],
+				"search_table_placeholder": "Search this table",
+				"data_menu_text": "Data Menu",
+				"entity_header_text": "Planning",
+				"modal_download_info": "The data you requested is being retrieved. This window will close when your download is ready.",
+				"paginator_text_fwd": "Next",
+				"paginator_text_back": "Previous",
+				"glossary_data_link": "Data View",
+				"default_insight_string": {
+					"domain_subdomain": "academic_acct",
+					"order": 1,
+					"view_level": "state",
+					"id": "academic_acct_q1_state",
+					"question": "How has my performance on each index changed over time?",
+					"insight_metric_id": "academic_acct_insight_q4",
+					"chart_datapoints": {
+						"entity_types": null,
+						"metrics": [{
+							"metric_id": "index",
+							"type": [
+								"k8_assessment",
+								"dcai",
+								"hs_assessment",
+								"act",
+								"grad_rate",
+								"diploma",
+								"k8_progress",
+								"hs_progress"
+							]
+						}],
+						"year": [
+							2015,
+							2016,
+							2017
+						]
+					},
+					"chart": {
+						"title": "Index performance (2018 formula)",
+						"type": "bar",
+						"orientation": "horizontal",
+						"chart_stack": false,
+						"chart_fill": null,
+						"categorical_field": "type.display",
+						"categorical_domain": [
+							"K8 Assessment Index",
+							"DCAI Index",
+							"HS Assessment Index",
+							"ACT Index",
+							"Graduation Rate Index",
+							"Strength of Diploma Index",
+							"K8 Progress Index",
+							"9-12 Progress Index"
+						],
+						"dataset_field": "year",
+						"dataset_domain": [
+							"2015",
+							"2016",
+							"2017"
+						],
+						"data_label_precision": 1,
+						"data_label_prefix": null,
+						"data_label_suffix": null,
+						"data_labels_on_chart": 1,
+						"data_labels_on_hover": 0,
+						"legend": 1,
+						"numeric_field": "value",
+						"numeric_domain": [
+							0,
+							100
+						],
+						"numeric_gridlines": null,
+						"numeric_precision": null,
+						"numeric_prefix": null,
+						"numeric_suffix": null
+					},
+					"table_datapoints": {
+						"entity_types": "district",
+						"metrics": [{
+							"metric_id": "index",
+							"type": [
+								"k8_assessment",
+								"dcai",
+								"hs_assessment",
+								"act",
+								"grad_rate",
+								"diploma",
+								"k8_progress",
+								"hs_progress"
+							]
+						}],
+						"year": [
+							2016,
+							2017
+						]
+					},
+					"table": {
+						"table_title": "Index performance (2018 formula)",
+						"row_definition": null,
+						"columns": [{
+								"column_definition": null,
+								"attribute": "entity.entity_name",
+								"display_text": "District"
+							},
+							{
+								"column_definition": null,
+								"attribute": "year",
+								"display_text": "Year",
+								"sort_order": [
+									"2016-17",
+									"2017-18",
+									"2018-19",
+									"2019-20"
+								]
+							},
+							{
+								"column_definition": null,
+								"attribute": "type.display",
+								"display_text": "Index"
+							},
+							{
+								"column_definition": null,
+								"attribute": "value",
+								"display_text": "Index Score"
+							}
+						]
+					}
+				},
+				"sort_order": "['nation', 'state', 'district', 'school', 'region', 'network', 'program', 'student']",
+				"confirm_reset_message": "This will delete your JSON and reset to a different, but functional insight object. Continue?"
+			}
+		}
+	}
+}]
