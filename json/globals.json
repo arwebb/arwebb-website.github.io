@@ -122,7 +122,7 @@
           "main_prompt_text": "Explore A List of Campuses or Districts",
           "or_text": "Or",
           "submit_button_text": "View List",
-          "no_results_text": "No school names match your search",
+          "no_results_text": "There are no results for your search",
           "not_ready_text": "Loading...",
           "placeholder_text": "Search by school name"
         },

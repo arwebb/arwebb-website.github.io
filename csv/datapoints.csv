@@ -615,3 +615,7 @@ missing-data-school-district,staar_performance,staar_performance_masters_gl,writ
 full-tembo-high-school,ccm_readiness,ccm_readiness_college_prep,,,2017,79,,,,,
 full-tembo-school-district,ccm_readiness,ccm_readiness_college_prep,,,2017,42,,,,,
 missing-data-school-district,overall_performance,overall_performance_rating_alt,,,2017,Alternative,,,,,
+full-tembo-elementary-school,overall_performance,overall_performance_rating,,,,Met Standard,,,,,
+full-tembo-elementary-school,overall_performance,overall_performance_points_earned,,,2017,21,,,,,
+k2-tembo-school,overall_performance,overall_performance_points_earned,,,2017,7,,,,,
+k2-tembo-school,overall_performance,overall_performance_rating,,,2017,Standard,,,,,
