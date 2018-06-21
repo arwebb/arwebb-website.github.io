@@ -37,6 +37,7 @@
 1. Gather the connection information for the SQL Server instance (see above)
 2. If updating an existing database, drop all tables from it using the script: https://tembo.githost.io/snippets/15
 3. If the database doesn’t currently exist, create it: `CREATE DATABASE <dbname>`
+    * Use `35.231.126.242` to connect directly to the Tembo SQL Server database server.
 4. Run the schema creation script: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/sql/test_database_schema.sql
     * If the database name is different than `test`, update the script to use your desired database name
 5. Load sample data from the sql script: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/sql/sample_data.sql
