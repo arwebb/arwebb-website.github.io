@@ -809,3 +809,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 808,2016,16091,,,,,3,,staff,avg_teacher_salary,,
 809,2016,,,,,,3,,designations,comp_targ_support,,
 810,2016,,,,,,3,,designations,public_education_grant,,
+811,2017,1111,,,,,7,,revenue,revenue_per_stud_all,,
+812,2017,2222,,,,,7,,revenue,expenditures_per_stud_all,,
+813,2017,3333,,,,,1,,revenue,revenue_per_stud_all,,
+814,2017,4444,,,,,1,,revenue,expenditures_per_stud_all,,
