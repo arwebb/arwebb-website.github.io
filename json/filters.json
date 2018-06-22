@@ -11,6 +11,7 @@
 }, {
   "id": "county",
   "display_text": "Filter by county",
+  "description_text": "Filter by:",
   "any_text": "All counties",
   "entity_type": ["district"],
   "value": [{
@@ -21,6 +22,7 @@
 }, {
   "id": "district",
   "display_text": "Filter by school district",
+  "description_text": "Filter by:",
   "entity_type": ["campus"],
   "any_text": "All districts",
   "value": [{

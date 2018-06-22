@@ -28,7 +28,7 @@
 		"organization_website_url": "https:\/\/tea.texas.gov\/"
 	},
 	"static_footer": {
-		"tea_logo_src": "\/assets\/img\/Tembo_Logo_White.png",
+    "tea_logo_src": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/TEA_Seal.png",
 		"tea_logo_alt_text": "Texas Education Agency Logo",
 		"google_attribution_img_src": "\/assets\/img\/google-attribution.png",
 		"google_translate_link": "http:\/\/translate.google.com",
