@@ -3,3 +3,4 @@ csv/\.~lock\.datapoints\.csv#
 
 json/datapoints\.json
 **.DS_Store
+\.DS_Store
