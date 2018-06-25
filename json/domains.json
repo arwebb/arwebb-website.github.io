@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "student_achievement",
-		"icon": "https://storage.googleapis.com/suite-assets/images/Higher%20Improvement@2x.png",
+		"icon": "https://storage.googleapis.com/tea-assets/assets/student-achievement-icon.png",
 		"translations": {
 			"en": {
 				"name": "Student Achievement",
@@ -90,7 +90,7 @@
 		}
 	}, {
 		"id": "school_progress",
-		"icon": "https://storage.googleapis.com/suite-assets/images/Higher%20Improvement@2x.png",
+		"icon": "https://storage.googleapis.com/tea-assets/assets/school-progress-icon.png",
 		"translations": {
 			"en": {
 				"name": "School Progress",
@@ -131,7 +131,7 @@
 		}
 	}, {
 		"id": "closing_the_gaps",
-		"icon": "https://storage.googleapis.com/suite-assets/images/Higher%20Improvement@2x.png",
+		"icon": "https://storage.googleapis.com/tea-assets/assets/closing-the-gaps-icon.png",
 		"translations": {
 			"en": {
 				"name": "Closing the Gaps",
