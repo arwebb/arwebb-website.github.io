@@ -27,6 +27,8 @@ CREATE TABLE [dbo].[campus](
 	[alt_standards] [bit] NULL,
 	[county_id] [nvarchar](9) NULL,
 	[district_id] [nvarchar](9) NOT NULL,
+  [region_id] [nvarchar](9) NOT NULL,
+  [state_id] [nvarchar](9) NOT NULL,
 	[paired_id] [nvarchar](9) NULL,
  CONSTRAINT [campus_pk] PRIMARY KEY CLUSTERED 
 (
@@ -157,6 +159,7 @@ CREATE TABLE [dbo].[district](
 	[charter_district] [bit] NULL,
 	[county_id] [nvarchar](9) NULL,
 	[region_id] [nvarchar](9) NOT NULL,
+  [state_id] [nvarchar](9) NOT NULL,
  CONSTRAINT [district_pk] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
