@@ -148,7 +148,7 @@
 		"translations": {
 			"en": {
 				"name": "English Language Learner",
-				"display_text":"English Learner"
+				"display_text":"English Language Learners"
 			}
 		}
 	},
@@ -157,7 +157,7 @@
 		"translations": {
 			"en": {
 				"name": "English Language Learner (CF)",
-				"display_text":"English Language Learner (Current and Former)"
+				"display_text":"English Language Learners (Current and Previous)"
 			}
 		}
 	},
@@ -165,8 +165,8 @@
 		"id": "special_education",
 		"translations": {
 			"en": {
-				"name": "Special Education",
-				"display_text":"Students Served by Special Education"
+				"name": "Students Currently Receiving Special Education Services",
+				"display_text":"Students Receiving Special Education Services"
 			}
 		}
 	},
@@ -174,7 +174,7 @@
 		"id": "special_education_former",
 		"translations": {
 			"en": {
-				"name": "Special Education (Former)"
+				"name": "Students Previously Receiving Special Education Services"
 			}
 		}
 	},
