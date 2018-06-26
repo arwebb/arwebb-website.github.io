@@ -4,3 +4,4 @@ id,email_address,phone_number,principal_name,campus_type,website,S_STREET_ADDR,S
 5,robocop@tembomiddleschools.com,2155552222,Robocop,Middle School,https://tembomiddleschool.com,600 E Thompson St,Philadelphia,PA,19125,1234,39.972831,-75.126991,600 E Thompson St,Philadelphia,PA,19125,1234,39.972831,-75.126991,,phila,2,,
 6,earl.campbell@tembocharterschool.com,2155553333,Earl Campbell,Charter School,https://tembocharterschool.com,4700 Wissahickon Ave,Philadelphia,PA,19144,1234,40.015953,-75.172414,4700 Wissahickon Ave,Philadelphia,PA,19144,1234,40.015953,-75.172414,1,phila,2,,
 9,,,,,,,,,,,,,,,,,,,,phila,2,,
+10,will.smith@testhighschool.edu,2155559988,Will Smith,High School,https://testhighschool.edu,2300 W Master St,Philadelphia,PA,19121,1234,39.976282,-75.174260,2300 W Master St,Philadelphia,PA,19121,1234,39.976282,-75.174260,,phila,2,,
