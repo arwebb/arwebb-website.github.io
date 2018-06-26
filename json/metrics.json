@@ -176,7 +176,7 @@
 		"domain_id": "ccm_readiness",
 		"translations": {
 			"en": {
-				"name": "Ready Rate"
+				"name": "How many students are prepared for success after high school?"
 			}
 		}
 	}, {
@@ -203,7 +203,7 @@
 		"translations": {
 			"en": {
 				"name": "College Prep",
-				"metric_display_title": "College Prep Display Title"
+				"metric_display_title": "Completed a college prep course through an institution of higher education"
 			}
 		}
 	}, {
@@ -212,7 +212,7 @@
 		"translations": {
 			"en": {
 				"name": "Dual Credit",
-				"metric_display_title": "Complete a Course for Dual Credit"
+				"metric_display_title": "Completed a college level course"
 			}
 		}
 	}, {
@@ -221,7 +221,7 @@
 		"translations": {
 			"en": {
 				"name": "Associate’s Degree",
-				"metric_display_title": "Earn an Associate's Degree"
+				"metric_display_title": "Earned an Associate's Degree"
 			}
 		}
 	}, {
@@ -230,7 +230,7 @@
 		"translations": {
 			"en": {
 				"name": "Industry Certification",
-				"metric_display_title": "Earn Industry Certification"
+				"metric_display_title": "Earned an Industry Certification"
 			}
 		}
 	}, {
@@ -248,7 +248,7 @@
 		"translations": {
 			"en": {
 				"name": "United States Armed Forces",
-				"metric_display_title": "Enlist in United States Armed Forces"
+				"metric_display_title": "Enlisted in the Armed Forces"
 			}
 		}
 	}, {
