@@ -112,8 +112,8 @@
 	"translations": {
 		"en": {
 			"intro_screen": {
-				"image_desktop": "http:\/\/via.placeholder.com\/720x720",
-				"image_mobile": "http:\/\/via.placeholder.com\/350x150",
+				"image_desktop": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/Texas_Yellow_1.png",
+				"image_mobile": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/Texas_Yellow_1.png",
 				"image_alternate_text": "Image representing Texas",
 				"long_text": "Curabitur a quam ornare, venenatis nisl sit amet, cursus purus. Fusce ac luctus lacus, quis posuere felis. Cras pulvinar felis turpis, non fermentum est luctus ut. Pellentesque ac convallis mi. Nam est ex, blandit eu nunc faucibus, laoreet pulvinar odio.",
 				"main_prompt_text": "Explore A List of Campuses or Districts",
