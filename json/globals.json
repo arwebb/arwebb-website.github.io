@@ -4,7 +4,7 @@
 	"address_search_failure_image": "https:\/\/storage.googleapis.com\/tembo-reference\/images\/AddressSearchFailureImage.png",
 	"back_link_url": "\/",
 	"current_year": 2017,
-	"header_image": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/texas_logo.png",
+	"header_image": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/TEA_Logo_White.png",
 	"header_image_dark": "https:\/\/storage.googleapis.com\/core-demo-assets\/Tembo_Logo_Long.png",
 	"header_url": "https:\/\/tea.texas.gov\/",
 	"find_link_url": "\/",
@@ -25,7 +25,7 @@
 		"organization_facebook_address": "https:\/\/www.facebook.com\/TexasEducationAgency\/",
 		"organization_twitter_address": "https:\/\/twitter.com\/teainfo",
 		"organization_youtube_address": "https:\/\/tea.texas.gov\/",
-		"organization_website_url": "https:\/\/tea.texas.gov\/"
+		"organization_website_url": "https:\/\/www.youtube.com/TxEdAgency\/"
 	},
 	"static_footer": {
     "tea_logo_src": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/TEA_Seal.png",
@@ -102,7 +102,7 @@
 		{
 			"translations": {
 				"en": {
-					"navigation_item": "Campus List"
+					"navigation_item": "Campuses"
 				}
 			},
 			"link": "[base_path][entity_id]\/campus-list[language]",
@@ -112,10 +112,11 @@
 	"translations": {
 		"en": {
 			"intro_screen": {
-				"image_desktop": "http:\/\/via.placeholder.com\/720x720",
-				"image_mobile": "http:\/\/via.placeholder.com\/350x150",
+				"image_desktop": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/Texas_Yellow_1.png",
+				"image_mobile": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/Texas_Yellow_1.png",
 				"image_alternate_text": "Image representing Texas",
-				"long_text": "Curabitur a quam ornare, venenatis nisl sit amet, cursus purus. Fusce ac luctus lacus, quis posuere felis. Cras pulvinar felis turpis, non fermentum est luctus ut. Pellentesque ac convallis mi. Nam est ex, blandit eu nunc faucibus, laoreet pulvinar odio.",
+				"welcome_text": "Welcome to the Texas Campus Finder",
+				"long_text": "Welcome to the CCRPI Reporting System. The reports available within this site show how schools, districts, and the State are performing on important indicators are are intended to inform educators, parents, and community stakeholders as they work collaborativelt to imporve student outcomes.",
 				"main_prompt_text": "Explore A List of Campuses or Districts",
 				"or_text": "Or",
 				"submit_button_text": "View List",
@@ -219,8 +220,8 @@
 				"school_progress_img": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/school-progress-icon.png",
 				"closing_gaps_img": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/closing-the-gaps-icon.png",
 				"search_text": "Search",
-				"download_pdf_text_campus": "Download Campus PDF",
-				"download_pdf_text_district": "Download District PDF",
+				"download_pdf_text_campus": "Download Campus Report",
+				"download_pdf_text_district": "Download District Report",
 				"download_data_link": "https://tea.texas.gov/Home/",
 				"drawer_closed_subjects_label": "View Subject Results",
 				"drawer_open_subjects_label": "Hide Subject Results",
