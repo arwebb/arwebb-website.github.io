@@ -214,7 +214,7 @@
 				"profile_page_title_district": "District Profile",
 				"out_of_text": "out of 100",
 				"campus_list_page_title_district": "List of All Campuses in this District",
-				"number_campuses_label": "Campuses", 
+				"number_campuses_label": "Campuses",
 				"back_link_text": "Back to Finder",
 				"student_achievement_img": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/student-achievement-icon.png",
 				"school_progress_img": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/school-progress-icon.png",
@@ -254,7 +254,9 @@
 				"total_weight": "100%",
 				"total_score": "100",
 				"weight_text": "Weight",
-				"download_data_text": "Download Data"
+				"download_data_text": "Download Data",
+        "district_score_text": "District Score:",
+        "state_score_text": "State Score:"
 			},
 			"finance_comparison_group_list": {
 				"district_title": "District",
