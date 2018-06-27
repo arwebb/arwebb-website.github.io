@@ -4,6 +4,7 @@
   "type": "campus",
   "county": "Philadelphia",
   "district_id": "full-tembo-school-district",
+  "state_id": "pennsylvania",
   "address": {
     "street": "127 W Oxford St",
     "city": "Philadelphia",
@@ -270,6 +271,7 @@
   "name": "Full Tembo High School",
   "type": "campus",
   "county": "Philadelphia",
+  "state_id": "pennsylvania",
   "district_id": "full-tembo-school-district",
   "address": {
     "street": "550 N Broad St",
@@ -530,6 +532,7 @@
   "name": "Test High School",
   "type": "campus",
   "county": "Philadelphia",
+  "state_id": "pennsylvania",
   "district_id": "full-tembo-school-district",
   "address": {
     "street": "2300 W Master St",
@@ -789,6 +792,7 @@
   "id": "empty-tembo-elementary-school",
   "name": "Empty Tembo Elementary School",
   "type": "campus",
+  "state_id": "pennsylvania",
   "district_id": "empty-tembo-school-district",
   "campus_type": "Elementary",
   "translations": {
@@ -818,6 +822,7 @@
   "id": "empty-tembo-high-school",
   "name": "Empty Tembo High School",
   "type": "campus",
+  "state_id": "pennsylvania",
   "district_id": "empty-tembo-school-district",
   "campus_type": "High",
   "translations": {
@@ -841,6 +846,7 @@
   "id": "missing-data-high-school",
   "name": "Missing Data High School",
   "type": "campus",
+  "state_id": "pennsylvania",
   "district_id": "missing-data-school-district",
   "campus_type": "High",
   "translations": {
@@ -864,6 +870,7 @@
   "id": "k2-tembo-school",
   "name": "K2 Tembo School",
   "type": "campus",
+  "state_id": "pennsylvania",
   "district_id": "full-tembo-school-district",
   "address": {
     "street": "3301 Old York Rd",
@@ -897,6 +904,7 @@
   "name": "Full Tembo School District",
   "type": "district",
   "county": "Philadelphia",
+  "state_id": "pennsylvania",
   "region_id": "tembo-region",
   "address": {
     "street": "440 N Broad St",
@@ -1145,6 +1153,7 @@
   "name": "Test School District",
   "type": "district",
   "county": "Philadelphia",
+  "state_id": "pennsylvania",
   "region_id": "tembo-region",
   "address": {
     "street": "308 N Olive St",
@@ -1393,12 +1402,14 @@
   "name": "Empty Tembo School District",
   "type": "district",
   "charter_district": 1,
+  "state_id": "pennsylvania",
   "region_id": "tembo-region"
 },{
   "id": "missing-data-school-district",
   "name": "Missing Data School District",
   "type": "district",
   "charter_district": 0,
+  "state_id": "pennsylvania",
   "region_id": "tembo-region"
 },{
   "id": "tembo-region",

@@ -5,12 +5,12 @@
 				"name": "Overall Performance",
 				"district_overview_title": "District Overview",
 				"campus_overview_title": "Campus Overview",
-				"overall_district_container": "2017-18 District Overall Performance",
-				"overall_campus_container": "2017-18 Campus Overall Performance",
+				"overall_district_container": "How well is this district performing overall?",
+				"overall_campus_container": "How well is this campus performing overall?",
 				"overall_district_second_title":"A New Way of Looking at Academic Performance",
 				"overall_campus_second_title":"A New Way of Looking at Academic Performance",
-				"overview_district_des": "Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your school district is performing in multiple areas.",
-				"overview_campus_des": "Parents are critical partners in a school's success. Just as your child's report card shows how he or she is performing, this report card shows how your child's school is performing in multiple areas.",
+				"overview_district_des": "Parents, advocates and community members are important partners in a district's success. This report is designed to give everyone, not just district leaders, a better idea of how a district is performing. Just as a student's report card shows how he or she is doing in different classes, this report card tells us how a district is doing in different areas. It is designed to show the district's strengths in addition to challenges that need to be addressed in order to make sure the needs of all students are being met. While this report may not tell the whole story of a certain district, we can use the report to identify ways to help a district improve over time and reach its full potential. ",
+				"overview_campus_des": "Parents, advocates and community members are important partners in a school's success. This report is designed to give everyone, not just campus leaders, a better idea of how a school is performing. Just as a student's report card shows how he or she is doing in different classes, this report card tells us how a school is doing in different areas. It is designed to show the campus' strengths in addition to challenges that need to be addressed in order to make sure the needs of all students are being met. While this report may not tell the whole story of a certain campus, we can use the report to identify ways to help a school improve over time and reach its full potential. ",
 				"chart_icon": "https://storage.googleapis.com/tea-assets/assets/overview-intro-arrow-icon.png"
 			}
 		}
@@ -19,7 +19,7 @@
 		"translations": {
 			"en": {
 				"name": "Distinctions",
-				"domain_display_title": "Distinctions Earned"
+				"domain_display_title": "Where is this campus doing exceptionally well?"
 			}
 		}
 	},
@@ -46,13 +46,13 @@
 			"en": {
 				"name": "Student Achievement",
 				"page_title": "Student Achievement",
-				"domain_display_title": "Student Achievement Domain and Score Title",
-				"overview_page_description":"Placeholder text",
-				"description": "Student Achievement description copy",
+				"domain_display_title": "How well did students do academically this year?",
+				"overview_page_description":"The Student Achievement domain tells us how much students know and are able to do at the end of the school year. ",
+				"description": "The Student Achievement domain tells us how well students are doing at the end of the school year. In the earlier grades, this is measured in STAAR tested subjects. In later grades, it considers things outside of STAAR like graduation rate or how well students are prepared for success after high school.",
 				"pdf_description":"Student Achievement pdf description copy",
-				"weighting_title": "Student Achievement Weighting Title",
+				"weighting_title": "How is the grade for Student Achievement calculated?",
 				"weighting_text_scored": "Scoring Measure",
-				"weighting_text_unscored": "Other Measures in This Section"
+				"weighting_text_unscored": "At the high school level, the Student Achievement score also considers College/career/military readiness & graduation rate. "
 			}
 		}
 
@@ -61,11 +61,11 @@
 		"parent_id": "student_achievement",
 		"translations": {
 			"en": {
-				"name": "STAAR Performance",
-				"subdomain_display_title": "STAAR Performance Container Title",
-				"scaled_score_title": "STAAR Score Title",
-				"weighting_scored_description_district": "For this district, the Student Achievement score is based on STAAR Performance only, because this district is not scored on CCM or Grad Rate.",
-				"weighting_scored_description_campus": "For this school, the Student Achievement score is based on STAAR Performance only, because this school is not scored on CCM or Grad Rate."
+				"name": "Performance on the STAAR Test",
+				"subdomain_display_title": "How well are students performing on the STAAR test?",
+				"scaled_score_title": "Total Points",
+				"weighting_scored_description_district": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only..",
+				"weighting_scored_description_campus": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only.."
 			}
 		}
 	}, {
@@ -75,7 +75,7 @@
 			"en": {
 				"name": "College, Career, and Military Readiness",
 				"subdomain_display_title": "CCM Container Title",
-				"scaled_score_title": "CCM Score Title"
+				"scaled_score_title": "Total Points "
 			}
 		}
 	}, {
@@ -84,8 +84,8 @@
 		"translations": {
 			"en": {
 				"name": "Graduation Rate",
-				"subdomain_display_title": "Grad Rate Container Title",
-				"scaled_score_title": "Grad Rate Score Title"
+				"subdomain_display_title": "How many students at this campus graduate on time?",
+				"scaled_score_title": "Total Points "
 			}
 		}
 	}, {
@@ -96,7 +96,7 @@
 				"name": "School Progress",
 				"page_title": "School Progress",
 				"domain_display_title": "School Progress Domain and Score Title",
-				"overview_page_description":"Placeholder text",
+				"overview_page_description":"The School Progress domain shows us how students on a campus are performing over time and compares that progress to similar schools.",
 				"description": "School Progress description copy",
 				"pdf_description":"School Progress pdf description copy",
 				"weighting_title": "School Progress Weighting Title",
@@ -137,7 +137,7 @@
 				"name": "Closing the Gaps",
 				"page_title": "Closing the Gaps",
 				"domain_display_title": "Closing the Gaps Domain and Score Title",
-				"overview_page_description":"Placeholder text",
+				"overview_page_description":"The Closing the Gaps domain tells us how well different populations of students on a campus are performing. ",
 				"weighting_title": "Closing the Gaps Weighting Title",
 				"description": "Closing the Gaps description copy",
 				"pdf_description":"Closing the Gaps PDF description copy",
