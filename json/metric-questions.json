@@ -1,0 +1,188 @@
+[
+  {
+    "id": "revenue-total",
+    "flyout_ids": [
+      "total-revenue"
+    ],
+    "title": "metric_flyout_over_time_title",
+    "metric_id": "revenue_total_all",
+    "display_type": "line",
+    "filters":[{"field": "entity_id",
+                "value":"[entity_id]"},
+               {"field": "metric_id",
+                 "value":"revenue_total_all"}],
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "expenditure-total",
+    "flyout_ids": [
+      "total-revenue"
+    ],
+    "title": "metric_flyout_over_time_title",
+    "metric_id": "expenditures_total_all",
+    "display_type": "line",
+    "filters":[{"field": "entity_id",
+                "value":"[entity_id]"},
+               {"field": "metric_id",
+                 "value":"expenditures_total_all"}],
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "revenue-per-student",
+    "flyout_ids": [
+      "revenue-per-student"
+    ],
+    "title": "metric_flyout_over_time_title",
+    "metric_id": "revenue_per_stud_all",
+    "display_type": "line",
+    "filters":[{"field": "entity_id",
+                "value":"[entity_id]"},
+               {"field": "metric_id",
+                 "value":"revenue_per_stud_all"}],
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "expenditure-per-student",
+    "flyout_ids": [
+      "revenue-per-student"
+    ],
+    "title": "metric_flyout_over_time_title",
+    "metric_id": "expenditures_per_stud_all",
+    "display_type": "line",
+    "filters":[{"field": "entity_id",
+                "value":"[entity_id]"},
+               {"field": "metric_id",
+                 "value":"expenditures_per_stud_all"}],
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "revenue-per-student-peer",
+    "flyout_ids": [
+      "revenue-per-student-peer"
+    ],
+    "title": "metric_flyout_over_time_title",
+    "metric_id": "revenue_per_stud_peer",
+    "display_type": "line",
+    "filters":[{"field": "entity_id",
+                "value":"[entity_id]"},
+               {"field": "metric_id",
+                 "value":"revenue_per_stud_peer"}],
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "expenditure-per-student-peer",
+    "flyout_ids": [
+      "revenue-per-student-peer"
+    ],
+    "title": "metric_flyout_over_time_title",
+    "metric_id": "expenditures_per_stud_all_peer",
+    "display_type": "line",
+    "filters":[{"field": "entity_id",
+                "value":"[entity_id]"},
+               {"field": "metric_id",
+                 "value":"expenditures_per_stud_all_peer"}],
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "first-rating",
+    "flyout_ids": [
+      "first-rating"
+    ],
+    "metric_id": "first_rating_rating",
+    "title": "metric_flyout_over_time_title",
+    "display_type": "letter_badge",
+    "subgroups": [{
+        "datapoints_column": "year",
+        "values": [
+            "2015",
+            "2016",
+            "2017"
+        ]
+    }]
+  },
+  {
+    "id": "debt-comparison",
+    "flyout_ids": [
+      "debt"
+    ],
+    "data": [
+      {
+        "entity_id": "entity_id",
+        "metric_id": "debt_per_stud"
+      },
+      {
+        "entity_id": "entity_id",
+        "metric_id": "debt_per_stud_peer"
+      },
+      {
+        "entity_id": "region_id",
+        "metric_id": "debt_per_stud"
+      },
+      {
+        "entity_id": "state_id",
+        "metric_id": "debt_per_stud"
+      }
+    ]
+},
+{
+  "id": "debt-over-time",
+  "flyout_ids": [
+    "debt"
+  ],
+  "title": "metric_flyout_over_time_title",
+  "metric_id": "expenditures_total_all",
+  "display_type": "line",
+  "filters":[{"field": "entity_id",
+              "value":"[entity_id]"}],
+  "subgroups": [{
+      "datapoints_column": "year",
+      "values": [
+          "2015",
+          "2016",
+          "2017"
+      ]
+  }]
+}
+]

@@ -210,6 +210,8 @@
 			},
 			"explore": {
 				"back_to_text": "Back to",
+				"funding_min": 500,
+				"funding_max": 9999,
 				"profile_page_title_campus": "Campus Profile",
 				"profile_page_title_district": "District Profile",
 				"out_of_text": "out of 100",
