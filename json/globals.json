@@ -210,9 +210,13 @@
 			},
 			"explore": {
 				"back_to_text": "Back to",
+				"funding_min": 500,
+				"funding_max": 9999,
 				"profile_page_title_campus": "Campus Profile",
 				"profile_page_title_district": "District Profile",
 				"out_of_text": "out of 100",
+				"out_of_text_string": "out of",
+				"out_of_text_number": "100",
 				"campus_list_page_title_district": "List of All Campuses in this District",
 				"number_campuses_label": "Campuses",
 				"back_link_text": "Back to Finder",
