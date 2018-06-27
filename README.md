@@ -7,7 +7,7 @@
 * `filters.json`
 * `metric_questions.json`
 
-## Sample data (for development)
+## Sample JSON data (for development)
 * `entities.json`
 * `csv/to_json/datapoints.csv`
 * `json-mapping/datapoints_mapping.json`
