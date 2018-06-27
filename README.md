@@ -5,7 +5,7 @@
 * `metrics.json`
 * `disaggregations.json`
 * `filters.json`
-* `universes.json`
+* `metric_questions.json`
 
 ## Sample data (for development)
 * `entities.json`
