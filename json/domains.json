@@ -46,13 +46,13 @@
 			"en": {
 				"name": "Student Achievement",
 				"page_title": "Student Achievement",
-				"domain_display_title": "Student Achievement Domain and Score Title",
+				"domain_display_title": "How well did students do academically this year?",
 				"overview_page_description":"The Student Achievement domain tells us how much students know and are able to do at the end of the school year. ",
-				"description": "Student Achievement description copy",
+				"description": "The Student Achievement domain tells us how well students are doing at the end of the school year. In the earlier grades, this is measured in STAAR tested subjects. In later grades, it considers things outside of STAAR like graduation rate or how well students are prepared for success after high school.",
 				"pdf_description":"Student Achievement pdf description copy",
-				"weighting_title": "Student Achievement Weighting Title",
+				"weighting_title": "How is the grade for Student Achievement calculated?",
 				"weighting_text_scored": "Scoring Measure",
-				"weighting_text_unscored": "Other Measures in This Section"
+				"weighting_text_unscored": "At the high school level, the Student Achievement score also considers College/career/military readiness & graduation rate. "
 			}
 		}
 
@@ -61,11 +61,11 @@
 		"parent_id": "student_achievement",
 		"translations": {
 			"en": {
-				"name": "STAAR Performance",
-				"subdomain_display_title": "STAAR Performance Container Title",
-				"scaled_score_title": "STAAR Score Title",
-				"weighting_scored_description_district": "For this district, the Student Achievement score is based on STAAR Performance only, because this district is not scored on CCM or Grad Rate.",
-				"weighting_scored_description_campus": "For this school, the Student Achievement score is based on STAAR Performance only, because this school is not scored on CCM or Grad Rate."
+				"name": "Performance on the STAAR Test",
+				"subdomain_display_title": "How well are students performing on the STAAR test?",
+				"scaled_score_title": "Total Points",
+				"weighting_scored_description_district": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only..",
+				"weighting_scored_description_campus": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only.."
 			}
 		}
 	}, {
@@ -75,7 +75,7 @@
 			"en": {
 				"name": "College, Career, and Military Readiness",
 				"subdomain_display_title": "CCM Container Title",
-				"scaled_score_title": "CCM Score Title"
+				"scaled_score_title": "Total Points "
 			}
 		}
 	}, {
@@ -84,8 +84,8 @@
 		"translations": {
 			"en": {
 				"name": "Graduation Rate",
-				"subdomain_display_title": "Grad Rate Container Title",
-				"scaled_score_title": "Grad Rate Score Title"
+				"subdomain_display_title": "How many students at this campus graduate on time?",
+				"scaled_score_title": "Total Points "
 			}
 		}
 	}, {
