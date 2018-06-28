@@ -137,7 +137,7 @@
 				"more_filters_show_text": "More Filters",
 				"list_header_singular_text": "Displaying [XX] [entity_type]",
 				"list_header_plural_text": "Displaying [XX] [entity_type]",
-				"list_header_plural_text_with_pagination": "Displaying [ZZ] [entity_type] of [XX]",
+				"list_header_plural_text_with_pagination": "Displaying [entity_type] [ZZ] of [XX]",
 				"within_distance_text": "within [YY] miles",
 				"show_filters_text": "Change Distance",
 				"list_nav_text": "List",
