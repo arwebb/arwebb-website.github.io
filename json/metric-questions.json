@@ -161,18 +161,22 @@
     "display_type": "score-metadata",
     "data": [
       {
+        "name_field": "finance_comparison_group_list.district_title",
         "entity_id": "entity_id",
         "metric_id": "debt_per_stud"
       },
       {
+        "name_field": "finance_comparison_group_list.peer_title",
         "entity_id": "entity_id",
         "metric_id": "debt_per_stud_peer"
       },
       {
+        "name_field": "finance_comparison_group_list.region_title",
         "entity_id": "region_id",
         "metric_id": "debt_per_stud"
       },
       {
+        "name_field": "finance_comparison_group_list.state_title",
         "entity_id": "state_id",
         "metric_id": "debt_per_stud"
       }
