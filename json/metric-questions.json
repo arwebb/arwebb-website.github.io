@@ -152,7 +152,7 @@
       "debt_per_stud_peer"
     ],
     "title": "metric_flyout_comparison_title",
-    "display_type": "list",
+    "display_type": "score-metadata",
     "data": [
       {
         "entity_id": "entity_id",
