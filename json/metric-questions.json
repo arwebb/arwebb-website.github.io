@@ -89,12 +89,12 @@
       "revenue-per-student-peer"
     ],
     "title": "metric_flyout_over_time_title",
-    "metric_id": "revenue_per_stud_peer",
+    "metric_id": "revenue_per_stud_all_peer",
     "display_type": "line",
     "filters":[{"field": "entity_id",
                 "value":"[entity_id]"},
                {"field": "metric_id",
-                 "value":"revenue_per_stud_peer"}],
+                 "value":"revenue_per_stud_all_peer"}],
     "subgroups": [{
         "datapoints_column": "year",
         "values": [
@@ -132,7 +132,7 @@
     ],
     "metric_id": "first_rating_rating",
     "title": "metric_flyout_over_time_title",
-    "display_type": "letter_badge",
+    "display_type": "grade",
     "subgroups": [{
         "datapoints_column": "year",
         "values": [
@@ -147,6 +147,12 @@
     "flyout_ids": [
       "debt"
     ],
+    "metric_id": [
+      "debt_per_stud",
+      "debt_per_stud_peer"
+    ],
+    "title": "metric_flyout_comparison_title",
+    "display_type": "list",
     "data": [
       {
         "entity_id": "entity_id",
@@ -164,7 +170,8 @@
         "entity_id": "state_id",
         "metric_id": "debt_per_stud"
       }
-    ]
+    ],
+    "subgroups": [{"datapoints_column": "entity_id"}]
 },
 {
   "id": "debt-over-time",
@@ -172,10 +179,12 @@
     "debt"
   ],
   "title": "metric_flyout_over_time_title",
-  "metric_id": "expenditures_total_all",
+  "metric_id": "debt_per_stud",
   "display_type": "line",
   "filters":[{"field": "entity_id",
-              "value":"[entity_id]"}],
+              "value":"[entity_id]"},
+              {"field": "metric_id",
+                "value":"debt_per_stud"}],
   "subgroups": [{
       "datapoints_column": "year",
       "values": [

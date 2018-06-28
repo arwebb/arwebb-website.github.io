@@ -1530,3 +1530,6 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 1569,2015,1337,,,,,7,,revenue,expenditures_per_stud_all,,
 1570,2015,1776,,,,,1,,revenue,revenue_per_stud_all,,
 1571,2015,1345,,,,,1,,revenue,expenditures_per_stud_all,,
+1572,2017,450,,,,,7,,debt,debt_per_stud,,
+1573,2017,777,,,,,1,,debt,debt_per_stud,,
+1574,2015,56,,,,,2,,debt,debt_per_stud,,

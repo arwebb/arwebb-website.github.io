@@ -639,7 +639,8 @@
 		"translations": {
 			"en": {
 				"name": "Revenue Per Student – All (Peer)",
-				"metric_display_title":"Peer Funding"
+				"metric_display_title":"Peer Funding",
+				"metric_flyout_over_time_title": "Peer Average Revenue per Student"
 			}
 		}
 	}, {
@@ -690,7 +691,8 @@
 		"domain_id": "expenditures",
 		"translations": {
 			"en": {
-				"name": "Expenditures Per Student – All (Peer)"
+				"name": "Expenditures Per Student – All (Peer)",
+				"metric_flyout_over_time_title": "Peer Average Expenditure per Student"
 			}
 		}
 	}, {
