@@ -188,7 +188,7 @@
 				"name": "Revenue",
 				"domain_display_title_district":"2016-17 District Funding",
 				"pdf_display_title":"How much district receive per student in 2016-2017",
-				"per_student_label":"per Student"
+				"per_student_label":"per student"
 			}
 		}
 	}, {
@@ -213,8 +213,8 @@
 		"translations": {
 			"en": {
 				"name": "First Rating",
-				"subdomain_display_title": "First Rating Title",
-				"pdf_display_title":"Finance Rating (First)"
+				"subdomain_display_title": "Financial Integrity Rating System of Texas (FIRST)",
+				"pdf_display_title":"Financial Integrity Rating System of Texas (FIRST)"
 			}
 		}
 	}, {
@@ -223,7 +223,7 @@
 		"translations": {
 			"en": {
 				"name": "Debt",
-				"subdomain_display_title":"How Much Debt Per Student Does My District Have?"
+				"subdomain_display_title":"How much debt per student does my district have?"
 			}
 		}
 	}, {
