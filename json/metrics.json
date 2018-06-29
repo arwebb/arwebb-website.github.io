@@ -613,8 +613,8 @@
 			"en": {
 				"name": "Total Revenue – All",
 				"metric_display_title": "Total Revenue",
-				"table_row_display_title": "Total Revenue",
-				"table_column_display_title": "All Funds Revenue",
+				"table_row_display_title": "Total Revenue & Expenditures",
+				"table_column_display_title": "Revenue - All Funds",
 				"metric_flyout_over_time_title": "All Funds Revenue Over Time title"
 			}
 		}
@@ -625,7 +625,7 @@
 			"en": {
 				"name": "Revenue Per Student – All",
 				"metric_display_title": "Revenue Per Student",
-				"table_row_display_title": "Revenue per Student",
+				"table_row_display_title": "Revenue & Expenditures per Student",
 				"metric_display_title_district": "District Funding",
 				"metric_display_title_campus": "Campus Funding",
 				"metric_title_flyout_district":"District Revenue per Student",
@@ -641,7 +641,7 @@
 		"translations": {
 			"en": {
 				"name": "Revenue Per Student – All (Peer)",
-				"metric_display_title":"Peer Funding",
+				"metric_display_title":"Peer Average Funding",
 				"metric_flyout_over_time_title": "Peer Average Revenue per Student"
 			}
 		}
@@ -675,7 +675,7 @@
 		"translations": {
 			"en": {
 				"name": "Total Expenditures – All",
-				"table_column_display_title": "All Funds Expenditures",
+				"table_column_display_title": "Expenditures - All Funds",
 				"metric_flyout_over_time_title": "All Funds Expenditure Over Time title"
 			}
 		}
@@ -774,7 +774,7 @@
 		"translations": {
 			"en": {
 				"name": "Debt – Fast Growth",
-				"metric_display_title": "Fast Growth District"
+				"metric_display_title": "Is this a fast growth district?"
 			}
 		}
 	}, {
