@@ -4,7 +4,7 @@
 	"address_search_failure_image": "https:\/\/storage.googleapis.com\/tembo-reference\/images\/AddressSearchFailureImage.png",
 	"back_link_url": "\/",
 	"current_year": 2017,
-	"header_image": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/TEA_Logo_White.png",
+	"header_image": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/texas_logo.png",
 	"header_image_dark": "https:\/\/storage.googleapis.com\/tea-assets\/assets\/texas_logo.png",
 	"header_url": "https:\/\/tea.texas.gov\/",
 	"find_link_url": "\/",
@@ -39,76 +39,133 @@
 		"english_text": "English",
 		"spanish_text": "Espa\u00f1ol"
 	},
-	"nav_sections": [{
-			"translations": {
-				"en": {
-					"navigation_item": "Overview"
-				}
-			},
-			"link": "[base_path][entity_id]\/overview[language]"
-		},
-		{
-			"translations": {
-				"en": {
-					"navigation_item": "Performance"
-				}
-			},
-			"sub_navigation": [{
-					"translations": {
-						"en": {
-							"navigation_item": "Student Achievement"
-						}
-					},
-					"link": "[base_path][entity_id]\/student-achievement[language]",
-					"page_id": "student_achievement"
+	"nav_sections": {
+		"district":[
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Overview"
+					}
 				},
-				{
-					"translations": {
-						"en": {
-							"navigation_item": "School Progress"
-						}
-					},
-					"link": "[base_path][entity_id]\/school-progress[language]",
-					"page_id": "school_progress"
+				"link": "[base_path][entity_id]\/overview[language]"
+			},
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Performance"
+					}
 				},
-				{
-					"translations": {
-						"en": {
-							"navigation_item": "Closing the Gaps"
-						}
+				"sub_navigation": [{
+						"translations": {
+							"en": {
+								"navigation_item": "Student Achievement"
+							}
+						},
+						"link": "[base_path][entity_id]\/student-achievement[language]",
+						"page_id": "student_achievement"
 					},
-					"link": "[base_path][entity_id]\/closing-the-gaps[language]",
-					"page_id": "closing_gaps"
-				}
-			]
-		},
-		{
-			"translations": {
-				"en": {
-					"navigation_item": "Finance"
-				}
+					{
+						"translations": {
+							"en": {
+								"navigation_item": "School Progress"
+							}
+						},
+						"link": "[base_path][entity_id]\/school-progress[language]",
+						"page_id": "school_progress"
+					},
+					{
+						"translations": {
+							"en": {
+								"navigation_item": "Closing the Gaps"
+							}
+						},
+						"link": "[base_path][entity_id]\/closing-the-gaps[language]",
+						"page_id": "closing_gaps"
+					}
+				]
 			},
-			"link": "[base_path][entity_id]\/finance[language]"
-		},
-		{
-			"translations": {
-				"en": {
-					"navigation_item": "Profile"
-				}
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Finance"
+					}
+				},
+				"link": "[base_path][entity_id]\/finance[language]"
 			},
-			"link": "[base_path][entity_id]\/profile[language]",
-			"page_id": "profile"
-		},
-		{
-			"translations": {
-				"en": {
-					"navigation_item": "Campuses"
-				}
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Profile"
+					}
+				},
+				"link": "[base_path][entity_id]\/profile[language]",
+				"page_id": "profile"
 			},
-			"link": "[base_path][entity_id]\/campus-list[language]",
-			"page_id": "campus_list"
-		}
-	],
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Campuses"
+					}
+				},
+				"link": "[base_path][entity_id]\/campus-list[language]",
+				"page_id": "campus_list"
+			}
+		],
+		"campus":[
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Overview"
+					}
+				},
+				"link": "[base_path][entity_id]\/overview[language]"
+			},
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Performance"
+					}
+				},
+				"sub_navigation": [{
+						"translations": {
+							"en": {
+								"navigation_item": "Student Achievement"
+							}
+						},
+						"link": "[base_path][entity_id]\/student-achievement[language]",
+						"page_id": "student_achievement"
+					},
+					{
+						"translations": {
+							"en": {
+								"navigation_item": "School Progress"
+							}
+						},
+						"link": "[base_path][entity_id]\/school-progress[language]",
+						"page_id": "school_progress"
+					},
+					{
+						"translations": {
+							"en": {
+								"navigation_item": "Closing the Gaps"
+							}
+						},
+						"link": "[base_path][entity_id]\/closing-the-gaps[language]",
+						"page_id": "closing_gaps"
+					}
+				]
+			},
+			{
+				"translations": {
+					"en": {
+						"navigation_item": "Profile"
+					}
+				},
+				"link": "[base_path][entity_id]\/profile[language]",
+				"page_id": "profile"
+			}
+		]
+	},
 	"translations": {
 		"en": {
 			"intro_screen": {
