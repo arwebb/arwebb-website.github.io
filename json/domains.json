@@ -95,13 +95,13 @@
 			"en": {
 				"name": "School Progress",
 				"page_title": "School Progress",
-				"domain_display_title": "School Progress Domain and Score Title",
+				"domain_display_title": "Are students making academic progress from one year to the next?",
 				"overview_page_description":"The School Progress domain shows us how students on a campus are performing over time and compares that progress to similar schools.",
-				"description": "School Progress description copy",
+				"description": "The School Progress domain shows us how students are performing over time. It considers how many students are recieving a full year's worth of academic knowledge, as measured by the STAAR tests, as well as how achievement levels at the campus compare to similar schools.",
 				"pdf_description":"School Progress pdf description copy",
-				"weighting_title": "School Progress Weighting Title",
-				"weighting_text_scored": "Scoring Measure",
-				"weighting_text_unscored": "Other Measures in This Section",
+				"weighting_title": "How is the score for student progress calculated?",
+				"weighting_text_scored": "This campus' score was calculated using:",
+				"weighting_text_unscored": "Other measures in this domain:",
 				"pdf_display_text":"The higher of Growth or Performance is used."
 			}
 		}
@@ -110,11 +110,11 @@
 		"parent_id": "school_progress",
 		"translations": {
 			"en": {
-				"name": "Student Growth",
-				"subdomain_display_title": "Student Growth Container Title",
-				"scaled_score_title": "Student Growth Score Title",
-				"weighting_scored_description_district": "For this district, the School Progress domain score is based on Student Growth because this district performed better on Student Growth than Relative Performance.",
-				"weighting_scored_description_campus": "For this school, the School Progress domain score is based on Student Growth because this school performed better on Student Growth than Relative Performance."
+				"name": "Academic Growth",
+				"subdomain_display_title": "How many students made sufficient academic growth in the last school year?",
+				"scaled_score_title": "Total Points",
+				"weighting_scored_description_district": "Districts should be rewarded for what they do best. Since this district's Academic Growth score was higher, it will be used for the full School Progress grade.",
+				"weighting_scored_description_campus": "Schools should be rewarded for what they do best. Since this campus's Academic Growth score was higher, it will be used for the full School Progress grade."
 			}
 		}
 	}, {
@@ -123,10 +123,10 @@
 		"translations": {
 			"en": {
 				"name": "Relative Performance",
-				"subdomain_display_title": "Relative Performance Container Title",
-				"scaled_score_title": "Relative Performance Score Title",
-				"weighting_scored_description_district": "For this district, the School Progress domain score is based on Relative Performance because this district performed better on Relative Performance than Student Growth.",
-				"weighting_scored_description_campus": "For this school, the School Progress domain score is based on Relative Performance because this school performed better on Relative Performance than Student Growth."
+				"subdomain_display_title": "How much progress are students making relative to students at similar schools?",
+				"scaled_score_title": "Total Points",
+				"weighting_scored_description_district": "Districts should be rewarded for what they do best. Since this district's Relative Performance score was higher, it will be used for the full School Progress grade.",
+				"weighting_scored_description_campus": "Schools should be rewarded for what they do best. Since this campus's Relative Performance score was higher, it will be used for the full School Progress grade. "
 			}
 		}
 	}, {
