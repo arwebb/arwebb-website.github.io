@@ -427,7 +427,7 @@
 		"domain_id": "closing_the_gaps",
 		"translations": {
 			"en": {
-				"name": "Points Earned"
+				"name": "Grade"
 			}
 		}
 	}, {
@@ -477,7 +477,7 @@
 			"en": {
 				"name": "Indicator Met",
 				"reading_label":"Reading",
-				"mathematics_label":"Mathematics"
+				"mathematics_label":"Math"
 			}
 		}
 	}, {
@@ -519,7 +519,7 @@
 			"en": {
 				"name": "Indicator Met",
 				"reading_label":"Reading",
-				"mathematics_label":"Mathematics",
+				"mathematics_label":"Math",
 				"graduation_label":"Graduation"
 			}
 		}
@@ -537,7 +537,7 @@
 		"translations": {
 			"en": {
 				"name": "Total Indicators Met",
-				"telpas_progress_rate_label":"Progress Rate"
+				"telpas_progress_rate_label":"English Language Learners"
 			}
 		}
 	}, {
@@ -603,7 +603,7 @@
 			"en": {
 				"name": "Indicator Met",
 				"student_achievement_domain_score_label":"Student Achievement",
-				"ccm_ready_rate_label":"Ready Rate"
+				"ccm_ready_rate_label":"College, Career, Military Readiness"
 			}
 		}
 	}, {
