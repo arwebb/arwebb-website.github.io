@@ -335,7 +335,7 @@
 		"domain_id": "school_progress",
 		"translations": {
 			"en": {
-				"name": "Points Earned"
+				"name": "Grade"
 			}
 		}
 	}, {
@@ -367,7 +367,7 @@
 		"domain_id": "student_growth",
 		"translations": {
 			"en": {
-				"name": "Student Growth Score"
+				"name": "Academic Growth"
 			}
 		}
 	}, {
@@ -391,7 +391,9 @@
 		"domain_id": "relative_performance",
 		"translations": {
 			"en": {
-				"name": "Achievement"
+				"name": "STAAR Performance - All Students",
+				"metric_display_title":"STAAR Performance - All Students",
+				"metric_display_title_alt":"STAAR Performance and College, Career, Military Readiness - All Students"
 			}
 		}
 	}, {
@@ -399,7 +401,7 @@
 		"domain_id": "relative_performance",
 		"translations": {
 			"en": {
-				"name": "Economically Disadvantaged"
+				"name": "Students qualifying for free and reduced-priced lunch"
 			}
 		}
 	}, {
