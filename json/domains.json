@@ -64,8 +64,8 @@
 				"name": "Performance on the STAAR Test",
 				"subdomain_display_title": "How well are students performing on the STAAR test?",
 				"scaled_score_title": "Total Points",
-				"weighting_scored_description_district": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only..",
-				"weighting_scored_description_campus": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only.."
+				"weighting_scored_description_district": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only.",
+				"weighting_scored_description_campus": "For elementary and middle schools, the Student Achievement score is based on STAAR performance only."
 			}
 		}
 	}, {
@@ -136,13 +136,13 @@
 			"en": {
 				"name": "Closing the Gaps",
 				"page_title": "Closing the Gaps",
-				"domain_display_title": "Closing the Gaps Domain and Score Title",
+				"domain_display_title": "How well are different populations of students performing?",
 				"overview_page_description":"The Closing the Gaps domain tells us how well different populations of students on a campus are performing. ",
-				"weighting_title": "Closing the Gaps Weighting Title",
-				"description": "Closing the Gaps description copy",
+				"weighting_title": "How is the score for Closing the Gaps calculated?",
+				"description": "The Closing the Gaps domain lets us know how well different populations of students on a campus are performing. It does this by measuring whether different student groups meet preset targets in certain areas so that attention is given to each and every student at the school.",
 				"pdf_description":"Closing the Gaps PDF description copy",
-				"indicators_text": "Indicators",
-				"indicators_met_text": "Indicators Met"
+				"indicators_text": "Targets Met",
+				"indicators_met_text": "Overall Targets Met"
 			}
 		}
 	}, {
@@ -150,8 +150,8 @@
 		"parent_id": "closing_the_gaps",
 		"translations": {
 			"en": {
-				"name": "Academic Achievement",
-				"subdomain_display_title": "Academic Achievement Title"
+				"name": "Student Performance ",
+				"subdomain_display_title": "Student Performance"
 			}
 		}
 	}, {
@@ -159,8 +159,8 @@
 		"parent_id": "closing_the_gaps",
 		"translations": {
 			"en": {
-				"name": "Growth",
-				"subdomain_display_title": "Growth Title"
+				"name": "Academic Growth",
+				"subdomain_display_title": "Academic Growth"
 			}
 		}
 	}, {
@@ -168,8 +168,8 @@
 		"parent_id": "closing_the_gaps",
 		"translations": {
 			"en": {
-				"name": "English Language Proficiency",
-				"subdomain_display_title": "ELP Title"
+				"name": "English Language Learner Performance",
+				"subdomain_display_title": "English Language Learner Performance"
 			}
 		}
 	}, {
@@ -177,8 +177,8 @@
 		"parent_id": "closing_the_gaps",
 		"translations": {
 			"en": {
-				"name": "School Quality or Student Success",
-				"subdomain_display_title": "School Quality Title"
+				"name": "Student Success",
+				"subdomain_display_title": "Student Success"
 			}
 		}
 	}, {
