@@ -612,10 +612,10 @@
 		"translations": {
 			"en": {
 				"name": "Total Revenue – All",
-				"metric_display_title": "Total Revenue",
+				"metric_display_title": "Total Revenue & Expenditures",
 				"table_row_display_title": "Total Revenue & Expenditures",
 				"table_column_display_title": "Revenue - All Funds",
-				"metric_flyout_over_time_title": "All Funds Revenue Over Time title"
+				"metric_flyout_over_time_title": "District Total Revenue - All Funds Over Time"
 			}
 		}
 	}, {
@@ -632,7 +632,7 @@
 				"metric_title_flyout_peer":"Peer Average Revenue per Student",
 				"metric_title_flyout_region":"Region Average Revenue per Student",
 				"metric_title_flyout_state":"State Average Revenue per Student",
-				"metric_flyout_over_time_title": "Revenue Per Student Over Time title"
+				"metric_flyout_over_time_title": "District Revenue Over Time - All Funds"
 			}
 		}
 	}, {
@@ -676,7 +676,7 @@
 			"en": {
 				"name": "Total Expenditures – All",
 				"table_column_display_title": "Expenditures - All Funds",
-				"metric_flyout_over_time_title": "All Funds Expenditure Over Time title"
+				"metric_flyout_over_time_title": "District Total Expenditures - All Funds Over Time"
 			}
 		}
 	}, {
@@ -685,7 +685,7 @@
 		"translations": {
 			"en": {
 				"name": "Expenditures Per Student – All",
-				"metric_flyout_over_time_title": "Expenditure per Student Over Time"
+				"metric_flyout_over_time_title": "District Expenditures Over Time - All Funds"
 			}
 		}
 	}, {
@@ -727,8 +727,8 @@
 		"translations": {
 			"en": {
 				"name": "Rating",
-				"metric_display_title": "First Rating",
-				"metric_flyout_over_time_title": "Over Time title"
+				"metric_display_title": "Financial Integrity Rating System of Texas (FIRST)",
+				"metric_flyout_over_time_title": "District FIRST Rating Over Time"
 			}
 		}
 	}, {
@@ -754,8 +754,8 @@
 			"en": {
 				"name": "Debt per Student",
 				"metric_display_title": "Debt per Student",
-				"metric_flyout_comparison_title": "Comparison title",
-				"metric_flyout_over_time_title": "Over Time title"
+				"metric_flyout_comparison_title": "Debt per Student",
+				"metric_flyout_over_time_title": "District Over Time"
 
 			}
 		}
