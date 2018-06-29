@@ -790,7 +790,7 @@
 		"domain_id": "enrollment",
 		"translations": {
 			"en": {
-				"name": "Total Students Enrolled"
+				"name": "Total Student Enrollment"
 			}
 		}
 	}, {
@@ -806,7 +806,7 @@
 		"domain_id": "staff",
 		"translations": {
 			"en": {
-				"name": "Number of Staff"
+				"name": "Number of Full Time Staff"
 			}
 		}
 	}, {
@@ -814,7 +814,7 @@
 		"domain_id": "staff",
 		"translations": {
 			"en": {
-				"name": "Number of Teachers"
+				"name": "Number of Full Time Teachers"
 			}
 		}
 	}, {
