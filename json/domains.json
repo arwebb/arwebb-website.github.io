@@ -244,21 +244,21 @@
 		"id": "student_population_race",
 		"translations": {
 			"en": {
-				"name": "Student Population by Race/Ethnicity"
+				"name": "Student Enrollment by Race/Ethnicity"
 			}
 		}
 	}, {
 		"id": "student_population_gender",
 		"translations": {
 			"en": {
-				"name": "Enrollment by Gender"
+				"name": "Student Enrollment by Gender"
 			}
 		}
 	}, {
 		"id": "student_population_subgroup",
 		"translations": {
 			"en": {
-				"name": "Student Population by Subgroup"
+				"name": "Student Enrollment by Subgroup"
 			}
 		}
 	}, {
