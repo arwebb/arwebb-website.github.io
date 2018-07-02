@@ -7,8 +7,8 @@
 				"campus_overview_title": "Campus Overview",
 				"overall_district_container": "How well is this district performing overall?",
 				"overall_campus_container": "How well is this campus performing overall?",
-				"overall_district_second_title":"A New Way of Looking at Academic Performance",
-				"overall_campus_second_title":"A New Way of Looking at Academic Performance",
+				"overall_district_second_title": "A New Way of Looking at Academic Performance",
+				"overall_campus_second_title": "A New Way of Looking at Academic Performance",
 				"overview_district_des": "Parents, advocates and community members are important partners in a district's success. This report is designed to give everyone, not just district leaders, a better idea of how a district is performing. Just as a student's report card shows how he or she is doing in different classes, this report card tells us how a district is doing in different areas. It is designed to show the district's strengths in addition to challenges that need to be addressed in order to make sure the needs of all students are being met. While this report may not tell the whole story of a certain district, we can use the report to identify ways to help a district improve over time and reach its full potential. ",
 				"overview_campus_des": "Parents, advocates and community members are important partners in a school's success. This report is designed to give everyone, not just campus leaders, a better idea of how a school is performing. Just as a student's report card shows how he or she is doing in different classes, this report card tells us how a school is doing in different areas. It is designed to show the campus' strengths in addition to challenges that need to be addressed in order to make sure the needs of all students are being met. While this report may not tell the whole story of a certain campus, we can use the report to identify ways to help a school improve over time and reach its full potential. ",
 				"chart_icon": "https://storage.googleapis.com/tea-assets/assets/overview-intro-arrow-icon.png"
@@ -19,7 +19,8 @@
 		"translations": {
 			"en": {
 				"name": "Distinctions",
-				"domain_display_title": "Where is this campus doing exceptionally well?"
+				"domain_display_title": "Where is this campus doing exceptionally well?",
+				"domain_display_title_district": "Where is this district doing exceptionally well?"
 			}
 		}
 	},
@@ -28,6 +29,14 @@
 		"translations": {
 			"en": {
 				"name": "Comprehensive Support"
+			}
+		}
+	},
+	{
+		"id": "targ_support",
+		"translations": {
+			"en": {
+				"name": "Targeted Support"
 			}
 		}
 	},
@@ -47,9 +56,10 @@
 				"name": "Student Achievement",
 				"page_title": "Student Achievement",
 				"domain_display_title": "How well did students do academically this year?",
-				"overview_page_description":"The Student Achievement domain tells us how much students know and are able to do at the end of the school year. ",
+				"overview_page_description": "The Student Achievement domain tells us how much students know and are able to do at the end of the school year. ",
 				"description": "The Student Achievement domain tells us how well students are doing at the end of the school year. In the earlier grades, this is measured in STAAR tested subjects. In later grades, it considers things outside of STAAR like graduation rate or how well students are prepared for success after high school.",
-				"pdf_description":"Student Achievement pdf description copy",
+				"description_district": "The Student Achievement domain tells us how well students are doing at the end of the school year. For the district score, this is measured by performance on STAAR as well as things like graduation rate or how well students are prepared for success after high school.",
+				"pdf_description": "The Student Achievement domain tells us how well students are doing at the end of the school year. In the earlier grades, this is measured in STAAR tested subjects. In later grades, it considers things outside of STAAR like graduation rate or how well students are prepared for success after high school.",
 				"weighting_title": "How is the grade for Student Achievement calculated?",
 				"weighting_text_scored": "Scoring Measure",
 				"weighting_text_unscored": "At the high school level, the Student Achievement score also considers College/career/military readiness & graduation rate. "
@@ -85,6 +95,7 @@
 			"en": {
 				"name": "Graduation Rate",
 				"subdomain_display_title": "How many students at this campus graduate on time?",
+				"subdomain_display_title_district": "How many students in this district graduate on time?",
 				"scaled_score_title": "Total Points "
 			}
 		}
@@ -94,15 +105,18 @@
 		"translations": {
 			"en": {
 				"name": "School Progress",
-				"page_title": "School Progress",
+				"page_title": "2017-18 School Progress",
+				"page_title_district": "2017-18 District Progress",
 				"domain_display_title": "Are students making academic progress from one year to the next?",
-				"overview_page_description":"The School Progress domain shows us how students on a campus are performing over time and compares that progress to similar schools.",
+				"overview_page_description": "The School Progress domain shows us how students on a campus are performing over time and compares that progress to similar schools.",
 				"description": "The School Progress domain shows us how students are performing over time. It considers how many students are recieving a full year's worth of academic knowledge, as measured by the STAAR tests, as well as how achievement levels at the campus compare to similar schools.",
-				"pdf_description":"School Progress pdf description copy",
+				"description_district": "The School Progress domain shows us how students are performing over time. It considers how many students are recieving a full year's worth of academic knowledge, as measured by the STAAR tests, as well as how achievement levels at the district compare to similar districts. ",
+				"pdf_description": "The School Progress domain shows us how students are performing over time. It considers how many students are recieving a full year's worth of academic knowledge, as measured by the STAAR tests, as well as how achievement levels at the campus compare to similar schools.",
 				"weighting_title": "How is the score for student progress calculated?",
 				"weighting_text_scored": "This campus' score was calculated using:",
+				"weighting_text_scored_district": "This district's rating was calculated using:",
 				"weighting_text_unscored": "Other measures in this domain:",
-				"pdf_display_text":"The higher of Growth or Performance is used."
+				"pdf_display_text": "The higher of Growth or Performance is used."
 			}
 		}
 	}, {
@@ -137,10 +151,12 @@
 				"name": "Closing the Gaps",
 				"page_title": "Closing the Gaps",
 				"domain_display_title": "How well are different populations of students performing?",
-				"overview_page_description":"The Closing the Gaps domain tells us how well different populations of students on a campus are performing. ",
+				"overview_page_description": "The Closing the Gaps domain tells us how well different populations of students on a campus are performing. ",
+				"overview_page_description_district": "The Closing the Gaps domain tells us how well different populations of students in a district are performing.",
 				"weighting_title": "How is the score for Closing the Gaps calculated?",
 				"description": "The Closing the Gaps domain lets us know how well different populations of students on a campus are performing. It does this by measuring whether different student groups meet preset targets in certain areas so that attention is given to each and every student at the school.",
-				"pdf_description":"Closing the Gaps PDF description copy",
+				"description_district": "The Closing the Gaps domain lets us know how well different populations of students in a district are performing. It does this by measuring whether different student groups meet preset targets in certain areas so that attention is given to each and every student in the district.",
+				"pdf_description": "The Closing the Gaps domain lets us know how well different populations of students on a campus are performing. It does this by measuring whether different student groups meet preset targets in certain areas so that attention is given to each and every student at the school.",
 				"indicators_text": "Targets Met",
 				"indicators_met_text": "Overall Targets Met"
 			}
@@ -186,9 +202,9 @@
 		"translations": {
 			"en": {
 				"name": "Revenue",
-				"domain_display_title_district":"2016-17 District Funding",
-				"pdf_display_title":"How much district receive per student in 2016-2017",
-				"per_student_label":"per student"
+				"domain_display_title_district": "2016-17 District Funding",
+				"pdf_display_title": "2016-17 District Funding",
+				"per_student_label": "per student"
 			}
 		}
 	}, {
@@ -196,7 +212,7 @@
 		"translations": {
 			"en": {
 				"name": "Expenditures",
-				"domain_display_title_district":"How much does my district receive and spend per student?"
+				"domain_display_title_district": "How much does my district receive and spend per student?"
 			}
 		}
 	}, {
@@ -214,7 +230,7 @@
 			"en": {
 				"name": "First Rating",
 				"subdomain_display_title": "Financial Integrity Rating System of Texas (FIRST)",
-				"pdf_display_title":"Financial Integrity Rating System of Texas (FIRST)"
+				"pdf_display_title": "Financial Integrity Rating System of Texas (FIRST)"
 			}
 		}
 	}, {
@@ -223,7 +239,7 @@
 		"translations": {
 			"en": {
 				"name": "Debt",
-				"subdomain_display_title":"How much debt per student does my district have?"
+				"subdomain_display_title": "How much debt per student does my district have?"
 			}
 		}
 	}, {
