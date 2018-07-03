@@ -182,7 +182,7 @@
 		"id": "cont_enrolled",
 		"translations": {
 			"en": {
-				"name": "Continously Enrolled"
+				"name": "Continuously Enrolled"
 			}
 		}
 	},
@@ -190,7 +190,7 @@
 		"id": "non_cont_enrolled",
 		"translations": {
 			"en": {
-				"name": "Not Continously Enrolled"
+				"name": "Not Continuously Enrolled"
 			}
 		}
 	},
