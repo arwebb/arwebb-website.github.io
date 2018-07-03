@@ -40,8 +40,5 @@
     * Use `35.231.126.242` to connect directly to the Tembo SQL Server database server.
 4. Run the schema creation script: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/sql/test_database_schema.sql
     * If the database name is different than `test`, update the script to use your desired database name
-5. Load sample data from the sql script: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/sql/sample_data.sql
+5. Load sample data from CSVs using your favorite RDMS tool: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/csv
     * Make sure the database you want to load is selected
-6. Load the datapoints data from the CSV files. Use the script: `load_database.sh`
-    * Configure the virutal environment setting in the script based on your local setup
-    * Usage: `load_database.sh <database-name> <path/to/csvs>`
