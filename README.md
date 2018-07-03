@@ -20,12 +20,6 @@
 ## Files needed
 * `test_database_schema.sql`: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/sql/test_database_schema.sql
 * All CSV files: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/csv/
-* `load_database.sh`: https://tembo.githost.io/tembo-data/tea-public-data/blob/master/scripts/load_database.sh
-
-## Python requirements
-* Version 3.X
-* pip packages: `pandas`, `pymssql`, and `sqlalchemy`
-* Install packages in a virtual environment for best results
 
 ## SQL Server instance connection info
 * DB_HOST: 35.231.126.242 
