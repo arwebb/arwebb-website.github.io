@@ -25,7 +25,7 @@
 * DB_HOST: 35.231.126.242 
 * DB_USER: sa
 * DB_PWD: Admin1234
-* DB_NAME: <whatever you want>
+* DB_NAME: (whatever you want)
 
 ## Instructions
 1. Gather the connection information for the SQL Server instance (see above)
