@@ -198,15 +198,6 @@
 			}
 		}
 	}, {
-		"id": "ccm_readiness_college_prep",
-		"domain_id": "ccm_readiness",
-		"translations": {
-			"en": {
-				"name": "College Prep",
-				"metric_display_title": "Completed a college prep course through an institution of higher education"
-			}
-		}
-	}, {
 		"id": "ccm_readiness_dual_credit",
 		"domain_id": "ccm_readiness",
 		"translations": {
@@ -239,7 +230,7 @@
 		"translations": {
 			"en": {
 				"name": "IEP",
-				"metric_display_title": "IEP metric title"
+				"metric_display_title": "Graduate with Completed IEP and Workforce Readiness"
 			}
 		}
 	}, {
