@@ -318,7 +318,9 @@
 				"weight_text": "Weight",
 				"download_data_text": "Download Data",
         "district_score_text": "District Score:",
-        "state_score_text": "State Score:"
+        "state_score_text": "State Score:",
+		"alt_standards_district_text":"Alternative standards were used to rate this district.",
+		"alt_standards_campus_text":"Alternative standards were used to rate this school."
 			},
 			"finance_comparison_group_list": {
 				"district_title": "District",
