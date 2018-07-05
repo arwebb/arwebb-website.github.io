@@ -11,3 +11,5 @@ id,name,type
 10,Test High School,campus
 11,Test School District,district
 12,Other Region,region
+13,Full High School,campus
+14,Full District,district
