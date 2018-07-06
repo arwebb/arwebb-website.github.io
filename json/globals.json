@@ -327,7 +327,21 @@
 						"min": 60,
 						"max": 60
 					}
-				}
+				},
+				"view_details_title": "View Details",
+				"tell_me_more_title": "Tell Me More",
+				"learn_more_title": "Learn More",
+				"total_title": "Total",
+				"score_text": "Score",
+				"advanced_view_title": "Advanced View",
+				"total_weight": "100%",
+				"total_score": "100",
+				"weight_text": "Weight",
+				"download_data_text": "Download Data",
+				"district_score_text": "District Score:",
+				"state_score_text": "State Score:",
+				"alt_standards_district_text": "Alternative standards were used to rate this district.",
+				"alt_standards_campus_text": "Alternative standards were used to rate this school."
 			},
 			"legend_categorical": {
 				"Met Standard": {
@@ -338,22 +352,8 @@
 					"min": 0,
 					"max": 59
 				}
-			},
-			"view_details_title": "View Details",
-			"tell_me_more_title": "Tell Me More",
-			"learn_more_title": "Learn More",
-			"total_title": "Total",
-			"score_text": "Score",
-			"advanced_view_title": "Advanced View",
-			"total_weight": "100%",
-			"total_score": "100",
-			"weight_text": "Weight",
-			"download_data_text": "Download Data",
-			"district_score_text": "District Score:",
-			"state_score_text": "State Score:",
-			"alt_standards_district_text": "Alternative standards were used to rate this district.",
-			"alt_standards_campus_text": "Alternative standards were used to rate this school."
-		},
+			}
+		}
 	},
 	"finance_comparison_group_list": {
 		"district_title": "District",
