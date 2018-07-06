@@ -198,15 +198,6 @@
 			}
 		}
 	}, {
-		"id": "ccm_readiness_college_prep",
-		"domain_id": "ccm_readiness",
-		"translations": {
-			"en": {
-				"name": "College Prep",
-				"metric_display_title": "Completed a college prep course through an institution of higher education"
-			}
-		}
-	}, {
 		"id": "ccm_readiness_dual_credit",
 		"domain_id": "ccm_readiness",
 		"translations": {
@@ -239,7 +230,7 @@
 		"translations": {
 			"en": {
 				"name": "IEP",
-				"metric_display_title": "IEP metric title"
+				"metric_display_title": "Graduate with Completed IEP and Workforce Readiness"
 			}
 		}
 	}, {
@@ -632,7 +623,7 @@
 				"metric_title_flyout_peer":"Peer Average Revenue per Student",
 				"metric_title_flyout_region":"Region Average Revenue per Student",
 				"metric_title_flyout_state":"State Average Revenue per Student",
-				"metric_flyout_over_time_title": "District Revenue Over Time - All Funds"
+				"metric_flyout_over_time_title": "Revenue Over Time - All Funds"
 			}
 		}
 	}, {
@@ -685,7 +676,7 @@
 		"translations": {
 			"en": {
 				"name": "Expenditures Per Student – All",
-				"metric_flyout_over_time_title": "District Expenditures Over Time - All Funds"
+				"metric_flyout_over_time_title": "Expenditures Over Time - All Funds"
 			}
 		}
 	}, {
