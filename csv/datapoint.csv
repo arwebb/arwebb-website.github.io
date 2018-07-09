@@ -129,7 +129,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 141,2017,62,,,,,3,,ctg_elp,ctg_elp_total_indicators_met,,
 142,2017,93,,,,,3,,ctg_elp,ctg_elp_total_indicators_eligible,,
 143,2017,35,,,,,3,,ctg_elp,ctg_elp_weight,,
-144,2017,,,,,,3,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+144,2017,,,,,,3,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 145,2017,83,,,,,3,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 146,2017,77,,,,,3,,ctg_sqss,ctg_sqss_total_indicators_met,,
 147,2017,96,,,,,3,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -322,7 +322,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 335,2017,27,,,,,2,,ctg_elp,ctg_elp_total_indicators_met,,
 336,2017,78,,,,,2,,ctg_elp,ctg_elp_total_indicators_eligible,,
 337,2017,75,,,,,2,,ctg_elp,ctg_elp_weight,,
-338,2017,12,,,,,2,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+338,2017,12,,,,,2,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 339,2017,40,,,,,2,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 340,2017,49,,,,,2,,ctg_sqss,ctg_sqss_total_indicators_met,,
 341,2017,56,,,,,2,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -526,7 +526,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 540,2016,0,,,,,2,,ctg_elp,ctg_elp_total_indicators_met,,
 541,2016,77,,,,,2,,ctg_elp,ctg_elp_total_indicators_eligible,,
 542,2016,94,,,,,2,,ctg_elp,ctg_elp_weight,,
-543,2016,86,,,,,2,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+543,2016,86,,,,,2,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 544,2016,37,,,,,2,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 545,2016,93,,,,,2,,ctg_sqss,ctg_sqss_total_indicators_met,,
 546,2016,63,,,,,2,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -708,7 +708,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 751,2016,30,,,,,3,,ctg_elp,ctg_elp_total_indicators_met,,
 752,2016,97,,,,,3,,ctg_elp,ctg_elp_total_indicators_eligible,,
 753,2016,1,,,,,3,,ctg_elp,ctg_elp_weight,,
-754,2016,,,,,,3,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+754,2016,,,,,,3,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 755,2016,57,,,,,3,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 756,2016,54,,,,,3,,ctg_sqss,ctg_sqss_total_indicators_met,,
 757,2016,66,,,,,3,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -912,7 +912,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 955,2017,62,,,,,10,,ctg_elp,ctg_elp_total_indicators_met,,
 956,2017,93,,,,,10,,ctg_elp,ctg_elp_total_indicators_eligible,,
 957,2017,35,,,,,10,,ctg_elp,ctg_elp_weight,,
-958,2017,,,,,,10,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+958,2017,,,,,,10,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 959,2017,83,,,,,10,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 960,2017,77,,,,,10,,ctg_sqss,ctg_sqss_total_indicators_met,,
 961,2017,96,,,,,10,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -1111,7 +1111,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 1154,2016,30,,,,,10,,ctg_elp,ctg_elp_total_indicators_met,,
 1155,2016,97,,,,,10,,ctg_elp,ctg_elp_total_indicators_eligible,,
 1156,2016,1,,,,,10,,ctg_elp,ctg_elp_weight,,
-1157,2016,,,,,,10,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+1157,2016,,,,,,10,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 1158,2016,57,,,,,10,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 1159,2016,54,,,,,10,,ctg_sqss,ctg_sqss_total_indicators_met,,
 1160,2016,66,,,,,10,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -1278,7 +1278,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 1321,2017,27,,,,,11,,ctg_elp,ctg_elp_total_indicators_met,,
 1322,2017,78,,,,,11,,ctg_elp,ctg_elp_total_indicators_eligible,,
 1323,2017,75,,,,,11,,ctg_elp,ctg_elp_weight,,
-1324,2017,12,,,,,11,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+1324,2017,12,,,,,11,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 1325,2017,40,,,,,11,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 1326,2017,56,,,,,11,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
 1327,2017,10,,,,,11,,ctg_sqss,ctg_sqss_weight,,
@@ -1454,7 +1454,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 1497,2016,0,,,,,11,,ctg_elp,ctg_elp_total_indicators_met,,
 1498,2016,77,,,,,11,,ctg_elp,ctg_elp_total_indicators_eligible,,
 1499,2016,94,,,,,11,,ctg_elp,ctg_elp_weight,,
-1500,2016,86,,,,,11,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+1500,2016,86,,,,,11,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 1501,2016,37,,,,,11,,ctg_sqss,ctg_sqss_percent_indicators_met,,
 1502,2016,93,,,,,11,,ctg_sqss,ctg_sqss_total_indicators_met,,
 1503,2016,63,,,,,11,,ctg_sqss,ctg_sqss_total_indicators_eligible,,
@@ -1608,7 +1608,7 @@ id,year,value,n_size,precision,scored,exception_code,entity_id,framework_id,doma
 1651,2017,,,,,,14,,ctg_growth,ctg_growth_indicator_met,reading,all
 1652,2017,,,,,,14,,ctg_growth,ctg_growth_indicator_met,graduation,all
 1653,2017,,,,,,14,,ctg_growth,ctg_growth_indicator_met,mathematics,all
-1654,2017,,,,,,13,,ctg_elp,ctg_elp_total_indicator_met,telpas_progress_rate,english_learner_cf
+1654,2017,,,,,,13,,ctg_elp,ctg_elp_indicator_met,telpas_progress_rate,english_learner_cf
 1655,2017,,,,,,13,,ctg_sqss,ctg_sqss_indicator_met,student_achievement_domain_score,all
 1656,2017,,,,,,14,,ctg_sqss,ctg_sqss_indicator_met,student_achievement_domain_score,all
 1657,2017,,,,,,14,,ctg_sqss,ctg_sqss_indicator_met,ccm_ready_rate,all
