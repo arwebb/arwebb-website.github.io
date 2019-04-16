@@ -1,5 +1,0 @@
-id,email_address,phone_number,superintendent_name,website,D_STREET_ADDR,D_CITY,D_STATE,D_ZIP5,D_ZIP4,D_LATITUDE,D_LONGITUDE,D_SITE_STREET_ADDR,D_SITE_CITY,D_SITE_STATE,D_SITE_ZIP5,D_SITE_ZIP4,D_SITE_LATITUDE,D_SITE_LONGITUDE,alt_standards,single_campus_district,charter_district,county_id,region_id,state_id
-2,district@philasd.edu,2156667766,Rocky Balboa,https://philasd.edu,440 N Broad St,Philadelphia,PA,19130,2345,39.960725,-75.162929,440 N Broad St,Philadelphia,PA,19130,2345,39.960725,-75.162929,,,,phila,7,1
-8,,,,,,,,,,,,,,,,,,,,,,phila,7,1
-11,district@testsd.edu,2155550099,Seth Green,https://testsd.edu,308 N Olive St,Media,PA,19063,2345,39.920976,-75.390823,308 N Olive St,Media,PA,19063,2345,39.920976,-75.390823,,,,delaware,12,1
-14,district@testsd.edu,2155550099,Seth Green,https://testsd.edu,308 N Olive St,Media,PA,19063,2345,39.920976,-75.390823,308 N Olive St,Media,PA,19063,2345,39.920976,-75.390823,,,,delaware,12,1
