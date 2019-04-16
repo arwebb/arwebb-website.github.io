@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117660640-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-117660640-2');
+    </script>
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title and icon -->
+    <title>Annie Rose Webb personal website</title>
+    <link rel="icon" type="image/gif" href="images/title-icon.png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <!-- Font awesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- Main stage -->
+    <div class="container">
+      
+      <!-- Main stage text -->
+      <p id="welcome" class="hidden">You find yourself in a stark white room, walls emitting a faint glow.</p>
+      <p id="banner" class="hidden">Above you, a <span class="highlight">banner</span> reads:</p>
+      <p id="name" class="hidden">WELCOME TO THE PERSONAL WEBSITE OF ANNIE ROSE WEBB!</p>
+      <p id="map" class="hidden">You also notice a small <span class="highlight">tablet</span> to the <span class="highlight">EAST</span>, a series of <span class="highlight">buttons</span> to the <span class="highlight">WEST</span>, a digital <span class="highlight">library</span> to the <span class="highlight">NORTH,</span> and an <a href="simple.html"><span class="highlight">exit</span></a> to the <span class="highlight">SOUTH</span>.</p>
+      <p id="proceed" class="hidden">How do you proceed?</p>
+      
+      <!-- Input box -->
+      <div id="inputLine" class="hidden">
+        <!-- Aria label for accessibility: reads out text more smoothly than main stage text due to span tag interruptions -->
+        <p id="inputIcon">&gt; </p><input id="inputBox" type="text" class="entry hidden" aria-label="You find yourself in a stark white room, walls emitting a faint glow. Above you, a banner reads: WELCOME TO THE PERSONAL WEBSITE OF ANNIE ROSE WEBB! You also notice a small tablet to the EAST, a series of buttons to the WEST, a digital library to the NORTH, and an exit to the SOUTH. You can type LOOK to look at any item, type GO to go in any direction, or type HELP for more information. How do you proceed?" onkeydown="enter(this)" autofocus>
+      </div>
+      <!-- Subtitle help text -->
+      <p id="help" class="hidden" aria-hidden="true">Try LOOKing at any item, GOing any direction, or typing HELP for more options.</p>
+      
+      <!-- Input box response (response fades in on user input) -->
+      <p id="response" aria-live="polite"></p>
+      <!-- Contact buttons (hidden until user goes WEST or types CONTACT) -->
+      <p id="contact-buttons" class="hidden" aria-live="polite">
+        <a href="mailto:annierwebb@gmail.com" aria-label="Email">
+          <i id="lead" class="icon fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/annie-rose-webb/" aria-label="LinkedIn">
+          <i class="icon fab fa-linkedin"></i>
+        </a>
+        <a href="https://angel.co/annierwebb" aria-label="Angel list">
+          <i class="icon fab fa-angellist"></i>
+        </a>
+        <a href="https://github.com/arwebb" aria-label="Github">
+          <i class="icon fab fa-github"></i>
+        </a>
+      </p>
+      <!-- Resume (hidden until user goes EAST or types RESUME -->
+      <div id="resume" class="hidden">
+        <object aria-live="polite" aria-label="This is a PDF version of my resume. You can use your keyboard or mouse to 
+        select options to print or download it, or return to the text box and try another option." 
+        data="documents/resume-printable.pdf" type="application/pdf" width= "100%" height="100%">
+            <p class="no-pdf">It looks like you don't have a PDF plugin for this browser. If you'd like, you can <a href="documents/resume-printable.pdf">click here to download my resume</a> instead.</p>
+          </object>
+      </div>
+    </div>
+  </body>
+</html>
