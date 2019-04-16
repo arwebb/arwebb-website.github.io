@@ -1,0 +1,234 @@
+/* Universal styles start */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #888;
+  background: rgba(153, 153, 153, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h5 {
+  text-transform: uppercase;
+}
+
+p,
+li {
+  color: #444;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+li {
+  padding-bottom: 1vh;
+  list-style-type: none;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+.content-row {
+  margin: 5vh 0 5vh 0;
+}
+
+/* Universal styles end */
+
+/* Header start */
+.header-row {
+  display: block;
+}
+
+.name {
+  padding-top: 6vh;
+  font-size: 5rem;
+  font-family: 'Cormorant Garamond', serif;
+  color: #465762;
+}
+
+.subhead {
+  color: #666;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin: 0 2vh 0 2vh;
+  color: #888;
+  font-size: 1.8em;
+  transition: 1s;
+}
+
+.icon:hover {
+  color: #394751;
+  transition: 1s;
+}
+
+.header-row a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Header end */
+
+/* Sidebar start */
+
+.glance {
+  margin-top: 1vh;
+}
+
+.sidetext {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #777;
+}
+
+/* Sidebar end */
+
+/* One-liner start */
+
+.one-liner {
+  color: #666;
+  font-size: 1.1em;
+  margin: 1vh 0 7vh 0;
+}
+
+/* One-liner end */
+
+/* Featured content start */
+.modal-title {
+  color: #307E71;
+  text-transform: uppercase;
+}
+
+
+.modal-caption {
+  color: #666;
+  margin: 2vh 2vh 0 0;
+  font-size: 1.1em;
+}
+
+.modal-image {
+  transition: 1s;
+  padding-right: 2vh;
+}
+
+.modal-image:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  transition: 1s;
+}
+
+.modal-btn {
+  border-style: none;
+  background-color: white;
+}
+
+
+.modal-dismiss {
+  background-color: #3a9;
+  color: white;
+  transition: 1s;
+}
+
+.modal-dismiss:hover {
+  background-color: #307E71;
+  transition: 1s;
+}
+
+/* Featured content end */
+
+/* Buttons start */
+
+.button-row {
+  margin-top: 9vh;
+}
+
+.more-info-btn {
+  background-color: #567;
+  width: 13rem;
+  color: white;
+  transition: 1s;
+}
+
+.more-info-btn:hover {
+  transition: 1s;
+  background-color: #394751;
+  color: white;
+}
+
+/* Buttons end */
+
+/* Resume start */
+
+.resume {
+  display: block;
+}
+
+.resume-title{
+  color: #666;
+  text-transform: uppercase;
+  padding: 3rem 0 2rem 0;
+}
+
+.no-pdf{
+  color: #666;
+  font-style: italic;
+  padding-top: 2rem;
+}
+
+.no-pdf a{
+  color: #666;
+  transition: 1s;
+}
+
+.no-pdf a:hover{
+  color: #394751;
+  text-decoration: none;
+  transition: 1s;
+}
+
+/* Resume end */
+
+/* Footer start */
+
+.copyright {
+  margin: 20vh 3vh 3vh 3vh;
+  font-size: .8em;
+}
+
+.copyright p {
+  color: #777;
+}
+
+.copyright a {
+  color: #777;
+  transition: 1s;
+}
+
+.copyright a:hover {
+  transition: 1s;
+  color: #394751;
+  text-decoration: none;
+}
+
+/* Footer end */
