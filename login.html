@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title and icon -->
+    <title>Annie Rose Webb, developer</title>
+    <link rel="icon" type="image/gif" href="images/title-icon.png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="login.css">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/61436edf9c.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <!-- Main stage -->
+    <div class="container">
+
+      <!-- Main stage text -->
+      <p id="welcome">WELCOME, UNRECOGNIZED USER.</p>
+      <p id="verify">VERIFICATION REQUIRED. PLEASE ENTER YOUR NAME.</p>
+      <!-- Input box -->
+      <div id="inputLine">
+        <!-- Aria label for accessibility: reads out text more smoothly than main stage text due to span tag interruptions -->
+        <p id="inputIcon">&gt;</p><input id="inputBox" type="text" class="entry hidden" onkeydown="enter(this)" autofocus>
+      </div>
+      <!-- Subtitle: unrecognized -->
+      <p id="unrecognized" aria-hidden="true">USER NOT RECOGNIZED. PLEASE ENTER YOUR FULL NAME.</p>
+      <p id="recognized" aria-hidden="true">USER RECOGNIZED. LOADING REWARDS PROGRAM.</p>
+      </div>
+  </body>
+</html>
