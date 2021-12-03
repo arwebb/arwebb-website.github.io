@@ -1,225 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="image/gif" href="assets/site-icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Mukta -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <!-- Playfair Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/f9c9418b62.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!-- Font Awesome CDN -->
-    <script src="https://use.fontawesome.com/576fd2e941.js"></script>
+    <!-- jQuery Color -->
+    <script src="https://code.jquery.com/color/jquery.color-2.2.0.min.js" integrity="sha256-aSe2ZC5QeunlL/w/7PsVKmV+fa0eDbmybn/ptsKHR6I=" crossorigin="anonymous"></script>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,bold" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-    <!-- Bootstrap cdn -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles/css/main.css" />
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
 
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Page title -->
-    <title>Hi, I'm Annie Rose</title>
-
-    <!-- Page icon -->
-    <link rel="icon" type="image/gif" href="images/title-icon.png">
+    <title>Annie Rose Webb | Developer</title>
+    <link rel="icon" href="assets/portrait.png">
   </head>
 
   <body>
+    <!-- Parent container -->
     <div class="container">
-      <header>
-        <!-- Logo and title -->
-        <div class="row">
-          <div class="col-lg-12">
-            <!-- Title and subtitle -->
-            <div class="header-row">
-              <h1 class="text-center text-md-right name">Annie Rose Webb</h1>
-              <div class="text-center text-md-right">
-                <h2 class="subhead">Developer, teacher, enthusiastic human being</h2>
-                <!-- Contact button -->
-                <a target="_blank" href="mailto:annierwebb@gmail.com">
-                  <span class="icon fa fa-envelope-square fa-2x" aria-label="Send me an email">
-                  </span>
-                </a>
+      <!-- Parent row -->
+      <div class="row">
+        <div class="col-12 col-xl-11">
+          <div class="row">
+            <div class="col-12 offset-md-1">
+              <h1 class="greetings text-center text-md-left">Hi! I'm <a href="#" onclick="changeText('question')" id="name" class="stroke-five">Annie Rose</a>.</h1>
+            </div>
+            <!-- Left side of the screen -->
+            <div class="col-12 col-md-4 text-left text-md-right home-link-container">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 home-link">
+                    <p>I develop <a href="#" onclick="changeText(this.id)" class="stroke-one clickable-link" id="websites">websites</a></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 home-link">
+                    <p class="stroke"><a href="#" onclick="changeText(this.id)" class="stroke-two clickable-link" id="teams">teams</a></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 home-link">
+                    <p><a href="#" onclick="changeText(this.id)" class="stroke-three clickable-link" id="depts">departments</a></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 home-link">
+                    <p>& <a href="#" onclick="changeText(this.id)" class="stroke-four clickable-link" id="enth">enthusiasm</a>.</p>
+                  </div>
+                </div>
               </div>
             </div>
-              <hr>
+            <!-- Right side of the screen -->
+            <div class="col-12 col-md-6 offset-md-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <p class="text-left" id="main-text">
+                      You’ve landed on the website of Annie Rose Webb, a jack-of-all-trades techie and nature enthusiast who’s worked in the Philadelphia and Camden tech scenes for the past several years. Nice to meet you.<br /><br />Click my specialties for a deep dive, or use the icons for more information.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-      </header>
-    </div>
-
-
-    <!-- One-line overview with sidebar -->
-    <div class="container">
-      <div class="row content-row">
-        <!-- Sidebar -->
-        <div class="col-lg-2 text-center text-md-left">
-          <h3 class="sidetext glance">At a glance ...</h3>
         </div>
-        <div class="col-lg-8 offset-lg-1">
-          <!-- One-line elevator pitch -->
-          <p class="one-liner text-center">I’m a high-energy developer with experience in frontend web and software development; Wordpress development; accessibility requirements and testing; and teaching HTML, CSS, JavaScript and Git to a wide range of students at different levels of experience. I like ideas, iteration, cooking, dogs, learning languages, solving problems, intersectional activism, thorough research, building for real people, and making lives easier. <br><br> If you like any of those things, I think we'll get along.
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-      <div class="row content-row">
-        <!-- Sidebar -->
-        <div class="col-lg-2 text-center text-md-left">
-          <h3 class="sidetext">A few specifics ...</h3>
-        </div>
-
-        <!-- Content body pt. one: skills and whatnot -->
-        <div class="col-lg-8 offset-lg-1 text-center">
-          <h4>Here's some stuff I'm good at:</h4>
-        </div>
-      </div>
-
-        <!-- Lists of skills (shown in columns, one column on mobile) -->
-      <div class="row content-row">
-        <div class="col-lg-2 offset-lg-3 text-center text-md-left">
-          <ul>
-            <li>
-              HTML
-            </li>
-            <li>
-              CSS / SASS
-            </li>
-            <li>
-              JavaScript
-            </li>
-            <li>
-              Git
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-2 offset-lg-1 text-center text-md-left">
-          <ul>
-            <li>
-              Python
-            </li>
-            <li>
-              Jinja
-            </li>
-            <li>
-              Wordpress
-            </li>
-            <li>
-              Vue.js
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-3 offset-lg-1 text-center text-md-left">
-          <ul>
-            <li>
-              React
-            </li>
-            <li>
-              Bootstrap
-            </li>
-            <li>
-              Accessibility
-            </li>
-            <li>
-              Teaching / Training
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Some selected experience -->
-
-      <div class="row content-row">
-        <div class="col-lg-8 offset-lg-3 text-center">
-          <h4>Here's some places I've done that stuff:</h4>
-        </div>
-      </div>
-      <div class="row content-row">
-        <div class="col-lg-1 offset-lg-3 text-center text-md-left">
-          <p><em>Currently</em></p>
-        </div>
-        <div class="col-lg-6 text-center text-md-left">
-          <p>I began freelancing as a web designer and developer in 2018. My recent work includes webmastering an online retail boutique (I increased sales by more than 5%); building out an upcoming South African Wordpress-based stock photography site (building databases for customers and photographs, and writing plugins to add custom international paygates); and taking a retail client from brick-and-mortar to successful online wholesale. (Whew!)</p>
-        </div>
-      </div>
-      <div class="row content-row">
-        <div class="col-lg-1 offset-lg-3 text-center text-md-left">
-          <p><em>2018</em></p>
-        </div>
-        <div class="col-lg-6 text-center text-md-left">
-          <p>From May to October I was a software dev intern at Tembo, where I built data mapping components for their Python/Jinja backend, Vue.js frontend educational data management system. When I brought up concerns about their product suite accessibility, my internship was extended to help get them up to speed. I got their full suite WCAG accessible, and trained staff on accessibility maintenance.</p>
-        </div>
-      </div>
-      <div class="row content-row">
-        <div class="col-lg-1 offset-lg-3 text-center text-md-left">
-          <p><em>2017</em></p>
-        </div>
-        <div class="col-lg-6 text-center text-md-left">
-          <p>I was with Philly education nonprofit Coded by Kids from October 2017 to April 2018. I taught groups of underserved middle and high schoolers with no dev experience to build their first websites, using HTML, CSS, JavaScript and Git. I also co-managed ops for their 17 high school programs and served on two community school boards. Several of my students kept and refined their websites when the program ended, and one made his site a senior graduation project.</p>
-        </div>
-      </div>
-      <div class="row content-row">
-        <div class="col-lg-1 offset-lg-3 text-center text-md-left">
-          <p><em>2016</em></p>
-        </div>
-        <div class="col-lg-6 text-center text-md-left">
-          <p>For the 2016 - 17 school year, I also worked with TECHNOLOchicas, an initiative designed to encourage young Latina women to pursue STEM careers. I provided tech literacy training and basic coding skills to small groups of middle schoolers. My proudest accomplishment was hearing a student say she wanted to be as good a developer as me when she grew up, but a better graphic designer. I have no doubt she will be.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- One more column of extra information -->
-
-    <div class="container">
-      <div class="row content-row button-row">
-        <!-- Sidebar -->
-        <div class="col-lg-2 text-center text-md-left">
-          <h3 class="sidetext">And some extras...</h3>
-        </div>
-        <div class="col-lg-8 offset-lg-1 text-center">
-          <p>
-            I've been volunteering with ESL students since 2012, chaperoning middle and high school field trips and providing free tutoring. I try to stay active in the Philly tech scene, and attend regular events, talks and hackathons. I speak French and Afrikaans. <br><br> I have a BA in Cognitive Science from the University of Toronto.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Linkedin and fun project buttons -->
-    <div class="container">
-      <div class="row content-row button-row">
-        <div class="col-lg-10 text-center offset-lg-2">
-          <a target="_blank" href="https://www.linkedin.com/in/annie-rose-webb/" role="button" class="btn more-info-btn mt-3 mt-sm-0">
-            <!-- LinkedIn -->
-            Find me on LinkedIn
-          </a>
-          <a target="_blank" href="game.html" role="button" class="btn more-info-btn ml-0 ml-sm-3 ml-lg-5 mt-3 mt-sm-0">
-            <!-- Gamified resume — leads to a text-based rpg version of main site -->
-            Gamify this resume
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer with copyright information -->
-    <div class="container">
-      <footer class="main-footer">
-        <div class="row">
-          <div class="col-lg-12 text-center text-md-left copyright">
-            <p>&copy; 2017 - 2019 This website was made by Annie Rose Webb. This whole page is about her!</p>
-            <p>Many other websites were not made by Annie Rose Webb. If for some reason you were looking for one of those, she understands, and recommends <a href="https://donate.thousandcurrents.org/checkout/donation?eid=126523"><em>this one</em></a>.</p>
+        <div class="col-12 col-xl-1" id="icon-container">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-2 offset-1 col-xl-12 offset-xl-0">
+                <a class="icon" id="question" onClick="changeText(this.id)"><i class="fas fa-question"><p class="sr-only">More about me</p></i></a>
+              </div>
+              <div class="col-2 col-xl-12">
+                <a class="icon" href="https://www.linkedin.com/in/annie-rose-webb/" target="_blank"><i class="fab fa-linkedin-in"><p class="sr-only">Go to my linkedin</p></i></a>
+              </div>
+              <div class="col-2 col-xl-12">
+                <a class="icon" href="mailto:annierwebb@gmail.com" target="_blank"><i class="far fa-envelope"><p class="sr-only">Send me an email</p></i></a>
+              </div>
+              <div class="col-2 col-xl-12">
+                <a class="icon" href="assets/arw-resume-2021.pdf" target="_blank"><i class="fas fa-file-download"><p class="sr-only">Download my resume</p></i></a>
+              </div>
+              <div class="col-2 col-xl-12">
+                <a class="icon aria-hidden" href="#" onClick="clearAll()"><i class="fas fa-times"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
-
-    <!-- Required bootstrap scripts: jquery; popper; js -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>

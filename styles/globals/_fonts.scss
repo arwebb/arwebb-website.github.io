@@ -1,0 +1,13 @@
+@mixin serif-reg {
+  font: {
+    family: 'Playfair Display', 'Roboto Slab', Georgia, serif;
+    weight: 400;
+  }
+}
+
+@mixin sans-reg {
+  font: {
+    family: 'Mukta', 'Open Sans', Arial, sans-serif;
+    weight: 400;
+  }
+}
